@@ -1,0 +1,21 @@
+.edd-review-meta,
+.edd-review-metadata {
+	@extend .comment-metadata;
+
+	b {
+		text-transform: uppercase;
+	}
+}
+
+.widget {
+	.edd-review-meta,
+	.edd-review-metadata {
+		margin: 0;
+		padding: 0;
+		border: 0;
+
+		p {
+			margin-bottom: 0;
+		}
+	}
+}

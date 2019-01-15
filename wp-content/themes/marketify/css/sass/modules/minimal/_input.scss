@@ -1,0 +1,18 @@
+.minimal {
+    #edd_checkout_form_wrap input.edd-input, 
+    #edd_checkout_form_wrap input[type=email],
+    #edd_checkout_form_wrap input[type=password],
+    #edd_checkout_form_wrap input[type=text],
+    #edd_checkout_form_wrap textarea,
+    #edd_checkout_form_wrap textarea.edd-input, 
+    .marketify-input, 
+    input[type=email], 
+    input[type=number], 
+    input[type=password], 
+    input[type=search], 
+    input[type=text], 
+    input[type=url], 
+    textarea {
+        border-color: #fff;
+    }
+}

@@ -1,0 +1,25 @@
+[
+	{
+		"id": "nav-menu-primary",
+		"type": "nav-menu",
+		"data": {
+			"name": "Primary",
+			"location": "primary"
+		}
+	},
+	{
+		"id": "nav-menu-social",
+		"type": "nav-menu",
+		"data": {
+			"name": "Social",
+			"location": "social"
+		}
+	},
+	{
+		"id": "nav-menu-resources",
+		"type": "nav-menu",
+		"data": {
+			"name": "Resources"
+		}
+	}
+]

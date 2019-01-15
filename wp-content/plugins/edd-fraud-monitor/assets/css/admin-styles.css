@@ -1,0 +1,94 @@
+.edd-fm-tools:nth-of-type(1) {
+	margin-top: 45px;
+}
+
+.edd-fm-tools .email-content > div {
+	margin: 15px 0;
+}
+
+#eddfm-product-combinations .when-col {
+	width: 30%;
+}
+
+#eddfm-product-combinations .edd-select-chosen {
+	width: 100% !important;
+}
+
+#eddfm-product-combinations .remove-col {
+	width: 10px;
+}
+
+.eddfm_remove_condition { margin: 8px 0 0 0; cursor: pointer; width: 10px; height: 10px; display: inline-block; text-indent: -9999px; overflow: hidden; }
+.eddfm_remove_condition:active, .eddfm_remove_condition:hover { background-position: -10px 0!important }
+
+#edd-payment-fraud .hndle {
+	background-color: #CC0000;
+	color: #FFF;
+}
+
+.fraud-actions {
+	padding: 10px;
+	clear: both;
+	border-top: 1px solid #ddd;
+	background: #f5f5f5;
+	text-align: center;
+}
+
+#eddfm-fraud-actions-complete .spinner {
+	float: none;
+}
+
+.complete-valid {
+	background: #00CC00 !important;
+	color: #FFFFFF !important;
+	border-color: #339933 !important;
+	box-shadow: inset 0 1px 0 #00CC00, 0 1px 0 rgba( 0, 0, 0, 0.08 ) !important;
+	-webkit-box-shadow: inset 0 1px 0 #00CC00, 0 1px 0 rgba( 0, 0, 0, 0.08 ) !important;
+}
+
+.complete-fraud {
+	background: #CC0000 !important;
+	color: #FFFFFF !important;
+	border-color: #993333 !important;
+	box-shadow: inset 0 1px 0 #CC0000, 0 1px 0 rgba( 0, 0, 0, 0.08 ) !important;
+	-webkit-box-shadow: inset 0 1px 0 #CC0000, 0 1px 0 rgba( 0, 0, 0, 0.08 ) !important;
+}
+
+.edd-bannedcountries-select {
+	width: 500px !important;
+}
+
+/** Label styles */
+.widefat th.column-fraud-status,
+.column-fraud-status {
+	width: 125px;
+}
+
+.edd-fm.status {
+	border: 1px solid;
+	padding: 2px 5px;
+	border-radius: 3px;
+}
+
+.customer-info .edd-fm.status {
+	display: block;
+	margin-bottom: 2px;
+}
+
+.edd-fm.status.approved {
+	background-color: #dff0d8;
+	border-color: #d6e9c6;
+	color:#3c763d;
+}
+
+.edd-fm.status.review {
+	border-color: #faebcc;
+	background-color: #fcf8e3;
+	color: #8a6d3b;
+}
+
+.edd-fm.status.fraud {
+	border-color: #ebccd1;
+	background-color: #f2dede;
+	color: #a94442;
+}

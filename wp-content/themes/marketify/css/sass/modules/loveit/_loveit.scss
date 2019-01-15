@@ -1,0 +1,44 @@
+.love-it-wrapper .loved,
+.love-it-wrapper .love-it {
+	color: #ea626f;
+	font-size: 0px;
+	text-decoration: none;
+	position: relative;
+	z-index: 5;
+	visibility: hidden;
+}
+
+.love-it-wrapper .love-it:before,
+.love-it-wrapper .loved:before {
+    @extend .ion;
+	font-size: 16px;
+	content: $ionicon-var-ios-heart-outline;
+	visibility: visible;
+	margin: 6px 6px 0 0;
+	font-size: 18px;
+	width: auto;
+	text-align: right;
+}
+
+.love-it-wrapper .loved:before {
+	content: $ionicon-var-ios-heart;
+}
+
+.love-it-wrapper {
+	font-size: 0;
+	visibility: hidden;
+	float: right;
+	position: relative;
+
+    &:after {
+        width: 0;
+        height: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        content: ' ';
+        border-top: 44px solid #fff;
+        border-left: 44px solid transparent;
+        visibility: visible;
+    }
+}

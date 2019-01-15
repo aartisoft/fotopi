@@ -1,0 +1,45 @@
+.paginate-links,
+.navigation.pagination {
+    margin: 3em auto;
+    text-align: center;
+}
+
+.page-numbers,
+a.page-numbers {
+    @extend .item-title;
+    font-size: 12px;
+    padding: 6px 10px;
+    text-decoration: none;
+    border: 2px solid #bdc3c7;
+    display: inline-block;
+}
+
+.page-numbers.current,
+.page-numbers--current {
+    color: inherit;
+    border-color: #515a63;
+}
+
+.page-numbers.prev,
+.page-numbers.next {
+    border: 0;
+
+    &:before,
+    &:after {
+        @extend .ion;
+        font-size: 16px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: -2px;
+    }
+}
+
+.page-numbers.next:after {
+    content: $ionicon-var-ios-arrow-forward;
+    margin-left: 3px;
+}
+
+.page-numbers.prev:before {
+    content: $ionicon-var-ios-arrow-back;
+    margin-right: 3px;
+}

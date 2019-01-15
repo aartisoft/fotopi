@@ -1,0 +1,15 @@
+[
+	{
+		"id": "widget-features",
+		"type": "widget",
+		"priority": 40,
+		"data": {
+			"sidebar": "home-1",
+			"widget": "woothemes_features",
+
+			"title": "",
+			"limit": 6,
+			"size": 44
+		}
+	}
+]

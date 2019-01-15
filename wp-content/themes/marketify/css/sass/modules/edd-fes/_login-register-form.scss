@@ -1,0 +1,7 @@
+.entry-content .fes-login-registration {
+    border: 0;
+
+    .edd-submit.button {
+        @extend .button--size-full;
+    }
+}

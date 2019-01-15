@@ -1,0 +1,81 @@
+body .marketify_widget_slider_hero .soliloquy-container {
+	height: auto;
+	max-height: none;
+}
+
+body .marketify_widget_slider_hero .soliloquy-container .soliloquy .soliloquy-slides img {
+	width: auto;
+	height: auto;
+}
+
+body .marketify_widget_slider_hero .soliloquy-container .soliloquy-caption {
+	max-width: 80%;
+	margin: 40px auto 0;
+	position: relative;
+	left: auto;
+	right: auto;
+	bottom: auto;
+	top: auto;
+	background: none;
+}
+
+body .marketify_widget_slider_hero .soliloquy-container .soliloquy-caption .soliloquy-caption-inside {
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+	text-shadow: none;
+	background: none;
+	padding: 0;
+	max-width: 75%;
+	margin: 0 auto;
+}
+
+body .marketify_widget_slider_hero h2.soliloquy-caption-title {
+	font-size: 58px;
+	color: #fff;
+}
+
+body .marketify_widget_slider_hero .soliloquy-container .soliloquy-caption .caption-alt {
+	display: none;
+}
+
+body .marketify_widget_slider_hero .soliloquy-control-nav.soliloquy-control-paging {
+	position: absolute;
+	bottom: 50px;
+	left: 50%;
+}
+
+body .marketify_widget_slider_hero .soliloquy-control-nav.soliloquy-control-paging a {
+	-webkit-transition: none;
+	-moz-transition:    none;
+	transition:         none;
+}
+
+body .marketify_widget_slider_hero .soliloquy-container .soliloquy-caption-outer {
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	bottom: auto;
+	z-index: 10;
+
+	-webkit-transform: translate(0, -50%);
+	-ms-transform:     translate(0, -50%);
+	transform:         translate(0, -50%);
+}
+
+body .marketify_widget_slider_hero .soliloquy-container .soliloquy-caption-outer .button {
+	display: inline-block !important;
+    @extend .button;
+    @extend .button--size-large;
+    @extend .button--color-white;
+}
+
+body .marketify_widget_slider_hero .soliloquy-container .soliloquy-caption-outer p {
+	margin-bottom: 1.5em;
+	line-height: 26px;
+}
+
+body .marketify_widget_slider_hero .soliloquy-theme-classic .soliloquy-pager {
+	text-align: center;
+}

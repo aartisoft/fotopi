@@ -1,0 +1,110 @@
+[
+	{
+		"id": "nav-menu-item-pages",
+		"type": "nav-menu-item",
+		"priority": 0,
+		"data": {
+			"menu_name": "Primary",
+			"menu-item-title": "Marketify Pages",
+			"menu-item-type": "custom",
+			"menu-item-url": "#",
+			"menu-item-position": 2
+		}
+	},
+	{
+		"id": "nav-menu-item-products",
+		"type": "nav-menu-item",
+		"priority": 20,
+		"data": {
+			"menu_name": "Primary",
+			"menu-item-parent-title": "Marketify Pages",
+			"menu-item-title": "Products Page",
+			"menu-item-type": "post_type_archive",
+			"menu-item-object": "download",
+			"menu-item-position": 4
+		}
+	},
+	{
+		"id": "nav-menu-item-popular",
+		"type": "nav-menu-item",
+		"priority": 0,
+		"data": {
+			"menu_name": "Primary",
+			"menu-item-title": "Popular Items",
+			"menu-item-type": "custom",
+			"menu-item-url": "#"
+		}
+	},
+	{
+		"id": "nav-menu-item-audio",
+		"type": "nav-menu-item",
+		"data": {
+			"menu_name": "Primary",
+			"menu-item-type": "taxonomy",
+			"menu-item-object-title": "Audio",
+			"menu-item-title": "Audio",
+			"menu-item-object": "download_category",
+			"menu-item-parent-title": "Popular Items"
+		}
+	},
+	{
+		"id": "nav-menu-item-video",
+		"type": "nav-menu-item",
+		"data": {
+			"menu_name": "Primary",
+			"menu-item-type": "taxonomy",
+			"menu-item-object-title": "Video",
+			"menu-item-title": "Video",
+			"menu-item-object": "download_category",
+			"menu-item-parent-title": "Popular Items"
+		}
+	},
+	{
+		"id": "nav-menu-item-wordpress",
+		"type": "nav-menu-item",
+		"data": {
+			"menu_name": "Primary",
+			"menu-item-type": "taxonomy",
+			"menu-item-object-title": "WordPress",
+			"menu-item-title": "WordPress",
+			"menu-item-object": "download_category",
+			"menu-item-parent-title": "Popular Items"
+		}
+	},
+	{
+		"id": "nav-menu-item-tumblr",
+		"type": "nav-menu-item",
+		"data": {
+			"menu_name": "Primary",
+			"menu-item-type": "taxonomy",
+			"menu-item-object-title": "Tumblr",
+			"menu-item-title": "Tumblr",
+			"menu-item-object": "download_category",
+			"menu-item-parent-title": "Popular Items"
+		}
+	},
+	{
+		"id": "nav-menu-item-drupal",
+		"type": "nav-menu-item",
+		"data": {
+			"menu_name": "Primary",
+			"menu-item-type": "taxonomy",
+			"menu-item-object-title": "Drupal",
+			"menu-item-title": "Drupal",
+			"menu-item-object": "download_category",
+			"menu-item-parent-title": "Popular Items"
+		}
+	},
+	{
+		"id": "nav-menu-item-html",
+		"type": "nav-menu-item",
+		"data": {
+			"menu_name": "Primary",
+			"menu-item-type": "taxonomy",
+			"menu-item-object-title": "HTML",
+			"menu-item-title": "HTML",
+			"menu-item-object": "download_category",
+			"menu-item-parent-title": "Popular Items"
+		}
+	}
+]

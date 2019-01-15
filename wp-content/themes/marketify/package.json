@@ -1,0 +1,38 @@
+{
+  "name": "marketify",
+  "title": "Marketify",
+  "version": "2.16.0",
+  "description": "Your beautiful handcrafted digital marketplace.",
+  "homepage": "https://github.com/Astoundify/marketify",
+  "main": "Gruntfile.coffee",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~1.0.1",
+    "grunt-checktextdomain": "^1.0.1",
+    "grunt-cli": "~1.2.0",
+    "grunt-contrib-clean": "~1.1.0",
+    "grunt-contrib-coffee": "^1.0.0",
+    "grunt-contrib-concat": "~1.0.1",
+    "grunt-contrib-cssmin": "^2.1.0",
+    "grunt-contrib-sass": "~1.0.0",
+    "grunt-contrib-uglify": "~2.3.0",
+    "grunt-contrib-watch": "~1.0.0",
+    "grunt-exec": "^2.0.0",
+    "grunt-glotpress": "^0.2.2",
+    "grunt-jsonlint": "^1.1.0",
+    "grunt-newer": "^1.3.0",
+    "grunt-potomo": "^3.5.0",
+    "grunt-shell": "~2.1.0",
+    "grunt-wp-i18n": "~1.0.0",
+    "sass": "^1.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Astoundify/marketify.git"
+  },
+  "author": "Spencer Finnell",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/Astoundify/marketify/issues"
+  }
+}

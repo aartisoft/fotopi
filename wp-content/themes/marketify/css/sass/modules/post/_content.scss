@@ -1,0 +1,64 @@
+.entry-content >,
+.entry-summary >,
+.entry-content div[itemprop=description] > {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @extend .item-title;
+        margin: 2em 0;
+
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+
+    h1 {
+        font-size: 28px;
+        margin: 0.7em 0;
+    }
+
+    h2 {
+        font-size: 24px;
+        margin: 1em 0;
+    }
+
+    h3 {
+        font-size: 19px;
+        margin: 1.1em 0;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    h5 {
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    h6 {
+        font-weight: 400;
+        font-size: 13px;
+    }
+
+    blockquote {
+        padding-left: 1.5em;
+        border-left: 2px solid;
+    }
+
+    p,
+    li {
+        line-height: 1.75;
+    }
+}
+
+.page-title,
+.entry-content,
+.entry-summary,
+.comment-content,
+.widget {
+    word-break: break-word;
+}

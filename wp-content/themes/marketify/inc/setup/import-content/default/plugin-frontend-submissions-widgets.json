@@ -1,0 +1,12 @@
+[
+	{
+		"id": "widget-downlod-meta",
+		"type": "widget",
+		"priority": 20,
+		"data": {
+			"sidebar": "sidebar-download-single",
+			"widget": "marketify_widget_fes_product_details",
+			"title": ""
+		}
+	}
+]

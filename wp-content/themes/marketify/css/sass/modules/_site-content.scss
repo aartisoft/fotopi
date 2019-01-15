@@ -1,0 +1,7 @@
+.site-content {
+    @extend .section;
+}
+
+.site-content--home {
+    margin-top: 0; /** this will come from the first widget */
+}

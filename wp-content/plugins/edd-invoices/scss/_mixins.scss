@@ -1,0 +1,35 @@
+/**
+* Button
+*/
+@mixin button($bg, $color) {
+	font-family: $font-family; font-size: 1em;
+	display: inline-block; margin: 0; padding: 10px 20px; text-transform: uppercase;
+	border: none;
+	color: $color; background: $bg;
+	-webkit-appearance: none; -moz-appearance: none; appearance: none;
+	@include border-radius(none);
+}
+
+/**
+* Border Radius
+*/
+@mixin border-radius($px) {
+	-webkit-border-radius: $px;
+	-moz-border-radius: $px;
+	border-radius: $px;
+}
+
+/**
+* Box Shadow
+*/
+@mixin box-shadow($top, $left, $blur, $color, $inset: false) {
+  @if $inset {
+    -webkit-box-shadow:inset $top $left $blur $color;
+    -moz-box-shadow:inset $top $left $blur $color;
+    box-shadow:inset $top $left $blur $color;
+  } @else {
+    -webkit-box-shadow: $top $left $blur $color;
+    -moz-box-shadow: $top $left $blur $color;
+    box-shadow: $top $left $blur $color;
+  }
+}

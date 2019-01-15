@@ -1,0 +1,64 @@
+#edd_checkout_cart {
+    // action buttons
+    input[type=submit][name=edd_update_cart_submit].edd-submit,
+    a.edd-cart-saving-button.button {
+        @extend .button--size-small;
+        font-weight: 700;
+    }
+
+	th {
+		display: none;
+
+		@include bp(sm) {
+			display: table-cell;
+		}
+	}
+
+	td {
+		&.edd_cart_item_name,
+		&.edd_cart_item_price,
+		&.edd_cart_actions {
+			width: 100%;
+			display: block;
+			border-bottom-width: 0;
+
+			@include bp(sm) {
+				display: table-cell;
+				width: auto;
+			}
+		}
+
+		&:last-child {
+			margin-bottom: 1em;
+			border-bottom-width: 1px;
+		}
+
+		&.edd_cart_actions {
+			text-align: left;
+
+			@include bp(sm) {
+				text-align: right;
+			}
+		}
+	}
+
+	.edd_cart_item_image {
+		display: none;
+
+		@include bp(sm) {
+			display: inline-block;
+		}
+	}
+
+	.edd_checkout_cart_item_title {
+		font-weight: bold;
+
+		@include bp(sm) {
+			font-weight: normal;
+		}
+	}
+}
+
+#edd-purchase-button {
+    @extend .button--size-full;
+}

@@ -1,0 +1,10 @@
+#edd_checkout_form_wrap {
+    input[type=text],
+    input[type=email],
+    input[type=password],
+    textarea,
+    input.edd-input,
+    textarea.edd-input {
+        @extend .marketify-input;
+    }
+}

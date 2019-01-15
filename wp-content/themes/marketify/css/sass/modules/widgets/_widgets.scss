@@ -1,0 +1,52 @@
+// basic
+@import "widget";
+
+// home
+@import "widget--home";
+@import "widget--home-taxonomy-stylized";
+@import "widget--home-testimonials";
+@import "widget--blog-posts";
+
+// dwonload archive
+@import "widget--download-archive";
+
+// download single
+@import "widget--download-single";
+@import "widget--download-single-details";
+@import "widget--download-single-meta";
+@import "widget--download-single-share";
+
+// vendor
+@import "widget--vendor-profile";
+@import "widget--vendor-profile-contact";
+
+// footer
+@import "widget--site-footer";
+
+// patterns
+@import "widget-detail";
+
+.widget-title {
+    @extend .item-title;
+}
+
+.widget-description {
+    @extend .item-meta;
+}
+
+.widget-area {
+	order: 1;
+	@extend .section;
+
+	@include bp(md) {
+		order: 2;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+}
+
+/** still need to split out more -- or better naming or something */
+@import "feature_callout";
+@import "featured-popular";
+@import "features";
+@import "sorting";

@@ -1,0 +1,15 @@
+.hentry.type-post {
+	margin-bottom: 4em;
+
+	&:last-of-type {
+		margin-bottom: 0;
+	}
+}
+
+.blog-post-thumbnail {
+    display: none;
+
+    @include bp(sm) {
+        display: block;
+    }
+}

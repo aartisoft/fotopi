@@ -1,0 +1,76 @@
+.marketify-widget--download-single-details {
+    margin-top: 160px;
+    padding: 0;
+
+    @include bp(md) {
+        margin-top: 100px;
+    }
+
+    .section-title {
+        margin-top: -100px;
+        margin-bottom: 55px;
+
+        @include bp(md) {
+            margin-top: -100px;
+        }
+    }
+
+    .widget-detail span[itemprop="price"].edd_price {
+		display: block;
+		text-align: center;
+    }
+
+    .widget-detail .button {
+        margin: 1em auto;
+        display: block;
+        width: 80%;
+
+        &:first-child {
+            margin-top: 0;
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        &:only-of-type {
+            margin: 0 auto;
+        }
+
+    }
+
+    .edd_download_purchase_form {
+        margin-bottom: 0;
+    }
+
+    .edd_download_purchase_form:only-child .button {
+        margin: 0 auto;
+    }
+
+    .widget-detail .edd_download_quantity_wrapper,
+    .edd_download_purchase_form .edd_go_to_checkout {
+        margin-top: 0;
+    }
+
+	.widget-detail .buy-now ~ .edd_download_purchase_form {
+		display: block;
+
+		.edd_price_options,
+		.edd_purchase_submit_wrapper,
+		.edd_download_quantity_wrapper {
+			display: none;
+		}
+	}
+
+	// these should not be here
+	.widget-detail .buy-now ~ .edd_download_purchase_form,
+	.widget-detail .edd-wl-button ~ .edd_purchase_submit_wrapper,
+	.widget-detail .edd_download_purchase_form ~ .edd-wl-button {
+		margin-top: 1em;
+	}
+
+    .edd_purchase_tax_rate {
+        display: block;
+    }
+}
+

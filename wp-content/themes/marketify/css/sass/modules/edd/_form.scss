@@ -1,0 +1,50 @@
+.edd_form {
+    fieldset > span {
+        @extend .section-title;
+
+        legend {
+            @extend .section-title__inner;
+        }
+    }
+
+    fieldset > legend {
+        @extend .section-title;
+        width: 100%;
+
+        span {
+            @extend .section-title__inner;
+        }
+    }
+
+    p {
+        margin-bottom: 2em;
+    }
+}
+
+/* ugh */
+#edd_login_form .edd-input,
+#edd_register_form .edd-input {
+    width: 100%;
+}
+
+#edd_profile_editor_form label,
+#edd_login_form label,
+#edd_register_form label {
+    display: block;
+    width: auto;
+}
+
+
+/** even ughier */
+#edd_profile_editor_form p,
+#edd_profile_billing_address_wrap p,
+#edd_first_name,
+#edd_profile_billing_address_wrap input,
+#edd_profile_billing_address_wrap select,
+#edd_profile_password_wrap input {
+    @extend .form-row;
+}
+
+#edd_profile_submit_wrap .edd_submit {
+    @extend .button--size-full;
+}

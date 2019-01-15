@@ -1,0 +1,169 @@
+.comment .comment-respond {
+    margin-top: 3em;
+}
+
+.comment-form input[type=text],
+.comment-form input[type=email] {
+    width: 100%;
+
+    @include bp(sm) {
+        width: 50%;
+    }
+}
+
+.comment-form input[type=submit] {
+    @extend .button--style-mobile;
+}
+
+.comments-area {
+    @extend .section;
+}
+
+.comments-area--singular {
+    margin-top: 6em;
+    margin-bottom: 0;
+}
+
+.comment-reply-title {
+    @extend .item-title;
+    font-size: 18px;
+    margin-bottom: 2em;
+}
+
+.comment-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.comment,
+.pingback {
+	margin-bottom: 55px;
+}
+
+.comment-meta {
+	width: 90px;
+	float: left;
+}
+
+.pingback .comment-meta {
+	display: none;
+}
+
+.comment-content {
+	padding: 20px;
+	border: 1px solid #bdc3c7;
+	background: #fff;
+	position: relative;
+}
+
+.comment-content p:last-child {
+	margin-bottom: 0;
+}
+
+.marketify-parent-comment,
+.comment.depth-1 .comment-content {
+	margin-left: 120px;
+}
+
+.marketify-parent-comment:after,
+.marketify-parent-comment:before,
+.comment.depth-1 .comment-content:after,
+.comment.depth-1 .comment-content:before {
+	width: 0;
+	height: 0;
+	border-top: 14px solid transparent;
+	border-bottom: 14px solid transparent;
+	border-right: 14px solid #fff;
+	content: ' ';
+	position: absolute;
+	top: 32px;
+	left: -14px;
+}
+
+.marketify-parent-comment:before,
+.comment.depth-1 .comment-content:before {
+	border-top: 14px solid transparent;
+	border-bottom: 14px solid transparent;
+	border-right: 14px solid #bdc3c7;
+	left: -15px;
+}
+
+.comment-list .children {
+	margin: 25px 0 0 120px;
+	padding: 0;
+	list-style: none;
+}
+
+.comment-list .comment-author {
+	text-align: center;
+}
+
+.comment-list .children .comment-author.vcard img {
+	margin-top: 26px;
+	width: 40px;
+	height: 40px;
+}
+
+.comment-list .children .comment-content {
+	margin-left: 100px;
+}
+
+.comment-metadata {
+	font-size: 13px;
+	border-bottom: 1px solid #bdc3c7;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+}
+
+.comment-metadata .edit-link a,
+.comment-metadata .reply-link a {
+	font-weight: bold;
+}
+
+.comment-metadata a {
+	text-decoration: none;
+}
+
+.comment-content a {
+	word-wrap: break-word;
+}
+
+.marketify-comment-author-name,
+.comment-author .fn,
+.comment-metadata .fn {
+	font-size: 10px;
+	font-weight: normal;
+    font-style: normal;
+	margin-top: 8px;
+	display: block;
+	text-align: center;
+}
+
+.comment-metadata .fn  {
+	font-size: 12px;
+	text-align: left;
+	display: none;
+}
+
+.comment-author .fn a {
+	text-decoration: none;
+}
+
+.comment-author img {
+	border-radius: 50%;
+}
+
+.bypostauthor {
+}
+
+.comment-reply-title small {
+	vertical-align: middle;
+	display: inline-block;
+	float: right;
+}
+
+#cancel-comment-reply-link {
+	color: #d04e4e;
+	text-decoration: none;
+}

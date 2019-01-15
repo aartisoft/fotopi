@@ -1,0 +1,15 @@
+.site-branding {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: left;
+}
+
+.site-branding .custom-header {
+	margin-right: 10px;
+	display: inline-block;
+
+	img {
+		max-width: 100%;
+        height: auto;
+	}
+}

@@ -1,0 +1,22 @@
+.pm-form--filters {
+	@include clearfix;
+
+	@include bp(sm) {
+		float: left;
+
+		.pm-form__row {
+			margin: 0 1em 0 0;
+			display: inline-block;
+		}
+
+		.pm-form__label,
+		.pm-form__input {
+			display: inline-block;
+			margin: 0;
+		}
+	}
+
+	input[type="submit"] {
+		@extend .button--size-small;
+	}
+}

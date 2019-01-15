@@ -1,0 +1,39 @@
+#edd-purchase-button, 
+.edd-submit, 
+.edd-submit.button, 
+.edd-submit.button:visited, 
+input[type=submit].edd-submit {
+    @extend .button;
+}
+
+.buy-now ~ .edd_download_purchase_form {
+	display: none !important;
+}
+
+// ludacris
+.content-grid-download__actions .edd-submit.button,
+.page-header .edd-submit.button {
+	@extend .button--color-white;
+
+	&:hover {
+		background-color: #fff;
+		border-color: #fff;
+	}
+
+    &.edd-add-to-cart,
+    &.edd_go_to_checkout {
+        @extend .button--color-white;
+
+        &:hover {
+            background-color: #fff;
+            border-color: #fff;
+        }
+    }
+}
+
+.popup {
+  .edd-submit.button.edd-add-to-cart,
+  .edd-submit.button.edd_go_to_checkout {
+    @extend .button--size-large;
+  }
+}

@@ -1,0 +1,22 @@
+.site-title {
+	font-size: 26px;
+	font-weight: bold;
+    margin: 0;
+    clear: none;
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.site-title a {
+	color: #fff;
+	text-decoration: none;
+
+    &:hover {
+        color: #fff;
+    }
+}
+
+.site-title--footer {
+    display: block;
+}

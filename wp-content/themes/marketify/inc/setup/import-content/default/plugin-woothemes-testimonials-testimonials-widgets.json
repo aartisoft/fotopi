@@ -1,0 +1,44 @@
+[
+	{
+		"id": "widget-testimonials",
+		"type": "widget",
+		"priority": 60,
+		"data": {
+			"sidebar": "home-1",
+			"widget": "woothemes_testimonials",
+
+			"title": "What People Are Saying",
+			"limit": 4,
+			"per_row": 0,
+			"size": 70,
+			"display_author": 1,
+			"display_avatar": 1,
+			"display_url": null,
+			"category": "customer-testimonials",
+			"specific_id": 0,
+			"orderby": "menu_order",
+			"order": "DESC"
+		}
+	},
+	{
+		"id": "widget-testimonials",
+		"type": "widget",
+		"priority": 70,
+		"data": {
+			"sidebar": "home-1",
+			"widget": "woothemes_testimonials",
+
+			"title": "Companies We've Helped",
+			"limit": 8,
+			"per_row": 0,
+			"size": 200,
+			"display_author": null,
+			"display_avatar": 1,
+			"display_url": null,
+			"category": "companies-weve-helped",
+			"specific_id": 0,
+			"orderby": "menu_order",
+			"order": "DESC"
+		}
+	}
+]

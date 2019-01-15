@@ -1,0 +1,19 @@
+.page-title {
+    color: #fff;
+    letter-spacing: 1px;
+    max-width: 80%;
+    margin: 0 auto;
+
+	a {
+		color: #fff;
+	}
+
+    @include bp(md) {
+		letter-spacing: 3px;
+        font-size: 32px;
+    }
+
+    @include bp(lg) {
+        font-size: 36px;
+    }
+}

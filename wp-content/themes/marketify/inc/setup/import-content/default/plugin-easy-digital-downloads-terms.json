@@ -1,0 +1,114 @@
+[
+	{
+		"id": "download-category-audio",
+		"type": "term",
+		"data": {
+			"name": "Audio",
+			"taxonomy": "download_category"
+		}
+	},
+	{
+		"id": "download-category-bootstrap",
+		"type": "term",
+		"data": {
+			"name": "Bootstrap",
+			"taxonomy": "download_category"
+		}
+	},
+	{
+		"id": "download-category-drupal",
+		"type": "term",
+		"data": {
+			"name": "Drupal",
+			"taxonomy": "download_category"
+		}
+	},
+	{
+		"id": "download-category-fonts",
+		"type": "term",
+		"data": {
+			"name": "Fonts",
+			"taxonomy": "download_category"
+		}
+	},
+	{
+		"id": "download-category-ghost",
+		"type": "term",
+		"data": {
+			"name": "Ghost",
+			"taxonomy": "download_category"
+		}
+	},
+	{
+		"id": "download-category-graphics",
+		"type": "term",
+		"data": {
+			"name": "Graphics",
+			"taxonomy": "download_category"
+		}
+	},
+	{
+		"id": "download-category-html",
+		"type": "term",
+		"data": {
+			"name": "HTML",
+			"taxonomy": "download_category"
+		}
+	},
+	{
+		"id": "download-category-joomla",
+		"type": "term",
+		"data": {
+			"name": "Joomla",
+			"taxonomy": "download_category"
+		}
+	},
+	{
+		"id": "download-category-misc",
+		"type": "term",
+		"data": {
+			"name": "Misc",
+			"taxonomy": "download_category"
+		}
+	},
+	{
+		"id": "download-category-templates",
+		"type": "term",
+		"data": {
+			"name": "Templates",
+			"taxonomy": "download_category"
+		}
+	},
+	{
+		"id": "download-category-textures",
+		"type": "term",
+		"data": {
+			"name": "Textures",
+			"taxonomy": "download_category"
+		}
+	},
+	{
+		"id": "download-category-tumblr",
+		"type": "term",
+		"data": {
+			"name": "Tumblr",
+			"taxonomy": "download_category"
+		}
+	},
+	{
+		"id": "download-category-video",
+		"type": "term",
+		"data": {
+			"name": "Video",
+			"taxonomy": "download_category"
+		}
+	},
+	{
+		"id": "download-category-wordpress",
+		"type": "term",
+		"data": {
+			"name": "WordPress",
+			"taxonomy": "download_category"
+		}
+	}
+]

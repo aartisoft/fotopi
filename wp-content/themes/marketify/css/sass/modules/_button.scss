@@ -1,0 +1,90 @@
+button,
+input[type=reset],
+input[type=submit],
+.button {
+    text-decoration: none;
+    text-shadow: none;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 0;
+    height: auto;
+
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+
+    @include bp(md) {
+        padding: 10px 20px;
+    }
+
+    // not ideal, but helps because we can't always control cascade
+    &.button--size-small {
+        @extend .button--size-small;
+    }
+
+    &.button--size-large {
+        @extend .button--size-large;
+    }
+
+    &.button--size-full {
+        @extend .button--size-full;
+    }
+
+    &.button--color-white {
+        @extend .button--color-white;
+    }
+
+    &.button--style-mobile {
+        @extend .button--style-mobile;
+    }
+}
+
+// not ideal, but helps because we can't always control cascade
+.button--size-small {
+    font-size: 12px;
+    padding: 6px 10px;
+}
+
+.button--size-large {
+    @include bp(md) {
+        font-size: 15px;
+        padding: 14px 20px;
+        border-width: 3px;
+    }
+}
+
+.button--size-full {
+    padding: 14px 20px;
+    display: block;
+    width: 100%;
+
+    @include bp(md) {
+        font-size: 15px;
+    }
+}
+
+.button--color-white {
+    color: #fff;
+    border-color: #fff;
+    background-color: transparent;
+
+    &:hover {
+        background-color: #fff;
+        border-color: #fff;
+    }
+}
+
+// full width on mobile, normal on anything else
+.button--style-mobile {
+    @extend .button--size-full;
+
+    @include bp(sm) {
+        font-size: 13px;
+        width: auto;
+        padding: 10px 15px;
+        display: inline-block;
+    }
+}

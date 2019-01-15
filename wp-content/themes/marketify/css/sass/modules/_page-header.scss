@@ -1,0 +1,35 @@
+.page-header {
+    text-align: center;
+    padding: 1em 0 3em;
+
+    @include bp(md) {
+        padding: 2em /* 4em - 2em added by header above */ 0 6em;
+    }
+}
+
+.page-header--download {
+    padding-bottom: 0;
+}
+
+.page-header--single {
+    position: relative;
+
+    @include bp(md) {
+        padding: 6em 0 9em;
+    }
+}
+
+.page-header .button {
+    margin: 0 1em;
+}
+
+.page-header__entry-meta.entry-meta.entry-meta--hentry {
+    margin: 2em 0 0;
+
+    a,
+    span {
+        color: #fff;
+        text-decoration: none;
+        @extend .item-title;
+    }
+}

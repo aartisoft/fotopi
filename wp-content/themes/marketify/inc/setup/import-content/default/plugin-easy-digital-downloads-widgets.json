@@ -1,0 +1,115 @@
+[
+	{
+		"id": "widget-featured-popular",
+		"type": "widget",
+		"priority": 10,
+		"data": {
+			"sidebar": "home-1",
+			"widget": "marketify_widget_featured_popular",
+			"featured-title": "Featured",
+			"popular-title": "Popular",
+			"number": 8,
+			"speed": 7000
+		}
+	},
+	{
+		"id": "widget-recent-downloads",
+		"type": "widget",
+		"priority": 20,
+		"data": {
+			"sidebar": "home-1",
+			"widget": "marketify_widget_recent_downloads",
+			"title": "Recent Downloads",
+			"number": 8,
+			"columns": 4
+		}
+	},
+	{
+		"id": "widget-feature-callout-1",
+		"type": "widget",
+		"priority": 30,
+		"data": {
+			"sidebar": "home-1",
+			"widget": "marketify_widget_feature_callout",
+			"text_align": "center",
+			"background": "cover",
+			"background_position": "center center",
+			"cover_overlay": 1,
+			"text_color": "#ffffff",
+			"background_color": "#ffffff",
+			"title": "Power to the Designer",
+			"image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/marketify-xml-images/widget-hero-one-updated.jpg",
+			"content": "Most of our authors make this their full-time gig selling digital files on our marketplace, and some just do it as a hobby in their spare time, you can decide what you want to do, but we think you should join our marketplace and start earning those large commission cheques and follow your passion and stop working for the man. Become an author today!<br /><br /><a class='button' href='http://themeforest.net/item/marketplace-wordpress-theme-marketify/6570786?ref=Astoundify'>Become an Author</a>"
+		}
+	},
+	{
+		"id": "widget-price-table",
+		"type": "widget",
+		"priority": 50,
+		"data": {
+			"sidebar": "home-1",
+			"widget": "marketify_widget_price_table",
+			"title": "Honest Pricing. No Surprises"
+		}
+	},
+	{
+		"id": "widget-feature-callout-2",
+		"type": "widget",
+		"priority": 80,
+		"data": {
+			"sidebar": "home-1",
+			"widget": "marketify_widget_feature_callout",
+			"text_align": "center",
+			"background": "cover",
+			"background_position": "center center",
+			"cover_overlay": 1,
+			"text_color": "#ffffff",
+			"background_color": "#ffffff",
+			"title": "Start Your Marketplace",
+			"image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/marketify-xml-images/widget-hero-two-updated.jpg",
+			"content": "This is the time to buy this awesome theme. You would be crazy not to! <br /><br /><a class='button' href='http://themeforest.net/item/marketplace-wordpress-theme-marketify/6570786?ref=Astoundify'>Become an Author</a>"
+		}
+	},
+
+	{
+		"id": "widget-shop-search",
+		"type": "widget",
+		"priority": 10,
+		"data": {
+			"sidebar": "sidebar-download",
+			"widget": "search",
+			"title": ""
+		}
+	},
+	{
+		"id": "widget-shop-sorting",
+		"type": "widget",
+		"priority": 20,
+		"data": {
+			"sidebar": "sidebar-download",
+			"widget": "marketify_widget_download_archive_sorting",
+			"title": ""
+		}
+	},
+	{
+		"id": "widget-shop-cats",
+		"type": "widget",
+		"priority": 30,
+		"data": {
+			"sidebar": "sidebar-download",
+			"widget": "edd_categories_tags_widget",
+			"title": ""
+		}
+	},
+
+	{
+		"id": "widget-downlod-about",
+		"type": "widget",
+		"priority": 10,
+		"data": {
+			"sidebar": "sidebar-download-single",
+			"widget": "marketify_widget_download_details",
+			"title": "Product Details"
+		}
+	}
+]

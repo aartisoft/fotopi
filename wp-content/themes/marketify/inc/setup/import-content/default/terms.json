@@ -1,0 +1,58 @@
+[
+	{
+		"id": "category-business",
+		"type": "term",
+		"data": {
+			"taxonomy": "category",
+			"name": "Business"
+		}
+	},
+	{
+		"id": "category-code",
+		"type": "term",
+		"data": {
+			"taxonomy": "category",
+			"name": "Code"
+		}
+	},
+	{
+		"id": "category-design",
+		"type": "term",
+		"data": {
+			"taxonomy": "category",
+			"name": "Design"
+		}
+	},
+	{
+		"id": "category-featured-articles",
+		"type": "term",
+		"data": {
+			"taxonomy": "category",
+			"name": "Featured Articles"
+		}
+	},
+	{
+		"id": "category-learn-to-code",
+		"type": "term",
+		"data": {
+			"taxonomy": "category",
+			"name": "Learn to Code"
+		}
+	},
+	{
+		"id": "category-make-a-website",
+		"type": "term",
+		"data": {
+			"taxonomy": "category",
+			"name": "Make a Website"
+		}
+	},
+	{
+		"id": "category-web-industry",
+		"type": "term",
+		"data": {
+			"taxonomy": "category",
+			"name": "Web Industry"
+		}
+	}
+]

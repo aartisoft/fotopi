@@ -1,0 +1,26 @@
+// ridiculous
+#edd_checkout_wrap,
+// sign
+#edd_checkout_form_wrap {
+    fieldset > legend,
+    fieldset#edd_cc_fields > legend {
+        @extend .section-title;
+
+        span {
+            @extend .section-title__inner;
+            margin: 0 auto;
+            width: auto;
+        }
+    }
+
+    fieldset > span,
+    fieldset#edd_cc_fields > span {
+        @extend .section-title;
+
+        legend {
+            @extend .section-title__inner;
+            margin: 0 auto;
+            width: auto;
+        }
+    }
+}

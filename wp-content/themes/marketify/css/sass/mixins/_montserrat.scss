@@ -1,0 +1,6 @@
+@mixin montserrat( $weight, $size ) {
+    font-family: $montserrat;
+    font-weight: $weight;
+    font-size: $size;
+    text-transform: uppercase;
+}

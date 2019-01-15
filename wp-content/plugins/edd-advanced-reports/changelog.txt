@@ -1,0 +1,5 @@
+== Version 1.0.1 ==
+Fixed an error that broke reports when selecting a custom date range.
+
+== Version 1.0.0 ==
+Plugin release.

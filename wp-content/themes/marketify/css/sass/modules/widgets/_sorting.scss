@@ -1,0 +1,47 @@
+.download-sorting {
+    label[for="orderby"] {
+        position: relative;
+    }
+
+    label input[type="radio"] {
+        display: none;
+    }
+
+    #m_orderby {
+        display: inline-block;
+    }
+}
+
+.download-sorting__dir {
+    // color: #bdc3c7;
+    font-weight: 400;
+    display: inline-block;
+    font-size: 13px;
+    margin-left: 8px;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &:before {
+        @extend .ion;
+    }
+}
+
+.download-sorting__dir--active {
+    font-weight: 700;
+}
+
+label[for="order-asc"]:before {
+    content: $ionicon-var-ios-arrow-up;
+}
+
+label[for="order-asc"]:after {
+    content: '/';
+    padding-left: 8px;
+    font-weight: 400;
+}
+
+label[for="order-desc"]:before {
+    content: $ionicon-var-ios-arrow-down;
+}

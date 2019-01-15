@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Digital Downloads - Download Image Watermark v1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-02-12 12:36:43+0000\n"
+"Last-Translator: worldweb <jigarshah6676@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: includes/class-edd-img-wtm-model.php:87
+#@ eddimgwtm
+msgid "Image Watermark Options"
+msgstr ""
+
+#: includes/class-edd-img-wtm-model.php:88
+#@ eddimgwtm
+msgid "Image Watermark Settings"
+msgstr ""
+
+#: includes/class-edd-img-wtm-model.php:102
+#, php-format
+#@ eddimgwtm
+msgid "%s Watermark Image"
+msgstr ""
+
+#: includes/class-edd-img-wtm-model.php:103
+#, php-format
+#@ eddimgwtm
+msgid "Select watermark image. This watermark image is applied to the %s image on a Downloads page.%sNote%s: Please use a PNG image for the watermark."
+msgstr ""
+
+#: includes/class-edd-img-wtm-model.php:110
+#, php-format
+#@ eddimgwtm
+msgid "%s Watermark Image Alignment"
+msgstr ""
+
+#: includes/class-edd-img-wtm-model.php:111
+#@ eddimgwtm
+msgid "Choose watermark alignment."
+msgstr ""
+
+#: includes/edd-img-wtm-misc-functions.php:57
+#: includes/edd-img-wtm-misc-functions.php:89
+#@ eddimgwtm
+msgid "Watermark Image"
+msgstr ""
+
+#: includes/edd-img-wtm-misc-functions.php:103
+#@ eddimgwtm
+msgid "No watermark"
+msgstr ""
+

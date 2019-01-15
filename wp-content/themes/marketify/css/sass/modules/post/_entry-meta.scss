@@ -1,0 +1,54 @@
+.entry-meta.entry-meta--hentry {
+    margin: 1em 0;
+
+    span,
+    a {
+        text-decoration: none;
+    }
+
+    span {
+        @extend .item-meta;
+        position: relative;
+        vertical-align: baseline;
+        margin-right: 12px;
+    }
+
+    .byline {
+        margin: 0;
+    }
+
+    .byline img {
+      margin-left: 0;
+      margin-right: 4px;
+    }
+
+    .entry-date:before,
+    .comments-link a:before,
+    .edit-link a:before {
+        @extend .ion;
+        font-size: 16px;
+        vertical-align: middle;
+        margin: -3px 5px 0 0;
+    }
+
+    .entry-date:before {
+        content: $ionicon-var-calendar;
+    }
+
+    .comments-link a:before {
+        content: $ionicon-var-chatbubble;
+    }
+
+    .edit-link a:before {
+        content: $ionicon-var-edit;
+    }
+}
+
+.entry-meta--footer {
+    .edit-link,
+    .entry-tags,
+    .entry-categories {
+        display: block;
+        margin-bottom: 0.5em;
+    }
+}

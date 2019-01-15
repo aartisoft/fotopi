@@ -1,0 +1,61 @@
+/** Features */
+
+.feature-title,
+.individual-testimonial .author span:first-child {
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 1.25em;
+}
+
+.individual-testimonial .author .title {
+	display: block;
+}
+
+/** Testimonials */
+
+/** Pricing */
+.pricing-table-widget {
+	margin-bottom: 30px;
+}
+
+.pricing-table-option {
+	padding: 20px;
+}
+
+.pricing-table-widget-description {
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	border: 5px solid #fff;
+}
+
+.pricing-table-widget-description h2,
+.pricing-table-widget-description h3 {
+	font-size: 50px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.pricing-table-widget-description h3 {
+	font-size: 13px;
+}
+
+.pricing-table-widget-description sup {
+	font-size: 28px;
+	font-weight: 400;
+}
+
+.pricing-table-widget-description ul {
+	margin: 20px 0 0;
+	padding: 0;
+	list-style: none;
+}
+
+.pricing-table-widget-description p,
+.pricing-table-widget-description li {
+	font-size: 16px;
+}
+
+.pricing-table-widget-description li {
+	margin: 4px 0;
+}

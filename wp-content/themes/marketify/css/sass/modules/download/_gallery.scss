@@ -1,0 +1,47 @@
+.header-outer .download-gallery {
+	max-width: 80%;
+	margin: 0 auto;
+
+	img {
+		display: block;
+	}
+}
+
+.header-outer .download-video + .download-gallery {
+	margin-top: 3em;
+}
+
+	@include bp(lg) {
+		.header-outer .download-gallery {
+			max-width: 60%;
+		}
+	}
+
+.download-gallery__image {
+	img {
+		margin: 0 auto;
+        min-width: 100%;
+	}
+}
+
+.download-gallery-navigation {
+	margin: 3em -1em 3em;
+
+	&.has-dots {
+		margin-top: 5em;
+	}
+}
+
+.download-gallery-navigation__image {
+	margin: 0 1em;
+	position: relative;
+	cursor: pointer;
+}
+
+.content-area .download-gallery {
+	margin: 3em 0;
+
+	&:first-child {
+		margin-top: 0;
+	}
+}

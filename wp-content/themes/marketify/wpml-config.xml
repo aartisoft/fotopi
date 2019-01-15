@@ -1,0 +1,22 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="copy">edd_video</custom-field>
+        <custom-field action="copy">edd_demo</custom-field>
+    </custom-fields>
+    <admin-texts>
+      <key name="theme_mods_marketify">
+        <key name="download-label-singular" />
+        <key name="download-label-plural" />
+        <key name="footer-contact-us-title" />
+        <key name="footer-contact-us-address" />
+        <key name="footer-copyright-text" />
+      </key>
+      <key name="theme_mods_marketify-child">
+        <key name="download-label-singular" />
+        <key name="download-label-plural" />
+        <key name="footer-contact-us-title" />
+        <key name="footer-contact-us-address" />
+        <key name="footer-copyright-text" />
+      </key>
+    </admin-texts>
+</wpml-config>

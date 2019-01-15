@@ -1,0 +1,41 @@
+.header-outer {
+	@include clearfix;
+
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	position: relative;
+
+	.button {
+		@extend .button--size-large;
+		@extend .button--color-white;
+	}
+}
+
+.header-outer.has-image {
+    position: relative;
+
+    .page-header,
+	.site-header {
+        position: relative;
+        z-index: 1;
+    }
+
+	.site-header {
+		z-index: 20;
+	}
+
+    &:after {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(0, 0, 0, .50);
+        width: 100%;
+        height: 100%;
+        display: block;
+        z-index: 0;
+    }
+}

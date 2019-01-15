@@ -1,0 +1,86 @@
+@import "button";
+@import "input";
+@import "section-title";
+@import "form";
+@import "purchase-form";
+@import "register-form";
+@import "login-form";
+@import "price";
+@import "checkout";
+@import "pagination";
+@import "cart";
+@import "product-badge";
+
+.edd_downloads_list {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: -30px;
+}
+
+.edd_download_columns_1 .edd_download,
+.edd_download_columns_2 .edd_download,
+.edd_download_columns_3 .edd_download,
+.edd_download_columns_4 .edd_download,
+.edd_download_columns_5 .edd_download,
+.edd_download_columns_6 .edd_download {
+	width: calc(100% - 30px);
+	margin: 0 15px 30px;
+}
+
+.edd_download_columns_2 .edd_download {
+	@include bp(pt) {
+		width: calc(50% - 30px);
+	}
+}
+
+.edd_download_columns_3 .edd_download {
+	@include bp(pt) {
+		width: calc(50% - 30px);
+	}
+
+	@include bp(md) {
+		width: calc(33% - 30px);
+	}
+}
+
+.edd_download_columns_4 .edd_download {
+	@include bp(pt) {
+		width: calc(50% - 30px);
+	}
+
+	@include bp(md) {
+		width: calc(33% - 30px);
+	}
+
+	@include bp(lg) {
+		width: calc(25% - 30px);
+	}
+}
+
+.edd_download_columns_5 .edd_download {
+	@include bp(pt) {
+		width: calc(50% - 30px);
+	}
+
+	@include bp(md) {
+		width: calc(33% - 30px);
+	}
+
+	@include bp(lg) {
+		width: calc(20% - 30px);
+	}
+}
+
+.edd_download_columns_6 .edd_download {
+	@include bp(pt) {
+		width: calc(50% - 30px);
+	}
+
+	@include bp(md) {
+		width: calc(33% - 30px);
+	}
+
+	@include bp(lg) {
+		width: calc(15% - 30px);
+	}
+}

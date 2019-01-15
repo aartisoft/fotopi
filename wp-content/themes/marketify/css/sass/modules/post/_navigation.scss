@@ -1,0 +1,76 @@
+.paging-navigation {
+	text-align: center;
+	margin: 45px 0 0;
+}
+
+.comment-navigation {
+	margin: 45px 0;
+}
+
+.paging-navigation > div {
+	margin: 0 10px;
+	display: inline-block;
+}
+
+.nav-previous a,
+.nav-next a {
+	border: 1px solid #bdc3c7;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.post-navigation .nav-previous a,
+.comment-navigation .nav-previous a {
+	padding-right: 20px;
+}
+
+.post-navigation .nav-next a,
+.comment-navigation .nav-next a {
+	padding-left: 20px;
+}
+
+.nav-previous .nav-title,
+.nav-next .nav-title {
+	font-size: 13px;
+	display: inline-block;
+	vertical-align: middle;
+	float: left;
+	margin: 27px 0 0 -15px;
+}
+
+.nav-previous i,
+.nav-next i {
+	font-size: 50px;
+	float: left;
+}
+
+.post-navigation .nav-previous,
+.comment-navigation .nav-previous {
+	float: left;
+}
+
+.post-navigation .nav-next,
+.comment-navigation .nav-next {
+	float: right;
+}
+
+.post-navigation .nav-previous a,
+.comment-navigation .nav-previous a,
+.post-navigation .nav-next a,
+.comment-navigation .nav-next a {
+	border: 0;
+}
+
+.post-navigation .nav-previous i,
+.post-navigation .nav-next i,
+.comment-navigation .nav-previous i,
+.comment-navigation .nav-next i {
+	font-size: 30px;
+}
+
+.post-navigation .nav-previous .nav-title,
+.post-navigation .nav-next .nav-title,
+.comment-navigation .nav-previous .nav-title,
+.comment-navigation .nav-next .nav-title {
+	margin: 14px 0 0 -5px;
+}

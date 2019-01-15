@@ -1,0 +1,57 @@
+.js-toggle-search {
+    display: none;
+
+    @include bp(md) {
+        display: inline-block;
+    }
+}
+
+.home-search .page-header .search-form .search-field,
+.search-form-overlay .search-form .search-field {
+    color: $body;
+    background: #fff;
+    border-color: #fff;
+}
+
+.search-form-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition:    all 0.25s ease-in-out;
+    transition:         all 0.25s ease-in-out;
+}
+
+.search-form-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.search-form-overlay .search-form {
+    position: relative;
+    width: 40%;
+    top: 50%;
+    left: 30%;
+    position: absolute;
+    overflow: visible;
+}
+
+.js-toggle-search--close {
+    position: absolute;
+    top: 8px;
+    right: -38px;
+    color: #fff;
+    font-size: 18px;
+
+    &:before {
+        @extend .ion;
+        content: $ionicon-var-close-round;
+    }
+}

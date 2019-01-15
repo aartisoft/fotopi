@@ -1,0 +1,110 @@
+// a shortcode will always be in the page's content, so override
+// global styles automatically
+.entry-content {
+    #fes-vendor-dashboard {
+        .fes-headers {
+            display: none;
+        }
+    }
+
+    .fes-vendor-menu {
+        margin: 0 0 3em;
+        background: none;
+
+        @include bp(md) {
+            border-bottom: 3px solid $accent;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            @include clearfix;
+        }
+
+        li {
+            float: left;
+
+
+            &.active a {
+                color: $body;
+                border-color: $accent;
+                background: #fff;
+            }
+        }
+
+        a {
+            color: $accent;
+			font-size: 14px;
+            text-decoration: none;
+            margin: 0 0 -3px;
+            padding: 12px 17px;
+            display: block;
+
+            @include bp(md) {
+                border: 3px solid transparent;
+                border-width: 3px 3px 0;
+            }
+        }
+
+        a span {
+            vertical-align: middle;
+        }
+
+        .icon {
+            &:before {
+                @extend .ion;
+                font-size: 18px;
+                vertical-align: middle;
+                margin-right: 3px;
+            }
+
+            &.icon-house:before {
+                content: $ionicon-var-home;
+            }
+
+            &.icon-list:before {
+                content: $ionicon-var-ios-list-outline;
+            }
+
+            &.icon-pencil:before {
+                content: $ionicon-var-plus;
+            }
+
+            &.icon-ticket:before {
+                content: $ionicon-var-bag;
+            }
+
+            &.icon-user:before {
+                content: $ionicon-var-person;
+            }
+
+            &.icon-logout:before {
+                content: $ionicon-var-log-out;
+            }
+
+            &.icon-graph:before {
+                content: $ionicon-var-social-usd;
+            }
+        }
+    }
+
+    .fes_login_registration_form_row {
+        padding: 0;
+        border: 0;
+    }
+
+    .fes-comments-wrap {
+        margin-top: 2em;
+    }
+
+    #fes-view-comment a {
+        @extend .button;
+        @extend .button--size-small;
+    }
+
+    .fes-vendor-comment-respond-form .button {
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+}

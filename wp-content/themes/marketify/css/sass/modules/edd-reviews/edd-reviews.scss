@@ -1,0 +1,28 @@
+@import "edd-reviews-area";
+@import "edd-reviews-title";
+@import "edd-reviews-heading";
+@import "edd-review";
+@import "edd-review-content";
+@import "edd-review-metadata";
+@import "edd-review-author";
+@import "edd-review-meta-rating";
+@import "edd-reviews-vendor-feedback-item";
+@import "edd-reviews-vendor-feedback-item-wrap";
+
+.edd-reviews-breakdown-ratings,
+.edd-featured-review-body,
+.widget .edd-reviews-list {
+	margin-top: 2rem;
+}
+
+.widget .edd-recent-review {
+	margin-bottom: 1rem;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.single-download .comments-area .edd_reviews_breakdown {
+	margin: 0;
+}

@@ -1,0 +1,64 @@
+.widget_woothemes_features .features {
+	margin-bottom: -3em;
+}
+
+.feature-title a {
+	text-decoration: none;
+}
+
+.feature-content {
+	line-height: 1.75;
+	margin: 1.5em 1em 3em;
+	clear: both;
+}
+
+.features {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0 -15px;
+
+	.fix {
+		display: none;
+	}
+}
+
+.features .feature {
+	text-align: center;
+	width: calc(100% - 30px);
+	margin: 0 15px 30px;
+
+	a {
+		display: inline-block;
+	}
+}
+
+.features.columns-2 .feature {
+	@include bp(pt) {
+		width: calc(50% - 30px);
+	}
+}
+
+.features.columns-3 .feature {
+	@include bp(pt) {
+		width: calc(50% - 30px);
+	}
+
+	@include bp(md) {
+		width: calc(33.33% - 30px);
+	}
+}
+
+.features.columns-4 .feature {
+	@include bp(pt) {
+		width: calc(50% - 30px);
+	}
+
+	@include bp(md) {
+		width: calc(33.33% - 30px);
+	}
+
+	@include bp(lg) {
+		width: calc(25% - 30px);
+	}
+}

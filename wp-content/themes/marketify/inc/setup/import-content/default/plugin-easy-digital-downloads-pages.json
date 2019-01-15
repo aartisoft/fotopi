@@ -1,0 +1,188 @@
+[
+	{
+		"id": "popular-items",
+		"type": "object",
+		"data": {
+			"post_type": "page",
+			"post_title": "Popular Items",
+			"post_content": "",
+			"comment_status": "closed",
+			"meta": {
+				"_wp_page_template": "page-templates/popular.php"
+			},
+			"menus": [
+				{
+					"menu-item-parent-title": "Marketify Pages",
+					"menu-item-title": "Popular Items",
+					"menu-item-position": 7,
+					"menu_name": "Primary"
+				}
+			]
+		}
+	},
+	{
+		"id": "purchase",
+		"type": "object",
+		"priority": 30,
+		"data": {
+			"post_type": "page",
+			"post_title": "Cart",
+			"post_name": "checkout",
+			"post_content": "[download_checkout]",
+			"comment_status": "closed",
+			"meta": {
+				"_wp_page_template": "page-templates/single-column.php"
+			}
+		}
+	},
+	{
+		"id": "success",
+		"type": "object",
+		"priority": 40,
+		"data": {
+			"post_type": "page",
+			"post_title": "Purchase Confirmation",
+			"post_content": "[edd_receipt]",
+			"comment_status": "closed",
+			"meta": {
+				"_wp_page_template": "page-templates/single-column.php"
+			}
+		}
+	},
+	{
+		"id": "failure",
+		"type": "object",
+		"data": {
+			"post_type": "page",
+			"post_title": "Transaction Failure",
+			"post_content": "Your transaction failed, please try again.",
+			"comment_status": "closed",
+			"meta": {
+				"_wp_page_template": "page-templates/single-column.php"
+			}
+		}
+	},
+	{
+		"id": "purchase_history",
+		"type": "object",
+		"data": {
+			"post_type": "page",
+			"post_title": "Purchase History",
+			"post_content": "[purchase_history]",
+			"comment_status": "closed",
+			"meta": {
+				"_wp_page_template": "page-templates/single-column.php"
+			},
+			"menus": [
+				{
+					"menu-item-title": "Purchases",
+					"menu-item-parent-title": "Profile",
+					"menu-item-position": 4,
+					"menu-item-role": "in",
+					"menu_name": "Primary"
+				}
+			]
+		}
+	},
+	{
+		"id": "login",
+		"type": "object",
+		"data": {
+			"post_type": "page",
+			"post_title": "Login",
+			"post_content": "[edd_login]",
+			"comment_status": "closed",
+			"meta": {
+				"_wp_page_template": "page-templates/minimal.php"
+			},
+			"menus": [
+				{
+					"menu-item-title": "Sign In",
+					"menu-item-position": 99,
+					"menu-item-role": "out",
+					"menu_name": "Primary"
+				},
+				{
+					"menu-item-title": "Sign In",
+					"menu-item-position": 3,
+					"menu_name": "Resources"
+				}
+			]
+		}
+	},
+	{
+		"id": "register",
+		"type": "object",
+		"data": {
+			"post_type": "page",
+			"post_title": "Register",
+			"post_content": "[edd_register]",
+			"comment_status": "closed",
+			"meta": {
+				"_wp_page_template": "page-templates/minimal.php"
+			},
+			"menus": [
+				{
+					"menu-item-title": "Join Now",
+					"menu-item-position": 100,
+					"menu-item-role": "out",
+					"menu_name": "Primary"
+				},
+				{
+					"menu-item-title": "Join Now",
+					"menu-item-position": 4,
+					"menu_name": "Resources"
+				}
+			]
+		}
+	},
+	{
+		"id": "profile",
+		"type": "object",
+		"priority": 0,
+		"data": {
+			"post_type": "page",
+			"post_title": "My Profile",
+			"post_content": "[download_history]\n[purchase_history]\n[edd_profile_editor]",
+			"comment_status": "closed",
+			"meta": {
+				"_wp_page_template": "page-templates/single-column.php"
+			},
+			"menus": [
+				{
+					"menu-item-title": "Profile",
+					"menu-item-position": 10,
+					"menu-item-role": "in",
+					"menu_name": "Primary"
+				}
+			]
+		}
+	},
+	{
+		"id": "settings",
+		"type": "object",
+		"data": {
+			"post_type": "page",
+			"post_title": "Settings",
+			"post_content": "[edd_profile_editor]",
+			"comment_status": "closed",
+			"meta": {
+				"_wp_page_template": "page-templates/single-column.php"
+			},
+			"menus": [
+				{
+					"menu-item-parent-title": "Profile",
+					"menu-item-position": 2,
+					"menu-item-role": "in",
+					"menu_name": "Primary"
+				},
+				{
+					"menu-item-parent-title": "Marketify Pages",
+					"menu-item-title": "Settings",
+					"menu-item-position": 8,
+					"menu_name": "Primary"
+				}
+			]
+		}
+	}
+]

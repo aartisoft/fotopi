@@ -1,0 +1,100 @@
+[
+	{
+		"id": "widget-footer-pages",
+		"type": "widget",
+		"priority": 10,
+		"data": {
+			"sidebar": "footer-1",
+			"widget": "nav_menu",
+			"title": "Resources and Links",
+			"nav_menu": "Resources"
+		}
+	},
+	{
+		"id": "widget-footer-social",
+		"type": "widget",
+		"priority": 20,
+		"data": {
+			"sidebar": "footer-1",
+			"widget": "marketify-widget-footer-social-icons",
+			"title": "Social"
+		}
+	},
+	{
+		"id": "widget-footer-blog",
+		"type": "widget",
+		"priority": 10,
+		"data": {
+			"sidebar": "footer-2",
+			"widget": "recent-posts",
+			"title": "From the Blog"
+		}
+	},
+	{
+		"id": "widget-footer-contact",
+		"type": "widget",
+		"priority": 20,
+		"data": {
+			"sidebar": "footer-2",
+			"widget": "text",
+			"title": "Contact Us",
+			"text": "393 Bay Street, 2nd Floor Toronto, Ontario, Canada, L9T8S2"
+		}
+	},
+	{
+		"id": "widget-footer-blog",
+		"type": "widget",
+		"priority": 10,
+		"data": {
+			"sidebar": "footer-3",
+			"widget": "text",
+			"title": "About Marketify",
+			"text": "Marketing and selling digital goods has never been easier with Marketify — the easiest marketplace eCommerce theme available. Beautiful product grids to show off your amazing products. Designed to sell physical goods, files, photos, audio, and video. Specifically crafted to be as flexible and versatile as possible."
+		}
+	},
+	{
+		"id": "widget-footer-copyright",
+		"type": "widget",
+		"priority": 20,
+		"data": {
+			"sidebar": "footer-3",
+			"widget": "text",
+			"title": "",
+			"text": "<h3 class='site-title site-title--footer'>Marketify</h3>Copyright &copy; 2017 Marketify"
+		}
+	},
+
+	{
+		"id": "widget-price-option-1",
+		"type": "widget",
+		"priority": 10,
+		"data": {
+			"sidebar": "widget-area-price-options",
+			"widget": "marketify_widget_price_option",
+			"color": "#515a63",
+			"description": "<h3>Marketplace Items</h3><h2>4,000</h2><ul><li>Dev & Freelancer Friendly</li><li>Unlimited Domain Use</li><li>Free Theme Updates</li><li>Support Forum Access</li><li>Help Documents</li><li>Installation Video</li><li>Non-recurring Payment</li></ul>"
+		}
+	},
+	{
+		"id": "widget-price-option-2",
+		"type": "widget",
+		"priority": 20,
+		"data": {
+			"sidebar": "widget-area-price-options",
+			"widget": "marketify_widget_price_option",
+			"color": "#515a63",
+			"description": "<h3>Most Popular</h3><h2><sup>$</sup>49</h2><h3>Regular Licence</h3><ul><li>Unlimited Access</li><li>Unlimited Bandwidth</li><li>Unlimited Storage</li><li>Unlimited Contributors</li><li>Developer Platform</li><li>Mobile Website</li><li>Custom Domain FREE</li><li>24/7 Customer Support</li></ul>"
+		}
+	},
+	{
+		"id": "widget-price-option-3",
+		"type": "widget",
+		"priority": 30,
+		"data": {
+			"sidebar": "widget-area-price-options",
+			"widget": "marketify_widget_price_option",
+			"color": "#515a63",
+			"description": "<h2><sup>$</sup>149</h2><h3>Developer Licence</h3><ul><li>Unlimited Access</li><li>Unlimited Domain Use</li><li>Free Theme Updates</li><li>Support Forum Access</li><li>Help Documents</li><li>Installation Video</li><li>Non-recurring Payment</li></ul>"
+		}
+	}
+]

@@ -1,0 +1,7 @@
+.pm-notice {
+	@extend .alert;
+
+	p {
+		margin: 1em;
+	}
+}

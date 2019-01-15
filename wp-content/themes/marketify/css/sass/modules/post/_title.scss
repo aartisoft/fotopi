@@ -1,0 +1,8 @@
+.entry-title--hentry {
+    @extend .item-title;
+    font-size: 20px;
+
+    a {
+        text-decoration: none;
+    }
+}

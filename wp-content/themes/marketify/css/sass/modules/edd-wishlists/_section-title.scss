@@ -1,0 +1,14 @@
+#edd-wl-modal .modal-header {
+    @extend .section-title;
+    margin: 3em 0 1em;
+    border: 0;
+}
+
+#edd-wl-modal .modal-header h2 {
+    @extend .section-title__inner;
+    letter-spacing: 0;
+
+    + p {
+        display: none;
+    }
+}

@@ -1,0 +1,1764 @@
+# Translation of Marketify in Dutch
+# This file is distributed under the same license as the Marketify package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-12-08 18:30:58+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.3.1\n"
+"Language: nl\n"
+"Project-Id-Version: Marketify\n"
+
+#: inc/template/class-template-navigation.php:53
+msgctxt "noun"
+msgid "Menu"
+msgstr "Menu"
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Montserrat, translate this to 'off'. Do not
+#. translate into your
+#. * own language.
+#: inc/template/class-template-assets.php:71
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr "aan"
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Source Sans Pro, translate this to 'off'. Do not
+#. translate
+#. * into your own language.
+#: inc/template/class-template-assets.php:65
+msgctxt "Source Sans Pro font: on or off"
+msgid "on"
+msgstr "aan"
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "onbekend"
+
+#. translators: 1: number of plugins.
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2481
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Alle <span class=\"count\">(%s)</span>"
+msgstr[1] "Alle <span class=\"count\">(%s)</span>"
+
+#. translators: 1: install status, 2: update status
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2435
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:1214
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:3041
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "en"
+
+#: inc/integrations/edd-product-reviews/class-edd-product-reviews-walker.php:103
+#: inc/template/class-template-comments.php:37
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s om %2$s"
+
+#: inc/integrations/edd/class-edd-popular.php:84
+msgctxt "popular search results"
+msgid "Popular in \"%s\""
+msgstr "Populair in \"%s\""
+
+#: inc/integrations/edd/class-edd-popular.php:6
+msgctxt "URL slug to determine category sorting"
+msgid "popular"
+msgstr "Populair"
+
+#: bbpress/form-search.php:14 searchform-header.php:10 searchform.php:26
+msgctxt "label"
+msgid "Search for:"
+msgstr "Zoeken op:"
+
+#. Template Name of the plugin/theme
+msgid "Account: Loves"
+msgstr "Account: Houdt van"
+
+#. Template Name of the plugin/theme
+msgid "Page: Vendor Profile"
+msgstr "Pagina: Profiel handelaar"
+
+#. Template Name of the plugin/theme
+msgid "Page: Widgetized"
+msgstr "Pagina: Widget-pagina"
+
+#. Template Name of the plugin/theme
+msgid "Page: Meet the Team"
+msgstr "Pagina: Het team"
+
+#. Template Name of the plugin/theme
+msgid "Layout: Single Column"
+msgstr "Vormgeving: Enkele kolom"
+
+#. Template Name of the plugin/theme
+msgid "Page: Shop"
+msgstr "Pagina: Winkel"
+
+#. Template Name of the plugin/theme
+msgid "Page: Pricing Table"
+msgstr "Pagina: Prijstabel"
+
+#. Template Name of the plugin/theme
+msgid "Page: Popular Items"
+msgstr "Pagina: Populaire items"
+
+#. Template Name of the plugin/theme
+msgid "Layout: Minimal"
+msgstr "Vormgeving: minimaal"
+
+#. Template Name of the plugin/theme
+msgid "Page: Home"
+msgstr "Pagina: Start"
+
+#. Template Name of the plugin/theme
+msgid "Page: Home (with Search)"
+msgstr "Pagina: Start (met zoeken)"
+
+#. Template Name of the plugin/theme
+msgid "Layout: Full Width"
+msgstr "Vormgeving: Volledige breedte"
+
+#. Author URI of the plugin/theme
+msgid "http://astoundify.com"
+msgstr "http://astoundify.com"
+
+#. Author of the plugin/theme
+msgid "Astoundify"
+msgstr "Astoundify"
+
+#. Description of the plugin/theme
+msgid "Your beautiful handcrafted digital marketplace."
+msgstr "De handgemaakte digitale marktplaats"
+
+#. Theme URI of the plugin/theme
+msgid "http://astoundify.com/themes/marketify"
+msgstr "http://astoundify.com/themes/marketify"
+
+#. Theme Name of the plugin/theme
+msgid "Marketify"
+msgstr "Marketify"
+
+#: searchform.php:24
+msgid "Submit"
+msgstr "Verzenden"
+
+#: searchform-header.php:15
+msgid "Close"
+msgstr "Sluiten"
+
+#: page-templates/wishlist.php:47
+msgid "Love"
+msgid_plural "Loves"
+msgstr[0] "Liefde"
+msgstr[1] "Liefdes"
+
+#: no-results.php:27
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Het lijkt erop dat er niets gevonden wordt, wellicht helpt de zoekfunctie."
+
+#: no-results.php:19
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Geen zoekresultaten gevonden, probeer het nog eens met andere zoekwoorden."
+
+#: no-results.php:15
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Klaar om het eerste bericht te plaatsen? <a href=\"%1$s\">Start hier</a>."
+
+#: modal-download-purchase.php:12
+msgid "Buying Options"
+msgstr "Aankoop opties"
+
+#: inc/widgets/class-widgets.php:86
+msgid "Drag multiple \"Price Option\" widgets here. Then drag the \"Pricing Table\" widget to the \"Homepage\" Widget Area."
+msgstr "Versleep hiernaartoe meerdere \"Prijsoptie\"-widgets. Versleep dan de \"Prijstabel\"-widget naar het \"Startpagina\"-widgetgedeelte."
+
+#: inc/widgets/class-widgets.php:84
+msgid "Price Table"
+msgstr "Prijstabel"
+
+#: inc/widgets/class-widgets.php:74
+msgid "The right footer widget area"
+msgstr "Het rechter voettekst gebied "
+
+#: inc/widgets/class-widgets.php:73
+msgid "Footer Right"
+msgstr "Het rechter voettekst gebied "
+
+#: inc/widgets/class-widgets.php:64
+msgid "The center footer widget area"
+msgstr "Het middelste voettekst gebied "
+
+#: inc/widgets/class-widgets.php:63
+msgid "Footer Center"
+msgstr "Voettekst midden"
+
+#: inc/widgets/class-widgets.php:54
+msgid "The left footer widget area"
+msgstr "Het linker voettekst gebied"
+
+#: inc/widgets/class-widgets.php:53
+msgid "Footer Left"
+msgstr "Voettekst links"
+
+#: inc/widgets/class-widgets.php:43
+msgid "Widgets that appear on the \"Page: Home\" Page Template"
+msgstr "Widgets die worden getoond op de \"Pagina: Start\" template"
+
+#: inc/widgets/class-widgets.php:33
+msgid "Sidebar"
+msgstr "Zijbalk"
+
+#: inc/widgets/class-widget.php:261
+msgid "Choose Image"
+msgstr "Afbeelding kiezen"
+
+#: inc/widgets/class-widget.php:158
+msgid "Only for use in the <strong>%s</strong> widget area."
+msgstr "Alleen om te gebruiken bij <strong>%s</strong> widget."
+
+#: inc/widgets/_widgets/class-widget-slider.php:14
+msgid "Slider Shortcode"
+msgstr "Slider shortcode"
+
+#: inc/widgets/_widgets/class-widget-slider.php:9
+msgid "Marketify - Page: Slider"
+msgstr "Marketify - Pagina: Slider"
+
+#: inc/widgets/_widgets/class-widget-slider.php:7
+msgid "Display any slider that supports shortcodes."
+msgstr "Toon een slider die werkt met shortcodes."
+
+#: inc/widgets/_widgets/class-widget-price-table.php:36
+msgid "Add price options in \"Appearance > Widgets\""
+msgstr "Voeg prijsopties toe bij \"Verschijning > Widgets\""
+
+#: inc/widgets/_widgets/class-widget-price-table.php:22
+msgid "Drag \"Price Option\" widgets to the \"Price Table\" widget area to populate this widget."
+msgstr "Sleep \"Prijs opties\" widget in de \"Prijstabel\" widget om deze te tonen."
+
+#: inc/widgets/_widgets/class-widget-price-table.php:9
+msgid "Marketify - Page: Price Table"
+msgstr "Marketify - Pagina: Priistabel"
+
+#: inc/widgets/_widgets/class-widget-price-table.php:7
+msgid "Output the price table (based on the \"Price Table\" widget area)"
+msgstr "Prijstabel tonen (gebaseerd op de widget Prijstabel)"
+
+#: inc/widgets/_widgets/class-widget-price-option.php:24
+msgid "Use <code>h2</code> tags for large titles, and <code>h3</code> tags for subtitles. Unordered lists create a great look."
+msgstr ""
+
+#: inc/widgets/_widgets/class-widget-price-option.php:9
+msgid "Marketify - Page: Price Option"
+msgstr "Marketify - Pagina: Prijs opties"
+
+#: inc/widgets/_widgets/class-widget-price-option.php:7
+msgid "Create a price option for the pricing table."
+msgstr "Voer een prijsoptie in voor de prijstabel."
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:90
+msgid "Image:"
+msgstr "Afbeelding:"
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:84
+msgid "Content:"
+msgstr "Inhoud:"
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:74
+#: inc/widgets/_widgets/class-widget-price-option.php:14
+msgid "Background Color:"
+msgstr "Achtergrondkleur:"
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:69
+msgid "Text Color:"
+msgstr "Tekstkleur:"
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:64
+msgid "Add standard spacing above/below widget"
+msgstr "Standaard ruimte boven/onder widget"
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:59
+msgid "Use transparent overlay"
+msgstr "Transparante laag gebruiken"
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:52
+msgid "Center Bottom"
+msgstr "Midden onder"
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:51
+msgid "Center Center"
+msgstr "Midden midden"
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:50
+#: inc/widgets/_widgets/class-widget-feature-callout.php:53
+msgid "Center Top"
+msgstr "Midden boven"
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:49
+msgid "Right Bottom"
+msgstr "Rechts onder"
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:48
+msgid "Right Center"
+msgstr "Rechts midden"
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:47
+msgid "Right Top"
+msgstr "Rechts boven"
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:46
+msgid "Left Bottom"
+msgstr "Links onder"
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:45
+msgid "Left Center"
+msgstr "Links midden"
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:44
+msgid "Left Top"
+msgstr "Links boven"
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:42
+msgid "Image Position:"
+msgstr "Positie afbeelding:"
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:36
+msgid "Pull Out"
+msgstr "Openen"
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:35
+msgid "Cover"
+msgstr "Voorblad"
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:33
+msgid "Image Style:"
+msgstr "Afbeeldingsstijl:"
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:27
+msgid "Center (cover only)"
+msgstr "Centreren (voorblad)"
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:26
+msgid "Right"
+msgstr "Rechts"
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:25
+msgid "Left"
+msgstr "Links"
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:23
+msgid "Text Align:"
+msgstr "Tekstuitlijning:"
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:15
+msgid "Marketify - Page: Feature Callout"
+msgstr "Marketify - Pagina: In het voetlicht"
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:13
+msgid "Display a full-width \"feature\" callout"
+msgstr "Toon \"In het voetlicht\" over volle breedte"
+
+#: inc/widgets/_widgets/class-widget-blog-posts.php:35
+msgid "Display Style:"
+msgstr "Weergavestijl:"
+
+#: inc/widgets/_widgets/class-widget-blog-posts.php:33
+msgid "Grid"
+msgstr "Raster"
+
+#: inc/widgets/_widgets/class-widget-blog-posts.php:32
+msgid "Classic"
+msgstr "Klassiek"
+
+#: inc/widgets/_widgets/class-widget-blog-posts.php:9
+msgid "Marketify - Page: Recent Posts"
+msgstr "Marketify - Pagina: recente blog posts"
+
+#: inc/widgets/_widgets/class-widget-blog-posts.php:7
+msgid "Display recent blog posts."
+msgstr "Recente blogposts tonen"
+
+#: inc/template/class-template-page-header.php:169
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oeps Die pagina kon niet gevonden worden."
+
+#: inc/template/class-template-page-header.php:138
+msgid "Recent %s"
+msgstr ""
+
+#: inc/template/class-template-page-header.php:135
+msgid "All %s"
+msgstr "Alle %s"
+
+#. translators: %s - title of parent post
+#: inc/template/class-template-page-header.php:110
+msgid "<span class=\"meta-nav\">&larr;</span> %s"
+msgstr "<span class=\"meta-nav\">&larr;</span> %s"
+
+#: inc/template/class-template-page-header.php:108
+msgid "Return to %s"
+msgstr "Terug naar %s"
+
+#: inc/template/class-template-page-header.php:52
+msgid "Blog"
+msgstr "Blog"
+
+#: inc/template/class-template-page-header-video.php:45
+msgid "Video Header URL"
+msgstr "Video Header URL"
+
+#: inc/template/class-template-navigation.php:31
+msgid "Footer Social"
+msgstr "Social footer"
+
+#: inc/template/class-template-navigation.php:30
+msgid "Primary Menu"
+msgstr "Hoofdmenu"
+
+#: inc/template/class-template-comments.php:55
+msgid "Your comment is awaiting moderation."
+msgstr "De reactie staat klaar voor een moderator."
+
+#: inc/template/class-template-comments.php:22
+msgid "Purchased"
+msgstr "Gekocht"
+
+#: inc/setup/setup-guide-steps/theme-updater.php:18
+msgid "Save Token"
+msgstr "Token opslaan"
+
+#: inc/setup/setup-guide-steps/theme-updater.php:16
+msgid "Personal Token:"
+msgstr "Personal token:"
+
+#: inc/setup/setup-guide-steps/theme-updater.php:12
+msgid "Once generated, add the token below:"
+msgstr "Zodra de token is gegenereerd, voeg hem hieronder toe:"
+
+#: inc/setup/setup-guide-steps/theme-updater.php:10
+msgid "Generate a Token"
+msgstr "Genereer een token"
+
+#: inc/setup/setup-guide-steps/theme-updater.php:8
+msgid "In order to receive automatic updates for your purchase please generate a personal token from ThemeForest."
+msgstr "Om automatische updates te ontvangen moet een personal token bij ThemeForest worden gegenereerd."
+
+#: inc/setup/setup-guide-steps/support-us.php:11
+msgid "Move this guide under the \"Appearance\" menu item"
+msgstr "Verplaats deze gids naar het menu-item \"Vormgeving\""
+
+#: inc/setup/setup-guide-steps/support-us.php:6
+msgid "Help Translate"
+msgstr "Help vertalen"
+
+#: inc/setup/setup-guide-steps/support-us.php:4
+msgid "Rate us on ThemeForest"
+msgstr "Waardeer Marketify op ThemeForest"
+
+#: inc/setup/setup-guide-steps/support-us.php:1
+msgid "Help improve Marketify by submitting a rating and helping to translate the theme to as many languages as possible!"
+msgstr "Help Marketify verbeteren door een beoordeling te sturen en te helpen met de vertaling in zoveel mogelijk talen!"
+
+#: inc/setup/setup-guide-steps/install-plugins.php:16
+msgid "Once your plugins are installed and content is imported please review all plugin settings pages to make sure everything has been properly set up."
+msgstr "Als de plugins zijn geinstalleerd en de inhoud is geimporteerd controleer dan de plugin instellingen om te zorgen dat alles goed is ingesteld."
+
+#: inc/setup/setup-guide-steps/install-plugins.php:15
+msgid "Only free plugins/add-ons can be installed automatically. You will need to install any premium plugins/add-ons separately."
+msgstr "Alleen gratis plugins kunnen automatisch worden geinstalleerd. Premium plugins moeten apart geinstalleerd worden."
+
+#: inc/setup/setup-guide-steps/install-plugins.php:13
+msgid "Note:"
+msgstr "Let op:"
+
+#: inc/setup/setup-guide-steps/install-plugins.php:11
+msgid "Before you can use Marketify you must first install Easy Digital Downloads at minimum. You can read about <a href=\"http://marketify.astoundify.com/article/711-why-does-this-theme-require-plugins-to-function\">why this theme requires plugins</a> in our documentation."
+msgstr "Voordat Marketify gebruikt kan worden, moet Easy Digital Downloads geinstalleerd worden.<a href=\"http://marketify.astoundify.com/article/711-why-does-this-theme-require-plugins-to-function\">lees de documentatie</a> in our documentation. "
+
+#: inc/setup/setup-guide-steps/import-content.php:71
+msgid "Reset Content"
+msgstr "Inhoud herstellen"
+
+#: inc/setup/setup-guide-steps/import-content.php:62
+msgid "Demo content for this plugin will not be imported."
+msgstr "Demo-inhoud voor deze plugin wordt niet geimporteerd."
+
+#: inc/setup/setup-guide-steps/import-content.php:48
+msgid "Install or activate plugins &rarr;"
+msgstr "Installeer of activeer plugins &rarr;"
+
+#: inc/setup/setup-guide-steps/import-content.php:48
+msgid "Marketify can import content for recommended plugins, but only if they are active. Please review the list of plugins below and activate any plugins you would like the content imported for."
+msgstr "Marketify kan inhoud importeren voor aanbevolen plugins wanneer deze actief zijn. Bekijk de lijst van plugins hieronder en activeer de plugins waar inhoud voor geimporteerd moet worden."
+
+#: inc/setup/setup-guide-steps/import-content.php:31
+msgid "Summary:"
+msgstr "Samenvatting:"
+
+#: inc/setup/setup-guide-steps/import-content.php:29
+msgid "Please do not navigate away from this page."
+msgstr "Navigeer niet weg van deze pagina."
+
+#: inc/setup/setup-guide-steps/import-content.php:21
+msgid "Audio Marketplace"
+msgstr "Audio marktplaats"
+
+#: inc/setup/setup-guide-steps/import-content.php:17
+msgid "Default"
+msgstr "Standaard"
+
+#: inc/setup/setup-guide-steps/import-content.php:11
+msgid "Content Pack:"
+msgstr "Inhoudspakket:"
+
+#: inc/setup/setup-guide-steps/customize-theme.php:12
+msgid "Launch Customizer"
+msgstr "Start de customizer"
+
+#: inc/setup/setup-guide-steps/customize-theme.php:8
+msgid "Update footer text"
+msgstr "Voettekst aanpassen"
+
+#: inc/setup/setup-guide-steps/customize-theme.php:7
+msgid "Adjust download content styles and layout"
+msgstr "Inhoudstijlen en vormgeving aanpassen"
+
+#: inc/setup/setup-guide-steps/customize-theme.php:5
+msgid "Change colors"
+msgstr "Kleuren wijzigen"
+
+#: inc/setup/setup-guide-steps/customize-theme.php:4
+msgid "Upload a logo"
+msgstr "Logo uploaden"
+
+#: inc/setup/setup-guide-steps/customize-theme.php:1
+msgid "Manage the appearance and behavior of various theme components with the live customizer."
+msgstr "Beheer de vormgeving en het gedrag van componenten van het thee met de live customizer"
+
+#: inc/setup/setup-guide-steps/child-theme.php:3
+msgid "Use a Child Theme"
+msgstr "Gebruik een child theme"
+
+#: inc/setup/setup-guide-steps/child-theme.php:1
+msgid "Installing a child theme allows for an easy way to add extra customization to your website, as well as ensures any changes made are not ovewritten when your parent theme is updated. <strong>This is highly recommended.</strong>"
+msgstr "Door een child theme te installeren kun je eenvoudig anapassingen doen aan de website en het zorgt dat wijzigingen niet worden overschreven wanneer het bovenliggende theme wordt bijgewerkt. <strong>Dit wordt sterk aanbevolen.</strong>"
+
+#: inc/setup/setup-guide-steps/_step-list.php:43
+msgid "Get Involved"
+msgstr "Wees betrokken"
+
+#: inc/setup/setup-guide-steps/_step-list.php:38
+msgid "Customize"
+msgstr "Aanpassen"
+
+#: inc/setup/setup-guide-steps/_step-list.php:32
+#: inc/setup/setup-guide-steps/import-content.php:69
+msgid "Import Content"
+msgstr "Inhoud importeren"
+
+#: inc/setup/setup-guide-steps/_step-list.php:21
+msgid "Enable Automatic Updates"
+msgstr "Automatische updates activeren"
+
+#: inc/setup/setup-guide-steps/_step-list.php:13
+msgid "Enable Child Theme"
+msgstr "Child theme activeren"
+
+#: inc/setup/class-setup.php:264
+msgid "You do not have permission to import content."
+msgstr "Onvoldoende rechten om inhoud te importeren."
+
+#: inc/setup/class-setup.php:236
+msgid "Reset Complete!"
+msgstr "Herstellen compleet!"
+
+#: inc/setup/class-setup.php:163
+msgid "Disconnected"
+msgstr "Niet verbonden"
+
+#: inc/setup/class-setup.php:162
+msgid "Connected"
+msgstr "Verbonden"
+
+#: inc/setup/class-setup.php:161
+msgid "API error."
+msgstr "API fout"
+
+#: inc/setup/class-setup.php:160
+msgid "An API token is required."
+msgstr "Een API token is verplicht."
+
+#: inc/setup/class-setup.php:159
+msgid "Cheating?"
+msgstr "Hou je de boel voor de gek?"
+
+#: inc/setup/class-setup.php:134
+msgid "Submit a Support Ticket"
+msgstr "Verzend een helpdeskticket"
+
+#: inc/setup/class-setup.php:133
+msgid "Search Documentation"
+msgstr "Zoek documentatie"
+
+#: inc/setup/class-setup.php:128
+msgid "Creating a digital marketplace has never been easier with Marketify&mdash;Use the steps below to start setting up your new website. If you have more questions please <a href=\"%s\">review the documentation</a>."
+msgstr "Het realiseren van een digitale marktplaats was nooit eenvoudiger met Marketify&mdash;. Gebruik onderstaande stappen, voor meer informatie <a href=\"%s\">bekijk de documentatie</a>."
+
+#: inc/setup/class-setup.php:113
+msgid "Not Complete"
+msgstr "Niet compleet"
+
+#: inc/setup/class-setup.php:112
+msgid "Completed"
+msgstr "Compleet"
+
+#: inc/setup/class-setup.php:111
+msgid "Welcome to %s"
+msgstr "Welkom bij %s"
+
+#: inc/setup/class-setup.php:110
+msgid "Setup Guide"
+msgstr "Setup gids"
+
+#: inc/setup/class-setup.php:109
+msgid "Getting Started"
+msgstr "Aan de slag met Marketify"
+
+#: inc/setup/class-setup.php:108
+msgid "Setup %s"
+msgstr "Setup %s"
+
+#: inc/setup/_importer/ContentImporter.php:99 inc/setup/class-setup.php:242
+msgid "You do not have permission to manage content."
+msgstr "Onvoldoende rechten om inhoud te beheren"
+
+#: inc/setup/_importer/ContentImporter.php:98 inc/setup/class-setup.php:241
+msgid "Iteration process failed."
+msgstr "Itarisatie proces mislukt"
+
+#: inc/setup/_importer/ContentImporter.php:97 inc/setup/class-setup.php:240
+msgid "Invalid process type."
+msgstr "Ongeldig procestype"
+
+#: inc/setup/_importer/ContentImporter.php:96 inc/setup/class-setup.php:239
+msgid "Invalid process action."
+msgstr "Ongeldige proces actie"
+
+#: inc/setup/_importer/ContentImporter.php:93
+msgid "Reset Complete"
+msgstr "Herstellen compleet"
+
+#: inc/setup/_importer/ContentImporter.php:90 inc/setup/class-setup.php:233
+msgid "Import Complete!"
+msgstr "Import compleet!"
+
+#: inc/setup/_importer/ContentImporter.php:86 inc/setup/class-setup.php:230
+msgid "Widgets"
+msgstr "Widgets"
+
+#: inc/setup/_importer/ContentImporter.php:86 inc/setup/class-setup.php:230
+msgid "Widget"
+msgstr "Widget"
+
+#: inc/setup/_importer/ContentImporter.php:85 inc/setup/class-setup.php:228
+msgid "Navigation Menu Items"
+msgstr "Navigatiemenu items"
+
+#: inc/setup/_importer/ContentImporter.php:85 inc/setup/class-setup.php:228
+msgid "Navigation Menu Item"
+msgstr "Navigatiemenu item"
+
+#: inc/setup/_importer/ContentImporter.php:84
+msgid "Contents"
+msgstr "Inhoud"
+
+#: inc/setup/_importer/ContentImporter.php:84 inc/setup/class-setup.php:229
+msgid "Content"
+msgstr "Inhoud"
+
+#: inc/setup/_importer/ContentImporter.php:83 inc/setup/class-setup.php:226
+msgid "Terms"
+msgstr "Voorwaarden"
+
+#: inc/setup/_importer/ContentImporter.php:83 inc/setup/class-setup.php:226
+msgid "Term"
+msgstr "Voorwaarde"
+
+#: inc/setup/_importer/ContentImporter.php:82 inc/setup/class-setup.php:227
+msgid "Navigation Menus"
+msgstr "Navigatiemenu's"
+
+#: inc/setup/_importer/ContentImporter.php:82 inc/setup/class-setup.php:227
+msgid "Navigation Menu"
+msgstr "Navigatiemenu"
+
+#: inc/setup/_importer/ContentImporter.php:81
+msgid "Theme Customizations"
+msgstr "Theme aanpassingen"
+
+#: inc/setup/_importer/ContentImporter.php:81
+msgid "Theme Customization"
+msgstr "Theme aanpassing"
+
+#: inc/setup/_importer/ContentImporter.php:80 inc/setup/class-setup.php:225
+msgid "Settings"
+msgstr "Instellingen"
+
+#: inc/setup/_importer/ContentImporter.php:80 inc/setup/class-setup.php:225
+msgid "Setting"
+msgstr "Instelling"
+
+#: inc/setup/_child_theme/use-child-theme.php:151
+msgid "Error: theme folder not writable"
+msgstr "Foutmelding: de map van het theme heeft geen schrijfrechten"
+
+#: inc/setup/_child_theme/use-child-theme.php:130
+msgid "All done!"
+msgstr "Klaar!"
+
+#: inc/setup/_child_theme/use-child-theme.php:83
+msgid "Activate now"
+msgstr "Activeer nu"
+
+#: inc/setup/_child_theme/use-child-theme.php:82
+msgid "Please use a %s child theme to make changes"
+msgstr "Gebruik een %s child theme om wijzigingen door te voeren"
+
+#: inc/pages/class-widgetized-page.php:24
+msgid "Widgets that appear on the \"%s\" page."
+msgstr "Widgets getoond op de \"%s\" pagina."
+
+#: inc/pages/class-widgetized-page.php:23
+msgid "Widgetized Page: %s"
+msgstr "Widget-pagina: %s"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:3613
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Plug-in %1$s (%2$d/%3$d) installeren"
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr "Alle installaties zijn compleet."
+
+#. translators: 1: plugin name.
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:3610
+msgid "%1$s installed successfully."
+msgstr "%1$s succesvol geïnstalleerd."
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:3608
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Het installatieproces is gestart. Dit proces kan even duren, even geduld."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:3605
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Bezig met installeren en activeren van plugin %1$s (%2$d/%3$d)"
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr "Alle installaties en activaties zijn compleet."
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:3602
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:3610
+msgid "Hide Details"
+msgstr "Details verbergen"
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:3602
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:3610
+msgid "Show Details"
+msgstr "Details tonen"
+
+#. translators: 1: plugin name.
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:3602
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s geïnstalleerd en geactiveerd."
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:3600
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Het installatie en activatie proces is gestart. Dit kan even duren, een ogenblik geduld."
+
+#. translators: 1: plugin name.
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:3596
+msgid "The installation of %1$s failed."
+msgstr "De installatie van %1$s is mislukt"
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:3594
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Er is een fout opgetreden bij installatie van %1$s: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:3591
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Plugin %1$s (%2$d/%3$d) bijwerken"
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr "Plugin activatie mislukt."
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr "Er zijn op dit moment geen plug-ins beschikbaar om te activeren."
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "Geen plugins gevonden om te activeren. Geen actie ondernomen."
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr "Geen plugins gevonden om bij te werken."
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr "Er zijn op dit moment geen plug-ins beschikbaar om te installeren."
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "Geen plugins gevonden om bij te werken. Geen actie ondernomen."
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "Geen plugins gevonden om te installeren. Geen actie ondernomen."
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr "Activeren"
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr "Bijwerken"
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr "Installeren"
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr "Bericht van de maker van de plugin:"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2707
+msgid "Activate %2$s"
+msgstr "Activeer %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2701
+msgid "Update %2$s"
+msgstr "Werk %2$s bij"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2696
+msgid "Install %2$s"
+msgstr "Installeer %2$s"
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr "Status"
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr "Versie"
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr "Type"
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr "Bron"
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr "Plug-in"
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr "Geen plugins om te installeren, bij te werken of te activeren."
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr "Beschikbare versie:"
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr "Minimaal vereiste versie:"
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr "Geïnstalleerde versie:"
+
+#. translators: 1: number of plugins.
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2493
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "Om <span class=\"count\">(%s)</span> te activeren"
+msgstr[1] "Om <span class=\"count\">(%s)</span> te activeren"
+
+#. translators: 1: number of plugins.
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2489
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2485
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "Om <span class=\"count\">(%s)</span> te omstalleren"
+msgstr[1] "Om <span class=\"count\">(%s)</span> te omstalleren"
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr "Bijgewerken aanbevolen"
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr "Vereiste updates"
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr "Vereiste update niet beschikbaar"
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr "Actief"
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr "Wel geïnstalleerd maar niet geactiveerd"
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr "Niet geïnstalleerd"
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr "Vooraf ingepakt"
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr "Externe bron"
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr "WordPress Repository"
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr "Aanbevolen"
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr "Vereist"
+
+#. translators: %s: version number
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2075
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:1030
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "Het pluginpakket bestaat uit meer bestanden maar deze zijn niet ingepakt in een map."
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:1027
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:1030
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "Neem contact op met de maker van de plugin en vraag om een pluginpakket volgens de WordPress richtlijnen."
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:1027
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "Het pluginpakket bevat geen map met de gewenste slug en hernoemen is mislukt."
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr "Stel de parent_slug in"
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr "Update vereist"
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Deeze plugin moet worden bijgewerkt om te kunnen functioneren met het theme."
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr "Neem contact op met de beheerder voor ondersteuning."
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:403
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr "Er zijn een of  meer plugins vereist of aanbevolen voor installatie, bijwerken of activatie."
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr "Deze notitie verwijderen"
+
+#. translators: 1: dashboard link.
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:401
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Alle plugins zijn geïnstalleerd en succesvol geactiveerd. %1$s"
+
+#. translators: 1: plugin name.
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:399
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "Plugin niet geactiveerd. Een hogere versie van %s is nodig voor dit theme. Update de plugin."
+
+#. translators: 1: plugin name.
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:397
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Geen actie ondernomen. Plugin %1$s was reeds actief."
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:395
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgstr "De volgende plugin was succesvol geactiveerd."
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:394
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr "Plugin succesvol geactiveerd."
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:393
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:920
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2626
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr "Terug naar dashboard"
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr "Terug naar vereiste plugins installer"
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:387
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Plugin activeren"
+msgstr[1] "Plugins activeren"
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:382
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Plugin bijwerken"
+msgstr[1] "Plugins bijwerken"
+
+#. translators: 1: plugin name(s).
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:377
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Plug-in installeren"
+msgstr[1] "Plug-ins installeren"
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr "Er is iets misgegaan met de plugin API."
+
+#. translators: %s: plugin name.
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:339
+msgid "Updating Plugin: %s"
+msgstr "Bezig met bijwerken plugin: %s"
+
+#. translators: %s: plugin name.
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:337
+msgid "Installing Plugin: %s"
+msgstr "Bezig met installeren plugin: %s"
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:335
+#: inc/setup/setup-guide-steps/_step-list.php:26
+#: inc/setup/setup-guide-steps/install-plugins.php:19
+msgid "Install Plugins"
+msgstr "Plug-ins installeren"
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr "Installeer vereiste plugins"
+
+#: inc/integrations/soliloquy/widgets/class-widget-slider-soliloquy.php:13
+msgid "Slider:"
+msgstr "Slider:"
+
+#: inc/integrations/soliloquy/widgets/class-widget-slider-soliloquy.php:9
+msgid "Marketify - Page: Soliloquy Slider"
+msgstr "Marketify - Pagina: Soliloquy Slider"
+
+#: inc/integrations/soliloquy/widgets/class-widget-slider-soliloquy.php:7
+msgid "Display \"Hero\" Soliloquy slider."
+msgstr "Toon \"Hero\" Soliloquy slider."
+
+#: inc/integrations/multiple-post-thumbnails/class-multiple-post-thumbnails.php:79
+msgid "Use this image as the grid thumbnail."
+msgstr "Gebruik deze afbeelding als mini-afbeelding voor rooster"
+
+#: inc/integrations/multiple-post-thumbnails/class-multiple-post-thumbnails.php:74
+msgid "Use as Grid Thumbnail"
+msgstr "Use as Grid Thumbnail"
+
+#: inc/integrations/multiple-post-thumbnails/class-multiple-post-thumbnails.php:32
+msgid "Grid Image"
+msgstr "Rasterafbeelding"
+
+#: inc/integrations/love-it/class-love-it-archives.php:111
+msgid "%s's Likes"
+msgstr "%s's vind-ik-leuks"
+
+#: inc/integrations/jetpack/widgets/class-widget-download-share.php:25
+#: inc/widgets/_widgets/class-widget-price-option.php:20
+msgid "Description:"
+msgstr "Omschrijving:"
+
+#: inc/integrations/jetpack/widgets/class-widget-download-share.php:11
+msgid "Marketify - %s Sidebar: Sharing"
+msgstr "Marketify - %s Sidebar: Delen"
+
+#: inc/integrations/jetpack/widgets/class-widget-download-share.php:9
+msgid "Display sharing options for this product."
+msgstr "Toon opties om dit product te delen."
+
+#: inc/integrations/jetpack/widgets/class-widget-download-share.php:6
+msgid "Download"
+msgstr "Download"
+
+#: inc/integrations/facetwp/class-facetwp.php:94
+msgid "Price (Lowest)"
+msgstr "Prijs (laagst)"
+
+#: inc/integrations/facetwp/class-facetwp.php:85
+msgid "Price (Highest)"
+msgstr "Prijs (hoogst)"
+
+#: inc/integrations/facetwp/class-facetwp.php:76
+msgid "Sales (Fewest)"
+msgstr "Verkopen (minste)"
+
+#: inc/integrations/facetwp/class-facetwp.php:67
+msgid "Sales (Most)"
+msgstr "Verkopen (meeste)"
+
+#: inc/integrations/edd-recommended-products/class-edd-recommended-products.php:49
+msgid "Recommended Products"
+msgstr "Aanbevolen producten"
+
+#: inc/integrations/edd-product-reviews/widgets/class-widget-download-review-details.php:9
+msgid "Marketify - %1$s: Review Details"
+msgstr "Marketify - %1$s: Details beoordeling"
+
+#: inc/integrations/edd-product-reviews/widgets/class-widget-download-review-details.php:7
+msgid "Display average review information."
+msgstr "Toon gemiddelde beoordelingsinformatie"
+
+#: inc/integrations/edd-product-reviews/class-edd-product-reviews-walker.php:124
+msgid "Your review is awaiting moderation."
+msgstr "De beoordeling wacht op accordering"
+
+#: inc/integrations/edd-product-reviews/class-edd-product-reviews-walker.php:117
+msgid "Reply"
+msgstr "Beantwoorden"
+
+#: inc/integrations/edd-product-reviews/class-edd-product-reviews-walker.php:80
+msgid "Verified Purchase"
+msgstr "Geverifieerde bestelling"
+
+#: inc/integrations/edd-fes/widgets/class-widget-vendor.php:9
+msgid "Marketify - Vendor: Name + Avatar"
+msgstr "Marketify - Handelaar: Naam en afbeelding"
+
+#: inc/integrations/edd-fes/widgets/class-widget-vendor.php:7
+msgid "Display the vendor avatar and extra information."
+msgstr "Toon afbeelding en extra informatie van handelaar."
+
+#: inc/integrations/edd-fes/widgets/class-widget-vendor-description.php:18
+#: inc/integrations/edd-fes/widgets/class-widget-vendor.php:18
+msgid "This widget has no options"
+msgstr "Deze widget heeft geen instellingen."
+
+#: inc/integrations/edd-fes/widgets/class-widget-vendor-description.php:9
+msgid "Marketify - Vendor: Biography"
+msgstr "Marketify - Handelaar: Biografie"
+
+#: inc/integrations/edd-fes/widgets/class-widget-vendor-description.php:7
+msgid "Display the vendor description."
+msgstr "Toon beschrijving van handelaar"
+
+#: inc/integrations/edd-fes/widgets/class-widget-vendor-contact.php:18
+msgid "This widget has no options."
+msgstr "Deze widget heeft geen instellingen."
+
+#: inc/integrations/edd-fes/widgets/class-widget-vendor-contact.php:13
+#: inc/integrations/edd-fes/widgets/class-widget-vendor-description.php:13
+#: inc/integrations/edd-fes/widgets/class-widget-vendor.php:13
+msgid "Download Sidebar"
+msgstr ""
+
+#: inc/integrations/edd-fes/widgets/class-widget-vendor-contact.php:9
+msgid "Marketify - Vendor: Contact"
+msgstr "Marketify - Handelaar: Contact"
+
+#: inc/integrations/edd-fes/widgets/class-widget-vendor-contact.php:7
+msgid "Display the vendor contact form."
+msgstr "Toon contactformulier voor handelaar"
+
+#: inc/integrations/edd-fes/widgets/class-widget-product-details.php:9
+msgid "Marketify - %1$s: Meta"
+msgstr "Marketify - %1$s: Meta"
+
+#: inc/integrations/edd-fes/widgets/class-widget-product-details.php:7
+msgid "Output specificed submission form fields."
+msgstr "Output gespecificeerd door formuliervelden."
+
+#: inc/integrations/edd-fes/class-edd-fes-widgets.php:19
+#: inc/integrations/edd-fes/widgets/class-widget-vendor-contact.php:13
+#: inc/integrations/edd-fes/widgets/class-widget-vendor-description.php:13
+#: inc/integrations/edd-fes/widgets/class-widget-vendor.php:13
+msgid "Vendor Sidebar"
+msgstr "Sidebar voor handelaren"
+
+#: inc/integrations/edd-fes/class-edd-fes-vendors.php:31
+msgid "View all %s by %s"
+msgstr "Alle %s van %s bekijken"
+
+#: inc/integrations/edd-fes/class-edd-fes-vendors.php:28
+#: inc/template/class-template-entry.php:17
+msgid "<span class=\"byline\"> by %1$s</span>"
+msgstr "<span class=\"byline\"> van %1$s</span>"
+
+#: inc/integrations/edd/widgets/class-widget-downloads-taxonomy-stylized.php:28
+msgid "Tag"
+msgstr "Tag"
+
+#: inc/integrations/edd/widgets/class-widget-downloads-taxonomy-stylized.php:27
+msgid "Category"
+msgstr "Categorie"
+
+#: inc/integrations/edd/widgets/class-widget-downloads-taxonomy-stylized.php:25
+msgid "Taxonomy:"
+msgstr "Taxonomie:"
+
+#: inc/integrations/edd/widgets/class-widget-downloads-taxonomy-stylized.php:16
+msgid "Marketify - Home: Taxonomy"
+msgstr "Marketify - Start: Taxonomie"
+
+#: inc/integrations/edd/widgets/class-widget-downloads-taxonomy-stylized.php:14
+msgid "Display a taxonomy in a styled way."
+msgstr "Toon taxonomie met opmaak."
+
+#: inc/integrations/edd/widgets/class-widget-downloads-recent.php:13
+msgid "Widgetized Page or Home"
+msgstr "Pagina met widgets of Startpagina"
+
+#: inc/integrations/edd/widgets/class-widget-downloads-recent.php:9
+msgid "Marketify - Page: Recent %s"
+msgstr "Marketify - Pagina: Nieuw %s"
+
+#: inc/integrations/edd/widgets/class-widget-downloads-recent.php:7
+msgid "Display recent %s in a grid."
+msgstr "Toon Nieuw %s in een rooster."
+
+#: inc/integrations/edd/widgets/class-widget-downloads-featured-popular.php:69
+msgid "Popular"
+msgstr "Populair"
+
+#: inc/integrations/edd/widgets/class-widget-downloads-featured-popular.php:68
+msgid "Featured"
+msgstr "In het voetlicht"
+
+#: inc/integrations/edd/widgets/class-widget-downloads-featured-popular.php:43
+msgid "Featured Title:"
+msgstr "Titel In het voetlicht"
+
+#: inc/integrations/edd/widgets/class-widget-downloads-featured-popular.php:34
+msgid "Slideshow Speed (ms)"
+msgstr "Snelheid diashow (ms)"
+
+#: inc/integrations/edd/widgets/class-widget-downloads-featured-popular.php:29
+msgid "Automatically scroll items"
+msgstr "Automatisch scrollen door items"
+
+#: inc/integrations/edd/widgets/class-widget-downloads-featured-popular.php:24
+#: inc/integrations/edd/widgets/class-widget-downloads-recent.php:26
+#: inc/widgets/_widgets/class-widget-blog-posts.php:26
+msgid "Number to display:"
+msgstr "Aantal te tonen:"
+
+#: inc/integrations/edd/widgets/class-widget-downloads-featured-popular.php:16
+msgid "Popular Title:"
+msgstr "Titel voor Populair:"
+
+#: inc/integrations/edd/widgets/class-widget-downloads-featured-popular.php:11
+msgid "Marketify - Page:  Featured &amp; Popular %s"
+msgstr "Marketify - Pagina:  In het voetlicht &amp; Popular %s"
+
+#: inc/integrations/edd/widgets/class-widget-downloads-featured-popular.php:9
+msgid "Display featured and popular %s in sliding grid."
+msgstr "Toon \"In het voetlicht\" en \"Polulair\"%s in een verschuifbaar raster."
+
+#: inc/integrations/edd/widgets/class-widget-downloads-curated.php:28
+#: inc/integrations/edd/widgets/class-widget-downloads-recent.php:31
+msgid "Columns:"
+msgstr "Kolommen:"
+
+#: inc/integrations/edd/widgets/class-widget-downloads-curated.php:23
+msgid "%s IDs: (comma separated)"
+msgstr "%s IDs: (komma als scheidingsteken)"
+
+#: inc/integrations/edd/widgets/class-widget-downloads-curated.php:9
+msgid "Marketify - Page: Curated %s"
+msgstr "Marketify - Pagina: Curated %s"
+
+#: inc/integrations/edd/widgets/class-widget-downloads-curated.php:7
+msgid "Display curated %s in a grid."
+msgstr ""
+
+#: inc/integrations/edd/widgets/class-widget-download-details.php:85
+#: inc/setup/_importer/ContentImporter.php:87
+msgid "Comment"
+msgid_plural "Comments"
+msgstr[0] "Reactie"
+msgstr[1] "Reacties"
+
+#: inc/integrations/edd/widgets/class-widget-download-details.php:68
+#: inc/integrations/edd-fes/widgets/class-widget-vendor.php:41
+msgid "Author since: %s"
+msgstr "Deelnemer sinds: %s"
+
+#: inc/integrations/edd/widgets/class-widget-download-details.php:23
+msgid "Hide purchase count"
+msgstr "Verberg aantal in bestelling"
+
+#: inc/integrations/edd/widgets/class-widget-download-details.php:9
+msgid "Marketify - %1$s: About"
+msgstr "Marketify - %1$s: Over"
+
+#: inc/integrations/edd/widgets/class-widget-download-details.php:7
+msgid "Display information related to the current download"
+msgstr "Toon informatie bij de huidige download"
+
+#: inc/integrations/edd/widgets/class-widget-download-archive-sorting.php:63
+msgid "DESC"
+msgstr "Oplopend"
+
+#: inc/integrations/edd/widgets/class-widget-download-archive-sorting.php:58
+msgid "ASC"
+msgstr "Aflopend"
+
+#: inc/integrations/edd/widgets/class-widget-download-archive-sorting.php:44
+msgid "Sort by"
+msgstr "Sorteeer op"
+
+#: inc/integrations/edd/widgets/class-widget-download-archive-sorting.php:18
+#: inc/integrations/edd/widgets/class-widget-download-details.php:18
+#: inc/integrations/edd/widgets/class-widget-downloads-curated.php:18
+#: inc/integrations/edd/widgets/class-widget-downloads-recent.php:18
+#: inc/integrations/edd-fes/widgets/class-widget-product-details.php:18
+#: inc/integrations/edd-product-reviews/widgets/class-widget-download-review-details.php:14
+#: inc/integrations/jetpack/widgets/class-widget-download-share.php:20
+#: inc/widgets/_widgets/class-widget-blog-posts.php:18
+#: inc/widgets/_widgets/class-widget-feature-callout.php:79
+#: inc/widgets/_widgets/class-widget-price-table.php:18
+msgid "Title:"
+msgstr "Titel:"
+
+#: inc/integrations/edd/widgets/class-widget-download-archive-sorting.php:9
+msgid "Marketify - Shop: Download Sorting"
+msgstr "Marketify - Shop: Sortering van downloads"
+
+#: inc/integrations/edd/widgets/class-widget-download-archive-sorting.php:7
+msgid "Display a way to sort the current product archives."
+msgstr "Toon een manier om de productarchieven te sorteren"
+
+#: inc/integrations/edd/class-edd-widgets.php:45
+msgid "%s Comments Sidebar"
+msgstr "%s reacties sidebar"
+
+#: inc/integrations/edd/class-edd-widgets.php:36
+#: inc/integrations/edd/widgets/class-widget-download-details.php:13
+#: inc/integrations/edd-fes/widgets/class-widget-product-details.php:13
+#: inc/integrations/jetpack/widgets/class-widget-download-share.php:15
+msgid "%s Sidebar"
+msgstr "%s sidebar"
+
+#: inc/integrations/edd/class-edd-widgets.php:27
+msgid "Shop Sidebar"
+msgstr "Sidebar"
+
+#: inc/integrations/edd/class-edd-template-purchase-form.php:33
+#: inc/integrations/edd/widgets/class-widget-download-details.php:78
+msgid "Purchase"
+msgstr "Kopen"
+
+#: inc/integrations/edd/class-edd-template-navigation.php:30
+msgid "Checkout"
+msgstr "Afronden"
+
+#: inc/integrations/edd/class-edd-template-download.php:75
+msgid "Demo"
+msgstr "Demo"
+
+#: inc/integrations/edd/class-edd-sorting.php:23
+msgid "Sales"
+msgstr "Aanbiedingen"
+
+#: inc/integrations/edd/class-edd-sorting.php:22
+msgid "Price"
+msgstr "Prijs"
+
+#: inc/integrations/edd/class-edd-sorting.php:20
+msgid "Date"
+msgstr "Datum"
+
+#: inc/integrations/edd/class-edd-shortcode.php:95
+#: inc/template/class-template-pagination.php:12
+msgid "Next"
+msgstr "Volgende"
+
+#: inc/integrations/edd/class-edd-shortcode.php:94
+#: inc/template/class-template-pagination.php:11
+msgid "Previous"
+msgstr "Vorige"
+
+#: inc/integrations/edd/class-edd-popular.php:88
+msgid "Popular %s"
+msgstr "Populair %s"
+
+#: inc/integrations/edd/class-edd-popular.php:86
+#: inc/integrations/edd/class-edd-popular.php:96
+msgid "Popular in %s"
+msgstr "Populair in %s"
+
+#: inc/integrations/edd/class-edd-metaboxes.php:17
+msgid "%s Demo URL"
+msgstr "%s Demo-URL"
+
+#: inc/integrations/edd/class-edd-metaboxes.php:16
+msgid "%s Audio URL"
+msgstr "%s audio URL"
+
+#: inc/integrations/edd/class-edd-metaboxes.php:15
+msgid "%s Video URL"
+msgstr "%s Video-URL"
+
+#: inc/integrations/bbpress/class-bbpress.php:14
+#: inc/integrations/edd/widgets/class-widget-downloads-curated.php:13
+#: inc/integrations/edd/widgets/class-widget-downloads-featured-popular.php:54
+#: inc/integrations/edd/widgets/class-widget-downloads-taxonomy-stylized.php:20
+#: inc/widgets/_widgets/class-widget-blog-posts.php:13
+#: inc/widgets/_widgets/class-widget-price-table.php:13
+#: inc/widgets/class-widgets.php:42
+msgid "Home"
+msgstr "Startpagina"
+
+#: inc/customizer/controls/class-controls-footer.php:27
+msgid "Set a color in \"Appearance &rarr; Colors\""
+msgstr "Stel kleur in bij \"Verschijnen &rarr; kleuren\""
+
+#: inc/customizer/controls/class-controls-footer.php:24
+msgid "Color"
+msgstr "Kleur"
+
+#: inc/customizer/controls/class-controls-footer.php:23
+msgid "Transparent"
+msgstr "Transparent"
+
+#: inc/customizer/controls/class-controls-footer.php:20
+msgid "Background"
+msgstr "Achtergrond"
+
+#: inc/customizer/controls/class-controls-downloads-behavior.php:32
+msgid "Use these labels to create updated permalinks. Visit <a href=\"%s\">Settings &rarr; Permalinks</a> once saved."
+msgstr "Gebruik deze labels om bijgewerkte permalinks te genereren Ga daarna naar <a href=\"%s\">Instellingen &rarr; permalinks</a>."
+
+#: inc/customizer/controls/class-controls-downloads-behavior.php:30
+msgid "Generate Permalinks"
+msgstr "Genereer permalinks"
+
+#: inc/customizer/controls/class-controls-downloads-behavior.php:25
+msgid "Plural Download Label"
+msgstr "Label downloads"
+
+#: inc/customizer/controls/class-controls-downloads-behavior.php:20
+msgid "Singular Download Label"
+msgstr "Label download "
+
+#: inc/customizer/controls/class-controls-download-single-video.php:33
+msgid "Below Video Player"
+msgstr "Onder videospeler"
+
+#: inc/customizer/controls/class-controls-download-single-video.php:20
+msgid "Video Location"
+msgstr "Locatie video"
+
+#: inc/customizer/controls/class-controls-download-single-standard.php:20
+msgid "Image Gallery Location"
+msgstr "Locatie afbeeldingenbibliotheek"
+
+#: inc/customizer/controls/class-controls-download-single-audio.php:34
+#: inc/customizer/controls/class-controls-download-single-standard.php:33
+#: inc/customizer/controls/class-controls-download-single-video.php:34
+msgid "None"
+msgstr "Geen"
+
+#: inc/customizer/controls/class-controls-download-single-audio.php:33
+msgid "Below Audio Player"
+msgstr "Onder audiospeler"
+
+#: inc/customizer/controls/class-controls-download-single-audio.php:32
+#: inc/customizer/controls/class-controls-download-single-standard.php:32
+#: inc/customizer/controls/class-controls-download-single-video.php:32
+msgid "Header Background"
+msgstr "Achtergrond header"
+
+#: inc/customizer/controls/class-controls-download-single-audio.php:29
+#: inc/customizer/controls/class-controls-download-single-standard.php:29
+#: inc/customizer/controls/class-controls-download-single-video.php:29
+msgid "Featured Image Display"
+msgstr "Afbeelding In het voetlicht"
+
+#: inc/customizer/controls/class-controls-download-single-audio.php:24
+#: inc/customizer/controls/class-controls-download-single-standard.php:24
+#: inc/customizer/controls/class-controls-download-single-video.php:24
+msgid "Page Content"
+msgstr "Pagina inhoud"
+
+#: inc/customizer/controls/class-controls-download-single-audio.php:23
+#: inc/customizer/controls/class-controls-download-single-standard.php:23
+#: inc/customizer/controls/class-controls-download-single-video.php:23
+msgid "Page Header"
+msgstr "Pagina header"
+
+#: inc/customizer/controls/class-controls-download-single-audio.php:20
+msgid "Audio Player Location"
+msgstr "Locatie audiospeler"
+
+#: inc/customizer/controls/class-controls-download-archives.php:51
+msgid "Never"
+msgstr "Nooit"
+
+#: inc/customizer/controls/class-controls-download-archives.php:50
+msgid "Always"
+msgstr "Altijd"
+
+#: inc/customizer/controls/class-controls-download-archives.php:49
+msgid "Auto"
+msgstr "Automatisch"
+
+#: inc/customizer/controls/class-controls-download-archives.php:47
+msgid "<strong>Always</strong> will display on featured and popular sliders."
+msgstr "<strong>Altijd</strong> wordt getoond bij sliders \"in het voetlicht' en \"populair\""
+
+#: inc/customizer/controls/class-controls-download-archives.php:45
+msgid "Display Titles & Meta"
+msgstr "Toon titels en metadata"
+
+#: inc/customizer/controls/class-controls-download-archives.php:41
+msgid "Truncate item titles"
+msgstr "Titels afkappen"
+
+#: inc/customizer/controls/class-controls-download-archives.php:37
+msgid "Display excerpt below title"
+msgstr "Toon samenvatting onder titel"
+
+#: inc/customizer/controls/class-controls-download-archives.php:33
+msgid "Display \"Popular Items\" above results"
+msgstr "Toon \"Populaire items\" boven resultaten"
+
+#: inc/customizer/controls/class-controls-download-archives.php:29
+msgid "Can be overwritten by passing <code>columns</code> to the <code>[downloads]</code> shortcode. Max 4"
+msgstr "Kan worden overschreden door de code  <code>columns</code> toe te voegen aan de <code>[downloads]</code> shortcode. Max. 4."
+
+#: inc/customizer/controls/class-controls-download-archives.php:26
+msgid "Number of Columns"
+msgstr "Aantal kolommen"
+
+#: inc/customizer/controls/class-controls-download-archives.php:22
+msgid "Can be overwritten by passing <code>number</code> to the <code>[downloads]</code> shortcode"
+msgstr "Kan worden overschreven door <code>number</code> door te sturen naar de <code>[downloads]</code> shortcode"
+
+#: inc/customizer/controls/class-controls-download-archives.php:20
+msgid "%s Per Page"
+msgstr "%s per pagina"
+
+#: inc/customizer/controls/class-controls-copyright.php:24
+msgid "Logo"
+msgstr "Logo"
+
+#: inc/customizer/controls/class-controls-copyright.php:20
+msgid "Display \"Copyright\" Section"
+msgstr "Toon \"Copyright\" sectie"
+
+#: inc/customizer/controls/class-controls-contact-us.php:30
+msgid "Contact Address/Information"
+msgstr "Adresgegevens / Contactinformatie"
+
+#: inc/customizer/controls/class-controls-contact-us.php:25
+#: inc/integrations/edd/class-edd-sorting.php:21
+msgid "Title"
+msgstr "Titel"
+
+#: inc/customizer/controls/class-controls-contact-us.php:20
+msgid "Display \"Contact Us\" Section"
+msgstr "Toon \"Neem contact op\" sectie"
+
+#: inc/customizer/controls/class-controls-colors.php:35
+msgid "Footer Background Color"
+msgstr "Achtergrondkleur footer"
+
+#: inc/customizer/controls/class-controls-colors.php:30
+msgid "Accent Color"
+msgstr "Accentkleur"
+
+#: inc/customizer/controls/class-controls-colors.php:25
+msgid "Primary Color"
+msgstr "Primaire kleur"
+
+#: inc/customizer/controls/class-controls-colors.php:20
+msgid "Page Header Background Color"
+msgstr "Achtergrondkleur pagina header"
+
+#: inc/customizer/class-customizer-panels.php:113
+msgid "Header & Navigation Text Color"
+msgstr "Kleur header en navigatie tekst"
+
+#: inc/customizer/class-customizer-panels.php:112
+msgid "Site Logo"
+msgstr "Site logo"
+
+#: inc/customizer/class-customizer-panels.php:64
+#: inc/customizer/controls/class-controls-copyright.php:29
+msgid "Copyright"
+msgstr "Copyright"
+
+#: inc/customizer/class-customizer-panels.php:61
+msgid "Contact Us"
+msgstr "Neem contact met ons op"
+
+#: inc/customizer/class-customizer-panels.php:51
+msgid "Video %s"
+msgstr "Video %s"
+
+#: inc/customizer/class-customizer-panels.php:48
+msgid "Audio %s"
+msgstr "Audio %s"
+
+#: inc/customizer/class-customizer-panels.php:45
+msgid "Standard %s"
+msgstr "Standaard %s"
+
+#: inc/customizer/class-customizer-panels.php:42
+#: inc/integrations/edd/widgets/class-widget-download-archive-sorting.php:13
+msgid "Shop"
+msgstr "Winkel"
+
+#: inc/customizer/class-customizer-panels.php:39
+msgid "Labels & Behavior"
+msgstr "Labels en gedrag"
+
+#: inc/customizer/class-customizer-panels.php:28
+#: inc/customizer/class-customizer-panels.php:58
+msgid "Footer"
+msgstr "Footer"
+
+#: inc/customizer/class-customizer-panels.php:25
+msgid "Colors"
+msgstr "Kleuren"
+
+#: inc/customizer/class-customizer-panels.php:22
+msgid "Appearance"
+msgstr "Verschijning"
+
+#: inc/customizer/class-customizer-panels.php:16
+msgid "General"
+msgstr "Algemeen"
+
+#: header.php:41
+msgid "Menu"
+msgstr "Menu"
+
+#: edd_templates/shortcode-content-image.php:20
+msgid "Item Price: %s"
+msgstr "Artikelprijs: %s"
+
+#: edd_templates/shortcode-content-image.php:18
+msgid "Details"
+msgstr "Details"
+
+#: content-single-download.php:10
+msgid "About the %s"
+msgstr "Over de %s"
+
+#: content-page.php:14 content-single-download.php:23 content-single.php:13
+msgid "Pages:"
+msgstr "Pagina's:"
+
+#: content-grid.php:15
+msgid "Read More"
+msgstr "Lees Verder"
+
+#: content-entry-meta.php:25 content-single.php:21
+#: inc/integrations/edd-product-reviews/class-edd-product-reviews-walker.php:109
+#: inc/template/class-template-comments.php:51
+msgid "Edit"
+msgstr "Bewerken"
+
+#: content-entry-meta.php:22 content-grid.php:16
+msgid "% Comments"
+msgstr "% reacties"
+
+#: content-entry-meta.php:22 content-grid.php:16
+msgid "1 Comment"
+msgstr "1 reactie"
+
+#: content-entry-meta.php:22 content-grid.php:16
+msgid "0 Comments"
+msgstr "0 reacties"
+
+#: content-entry-meta.php:12 inc/template/class-template-entry.php:20
+#: page-templates/team.php:57
+msgid "View all posts by %s"
+msgstr "Bekijk alle posts van %s"
+
+#: content-entry-meta.php:9
+msgid "<span class=\"byline\">%1$s</span>"
+msgstr "<span class=\"byline\">%1$s</span>"
+
+#: comments.php:43
+msgid "Newer Comments"
+msgstr "Nieuwere reacties"
+
+#: comments.php:42
+msgid "Older Comments"
+msgstr "Oudere reacties"
+
+#: comments.php:41
+msgid "Comment navigation"
+msgstr "Reactienavigatie"
+
+#: comments.php:28 inc/setup/_importer/ContentImporter.php:87
+msgid "Comments"
+msgstr "Reacties"
+
+#: bbpress/form-search.php:15 searchform-header.php:11 searchform.php:27
+msgid "Search for:"
+msgstr "Zoeken op:"
+
+#: bbpress/form-search.php:15 inc/template/class-template-navigation.php:19
+#: searchform-header.php:11 searchform-header.php:14 searchform.php:27
+msgid "Search"
+msgstr "Zoeken"
+
+#: 404.php:31
+msgid "Most Used Categories"
+msgstr "Meestgebruikte categorieën"
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Het lijkt erop dat er niks is op deze locatie. Je kunt één van de links hieronder of een zoekopdracht proberen."

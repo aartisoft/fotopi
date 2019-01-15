@@ -1,0 +1,15 @@
+.team-member {
+    text-align: center;
+}
+
+.team-member__byline {
+    @extend .item-title;
+    margin: 1em 0;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.team-member__description {
+}

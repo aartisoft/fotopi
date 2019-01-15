@@ -1,0 +1,12 @@
+.download-header__info {
+	.edd-cp-container {
+		color: #fff;
+	}
+}
+
+.content-grid-download {
+	.edd-cp-container,
+	.edd-cp-container + .edd_purchase_submit_wrapper {
+		display: none;
+	}
+}

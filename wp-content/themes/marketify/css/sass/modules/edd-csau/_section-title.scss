@@ -1,0 +1,12 @@
+.entry-content .edd-csau-products h2, 
+.edd-csau-products h2 {
+	@extend .section-title;
+	margin: 0 15px 3em;
+	padding: 0;
+
+	span {
+		@extend .section-title__inner;
+		margin: 0 auto;
+		width: auto;
+	}
+}

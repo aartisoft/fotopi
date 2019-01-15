@@ -1,0 +1,10 @@
+.single-format-video iframe {
+	display: block;
+}
+
+.content-area .download-video {
+	iframe,
+	.wp-video {
+		width: 100% !important;
+	}
+}

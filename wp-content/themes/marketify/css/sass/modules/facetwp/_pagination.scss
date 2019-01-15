@@ -1,0 +1,16 @@
+.facetwp-template + #edd_download_pagination {
+	display: none;
+}
+
+.facetwp-pager:not(:empty) {
+	margin: 3em auto 0;
+	text-align: center;
+
+	.facetwp-page {
+		@extend .page-numbers;
+
+		&.active {
+			@extend .page-numbers--current;
+		}
+	}
+}

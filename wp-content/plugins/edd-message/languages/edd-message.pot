@@ -1,0 +1,335 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Digital Downloads - Message\n"
+"POT-Creation-Date: 2017-01-12 12:00-0500\n"
+"PO-Revision-Date: 2016-09-06 12:34-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: edd-message.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/admin/class-email-logs-list-table.php:103
+msgid "View"
+msgstr ""
+
+#: includes/admin/class-email-logs-list-table.php:120
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/class-email-logs-list-table.php:133
+msgid "Log ID"
+msgstr ""
+
+#: includes/admin/class-email-logs-list-table.php:134
+msgid "Sent by"
+msgstr ""
+
+#: includes/admin/class-email-logs-list-table.php:135
+msgid "Recipient"
+msgstr ""
+
+#: includes/admin/class-email-logs-list-table.php:136
+msgid "Subject"
+msgstr ""
+
+#: includes/admin/class-email-logs-list-table.php:137
+#: includes/integrations/fes/frontend.php:38
+msgid "Message"
+msgstr ""
+
+#: includes/admin/class-email-logs-list-table.php:138
+msgid "Date"
+msgstr ""
+
+#: includes/admin/customer.php:23 includes/admin/customer.php:63
+#: includes/logging.php:114
+msgid "Messages"
+msgstr ""
+
+#: includes/admin/customer.php:79
+msgid "Choose one or more email addresses"
+msgstr ""
+
+#: includes/admin/customer.php:91
+msgid "More fields"
+msgstr ""
+
+#: includes/admin/customer.php:97 includes/integrations/fes/frontend.php:139
+msgid "From name: "
+msgstr ""
+
+#: includes/admin/customer.php:104
+#: includes/integrations/fes/frontend.php:149
+msgid "From email: "
+msgstr ""
+
+#: includes/admin/customer.php:111
+#: includes/integrations/fes/frontend.php:159
+msgid "Reply to: "
+msgstr ""
+
+#: includes/admin/customer.php:118
+#: includes/integrations/fes/frontend.php:169
+msgid "CC: "
+msgstr ""
+
+#: includes/admin/customer.php:125
+#: includes/integrations/fes/frontend.php:179
+msgid "BCC: "
+msgstr ""
+
+#: includes/admin/customer.php:136
+#: includes/integrations/fes/frontend.php:188
+msgid "Subject: "
+msgstr ""
+
+#: includes/admin/customer.php:142
+#: includes/integrations/fes/frontend.php:195
+msgid "Message:"
+msgstr ""
+
+#: includes/admin/customer.php:151 includes/functions.php:139
+msgid "Attachments:"
+msgstr ""
+
+#: includes/admin/customer.php:173
+msgid "Upload or enter the file URL"
+msgstr ""
+
+#: includes/admin/customer.php:178
+msgid "Insert File"
+msgstr ""
+
+#: includes/admin/customer.php:179
+msgid "Insert"
+msgstr ""
+
+#: includes/admin/customer.php:181
+msgid "Upload a File"
+msgstr ""
+
+#: includes/admin/customer.php:190
+msgid "Remove file option 1"
+msgstr ""
+
+#: includes/admin/customer.php:197
+msgid "Add New File"
+msgstr ""
+
+#: includes/admin/customer.php:207 includes/integrations/fes/frontend.php:63
+#: includes/integrations/fes/frontend.php:214
+msgid "Send message"
+msgstr ""
+
+#: includes/admin/settings.php:16
+msgid "EDD Message"
+msgstr ""
+
+#: includes/admin/settings.php:35
+msgid "Message Settings"
+msgstr ""
+
+#: includes/admin/settings.php:40
+msgid "Logging"
+msgstr ""
+
+#: includes/admin/settings.php:41
+msgid "Select the types of messages you wish to save a record of."
+msgstr ""
+
+#: includes/admin/settings.php:47
+msgid "Administrator direct to customers"
+msgstr ""
+
+#: includes/admin/settings.php:48
+msgid "Purchase receipts"
+msgstr ""
+
+#: includes/class.extension-activation.php:47
+msgid "This plugin"
+msgstr ""
+
+#: includes/class.extension-activation.php:84
+msgid "activate it"
+msgstr ""
+
+#: includes/class.extension-activation.php:87
+msgid "install it"
+msgstr ""
+
+#: includes/class.extension-activation.php:90
+#, php-format
+msgid " requires Easy Digital Downloads! Please %s to continue!"
+msgstr ""
+
+#: includes/functions.php:93
+msgid "To:"
+msgstr ""
+
+#: includes/functions.php:105
+msgid "From:"
+msgstr ""
+
+#: includes/functions.php:112
+msgid "Reply to:"
+msgstr ""
+
+#: includes/functions.php:119
+msgid "CC:"
+msgstr ""
+
+#: includes/functions.php:126
+msgid "BCC:"
+msgstr ""
+
+#: includes/functions.php:132
+msgid "Message body:"
+msgstr ""
+
+#: includes/functions.php:198 includes/integrations/fes/frontend.php:280
+msgid "Cheatin' eh?!"
+msgstr ""
+
+#: includes/functions.php:202
+msgid "A message is required"
+msgstr ""
+
+#: includes/integrations/fes/backend.php:43
+msgid "Message Vendor"
+msgstr ""
+
+#: includes/integrations/fes/backend.php:74
+msgid "Disable vendor messaging"
+msgstr ""
+
+#: includes/integrations/fes/backend.php:75
+msgid ""
+"Check this to remove the messaging functionality from the vendor dashboard."
+msgstr ""
+
+#: includes/integrations/fes/backend.php:81
+msgid "Disable vendor messaging fields"
+msgstr ""
+
+#: includes/integrations/fes/backend.php:84
+msgid "From Email"
+msgstr ""
+
+#: includes/integrations/fes/backend.php:85
+msgid "From Name"
+msgstr ""
+
+#: includes/integrations/fes/backend.php:86
+msgid "Reply To"
+msgstr ""
+
+#: includes/integrations/fes/backend.php:87
+msgid "CC"
+msgstr ""
+
+#: includes/integrations/fes/backend.php:88
+msgid "BCC"
+msgstr ""
+
+#: includes/integrations/fes/backend.php:89
+#: includes/integrations/fes/frontend.php:110
+msgid "Attachments"
+msgstr ""
+
+#: includes/integrations/fes/frontend.php:130
+msgid "To: "
+msgstr ""
+
+#: includes/integrations/fes/frontend.php:233
+msgid "A recipient is required."
+msgstr ""
+
+#: includes/integrations/fes/frontend.php:244
+msgid "A message is required."
+msgstr ""
+
+#: includes/integrations/fes/frontend.php:255
+msgid "A subject is required."
+msgstr ""
+
+#: includes/integrations/fes/frontend.php:309
+msgid "Message sent successfully."
+msgstr ""
+
+#: includes/integrations/fes/logging.php:15
+msgid "Vendor messages to customers"
+msgstr ""
+
+#: includes/integrations/fes/logging.php:16
+msgid "Customer messages to vendors"
+msgstr ""
+
+#: includes/integrations/fes/logging.php:40
+msgid "Message from "
+msgstr ""
+
+#: includes/integrations/s3/s3.php:20
+msgid "Upload to Amazon S3"
+msgstr ""
+
+#: includes/integrations/s3/s3.php:21
+msgid "Amazon S3 Library"
+msgstr ""
+
+#: includes/integrations/s3/s3.php:44
+msgid "Could not create temporary directory for attachment."
+msgstr ""
+
+#: includes/integrations/s3/s3.php:54
+msgid "The attachment from Amazon S3 could be not saved."
+msgstr ""
+
+#: includes/logging.php:86 includes/logging.php:88
+msgid "Close Message Window"
+msgstr ""
+
+#: includes/logging.php:159
+msgid "Message history"
+msgstr ""
+
+#: includes/logging.php:170
+msgid "Toggle panel:"
+msgstr ""
+
+#: includes/logging.php:246
+msgid "Could not get message."
+msgstr ""
+
+#: includes/logging.php:270 includes/scripts.php:42
+msgid "Could not delete message log."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Easy Digital Downloads - Message"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://realbigplugins.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"EDD Message adds powerful email messaging capabilities through which store "
+"owners can correspond with customers and vendors."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Kyle Maurer"
+msgstr ""

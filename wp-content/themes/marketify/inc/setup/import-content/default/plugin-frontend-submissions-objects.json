@@ -1,0 +1,11 @@
+[
+	{
+		"id": "fes-submission-form",
+		"type": "object",
+		"data": {
+			"post_title": "Submission Form",
+			"post_type": "fes-forms",
+			"form": [{"template":"post_title","public":"","required":"yes","label":"Name","name":"post_title","help":"Maximum 50 characters. Please follow our item title naming conventions.","css":"","size":"50"},{"template":"post_content","public":"","required":"yes","label":"Description","name":"post_content","help":"This field is used for search, so please be descriptive!","css":"","rows":"5","cols":"25","placeholder":"","default":"","rich":"yes","insert_image":"yes"},{"template":"featured_image","count":"1","public":"","required":"yes","label":"Preview Image","name":"featured_image","help":"","css":""},{"template":"download_category","required":"yes","label":"Category","name":"download_category","help":"","css":"","type":"checkbox","orderby":"name","order":"ASC","exclude_type":"exclude","exclude":""},{"template":"taxonomy","name":"taxonomy"},{"public":"","template":"multiple_pricing","required":"yes","label":"Prices and Files","name":"multiple","help":"","css":"","single":"no","prices":"yes","files":"yes","columns":[{"name":""},{"price":""}]},{"template":"post_excerpt","required":"yes","label":"Short description of product","name":"post_excerpt","help":"","css":"","rows":"5","cols":"25","placeholder":"","default":"","rich":"no","insert_image":"yes"},{"template":"date","public":"on","product_detail":"1","required":"yes","label":"Date Created","name":"date_created","help":"","css":"","format":"dd\/mm\/yy","time":"no"},{"template":"text","public":"on","product_detail":"1","required":"yes","label":"Licence","name":"license","help":"","css":"","size":"40"},{"template":"text","public":"on","product_detail":"1","required":"yes","label":"File Types","name":"file_types","help":"","css":"","size":"40"},{"template":"text","public":"on","product_detail":"1","required":"yes","label":"File Size","name":"file_size","help":"","css":"","size":"40"},{"template":"text","product_detail":"1","required":"no","label":"Documentation","name":"documentation","help":"","css":"","size":"40"},{"template":"url","required":"no","label":"Video URL","name":"video","help":"","css":"","size":"40"},{"template":"url","required":"no","label":"Demo URL","name":"demo","help":"","css":"","size":"40"}]
+		}
+	}
+]

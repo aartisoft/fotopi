@@ -1,0 +1,11 @@
+.edd-reviews-vendor-feedback-item {
+
+	h3,
+	h4 {
+		@extend .section-title;
+
+		a {
+			@extend .section-title__inner;
+		}
+	}
+}

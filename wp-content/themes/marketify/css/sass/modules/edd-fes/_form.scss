@@ -1,0 +1,31 @@
+.fes-form {
+	.fes-el,
+    fieldset {
+        margin: 0 0 2em;
+    }
+
+	legend {
+		display: none;
+	}
+
+    label {
+        margin-bottom: 5px;
+    }
+
+    .fes-help {
+        font-size: 80%;
+        display: block;
+        margin: 0 0 5px;
+    }
+}
+
+.fes-submit {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+#fes-save-as-draft,
+#fes-save-as-draft + .edd-submit {
+	width: 49%;
+}

@@ -1,0 +1,165 @@
+.widget {
+    a {
+        text-decoration: none;
+    }
+}
+
+.widget--blog {
+    margin-bottom: 4em;
+}
+
+.widget-title--blog {
+    @extend .section-title;
+
+    span {
+        @extend .section-title__inner;
+    }
+}
+
+.widget {
+    .edd-taxonomy-widget li:before,
+    &.widget_nav_menu li:before,
+    &.widget_recent_entries li:before,
+    &.widget_meta li:before,
+    &.widget_pages li:before,
+    &.widget_categories li:before,
+    &.widget_archive li:before {
+        @extend .ion;
+        content: $ionicon-var-ios-arrow-forward;
+        margin-right: 5px;
+    }
+}
+
+.widget ul,
+.widget ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+    ol,
+    ul {
+        list-style: initial;
+        list-style-position: inside;
+        margin: 0 0 0 1em;
+
+        li:before {
+            display: none !important;
+            margin-right: 0;
+        }
+    }
+
+}
+
+.widget--blog li {
+    margin: 5px 0;
+}
+
+/* Make sure select elements fit in widgets */
+.widget--blog select {
+	max-width: 100%;
+	min-width: 100%;
+}
+
+/** Related/Recent/ETC */
+.widget-related-entries,
+.widget-most-recent {
+	overflow: hidden;
+}
+
+.widget-related-entries li,
+.widget-most-recent li {
+	margin: 0 4% 4% 0;
+	float: left;
+	width: 29%;
+}
+
+.widget-related-entries .widget-download-title,
+.widget-most-recent .widget-download-title {
+	display: none;
+}
+
+.widget-related-entries li img,
+.widget-most-recent li img {
+	min-width: 100%;
+	height: auto;
+}
+
+/** Calendar */
+#wp-calendar {
+	margin: 0;
+	width: 100%;
+}
+
+#wp-calendar th,
+#wp-calendar td,
+#wp-calendar caption {
+	text-align: left;
+}
+
+#wp-calendar caption {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#wp-calendar #next {
+	padding-right: 24px;
+	text-align: right;
+}
+
+/** RSS */
+.widget_rss li {
+	margin-bottom: 20px;
+}
+
+.widget_rss li:before {
+	content: ' ';
+}
+
+.widget_rss li a {
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 0;
+}
+
+.widget_rss li a:hover {
+	background: none;
+}
+
+.widget_rss .rss-date {
+	font-size: 13px;
+	display: block;
+	margin: 5px 0;
+}
+
+/* Search widget */
+.search-form {
+	overflow: hidden;
+
+    .search-field {
+        @extend .item-title;
+        font-size: 15px;
+        color: $accent;
+        padding: 9px 10px;
+        border: 2px solid $accent;
+        background: #fff;
+        width: 87%;
+    }
+
+    .search-submit {
+        font-size: 21px;
+        color: #fff;
+        text-transform: uppercase;
+        text-align: center;
+        border: 0;
+        width: 13%;
+        float: right;
+        padding: 0;
+        height: 41px;
+        background-color: $accent;
+
+        &:before {
+            @extend .ion;
+            content: $ionicon-var-search;
+        }
+    }
+}

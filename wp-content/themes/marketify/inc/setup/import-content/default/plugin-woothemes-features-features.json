@@ -1,0 +1,62 @@
+[
+	{
+		"id": "feature-analytics",
+		"type": "object",
+		"data": {
+			"post_title": "Analytics",
+			"post_type": "feature",
+			"featured_image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/marketify-xml-images/feature-analytics.png",
+			"post_content": "These icons and text are fully customizable and can be placed anywhere on the page as it's a widget. Have the freedom to customize without touching code."
+		}
+	},
+	{
+		"id": "feature-customer-service",
+		"type": "object",
+		"data": {
+			"post_title": "Customer Service",
+			"post_type": "feature",
+			"featured_image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/marketify-xml-images/feature-customer-service.png",
+			"post_content": "Rest easy knowing real people are ready to help you. Everyone on our award-winning Customer Care team is an experienced Marketify user."
+		}
+	},
+	{
+		"id": "feature-human-reviews",
+		"type": "object",
+		"data": {
+			"post_title": "Human Reviews",
+			"post_type": "feature",
+			"featured_image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/marketify-xml-images/feature-humans-file-reviews.png",
+			"post_content": "We've meticulously reviewed Marketify to ensure its as bug free as possible. There's nothing is quite as fulfilling than making sure it just works."
+		}
+	},
+	{
+		"id": "feature-fully-responsive",
+		"type": "object",
+		"data": {
+			"post_title": "Fully Responsive",
+			"post_type": "feature",
+			"featured_image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/marketify-xml-images/feature-responsive.png",
+			"post_content": "Marketify is mobile-friendly with responsive functionality that allows users to fully utilize your website whatever the device."
+		}
+	},
+	{
+		"id": "feature-fast-and-easy-setup",
+		"type": "object",
+		"data": {
+			"post_title": "Fast and Easy Setup",
+			"post_type": "feature",
+			"featured_image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/marketify-xml-images/feature-easy-setup.png",
+			"post_content": "Famous for it’s five minute install, WordPress may be the part that takes the longest – installing the plugins and Marketify is fast and easy."
+		}
+	},
+	{
+		"id": "feature-frontend-submissions",
+		"type": "object",
+		"data": {
+			"post_title": "Frontend Submissions",
+			"post_type": "feature",
+			"featured_image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/marketify-xml-images/feature-frontend-submissions.png",
+			"post_content": "Want to allow users to submit their own products and earn a percentage of each sale just like ThemeForest? Marketify makes this easy!"
+		}
+	}
+]

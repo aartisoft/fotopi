@@ -1,0 +1,9 @@
+.widget--download-single {
+    border: 1px solid #bdc3c7;
+    margin: 0 0 3em;
+    padding: 25px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,11 @@
+.download-header__info {
+    margin: 2em 0;
+
+    @include bp(sm) {
+        margin: 3em 0;
+    }
+}
+
+.download-header__info .edd_price {
+	color: #fff;
+}

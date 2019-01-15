@@ -1,0 +1,75 @@
+.marketify-input,
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+textarea {
+	color: $body;
+	padding: 10px;
+	background: #fff;
+	border: 1px solid #bdc3c7;
+	width: 100%;
+	box-shadow: none;
+	border-radius: 0;
+    word-break: normal;
+
+    -webkit-appearance: none;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-siding:    border-box;
+	box-sizing:         border-box;
+}
+
+input:disabled {
+	opacity: .50;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+	outline: 0;
+}
+
+textarea {
+	vertical-align: top; 
+	width: 100%;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+    padding: 3px;
+    border: 6px solid #bcc3c8;
+    background: #fff;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-top: -4px;
+    cursor: pointer;
+    -webkit-appearance: none;
+
+    &:focus {
+        outline: 0;
+    }
+}
+
+::-webkit-input-placeholder {
+    color: gray;
+}
+
+::-moz-placeholder {
+   color: gray;
+   opacity: 1;
+}
+
+:-ms-input-placeholder {
+   color: gray;
+}
+
+:placeholder-shown { 
+  color: gray;
+}

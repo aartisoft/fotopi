@@ -1,0 +1,9 @@
+[
+	{
+		"id": "edd_settings",
+		"type": "setting",
+		"data": {
+			"fes-use-css": false
+		}
+	}
+]

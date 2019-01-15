@@ -1,0 +1,56 @@
+@import "checkout-cart";
+@import "checkout-discounts";
+
+#edd_checkout_cart_form,
+#edd_checkout_form_wrap {
+    margin-top: 3em;
+    margin-bottom: 3em;
+
+    &:first-child {
+        margin-top: 0;
+    }
+
+    fieldset,
+    fieldset fieldset {
+        border: 0;
+        padding: 0;
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+
+    fieldset#edd_terms_agreement {
+        margin: 0 0 1em;
+    }
+
+    label {
+      font-size: 100%;
+    }
+
+    p {
+      margin-bottom: 2em;
+    }
+}
+
+#edd_checkout_form_wrap fieldset#edd_cc_fields {
+    border: 0;
+    background: none;
+}
+
+// meh
+#edd_checkout_form_wrap input[type="radio"] {
+    border-width: 6px;
+    border-style: solid;
+    border-color: $accent;
+
+    &:checked {
+        border-color: $body;
+    }
+}
+
+.edd_terms_links {
+    @extend .button;
+}
+
+#edd_show_terms {
+    margin-bottom: 0.5em;
+}

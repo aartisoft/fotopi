@@ -1,0 +1,164 @@
+.no-backface {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	backface-visibility:         hidden;
+}
+
+.content-grid-download {
+	@extend .no-backface;
+	margin-bottom: 30px;
+
+	.edd_download_quantity_wrapper,
+	.edd-cart-ajax-alert,
+	.edd_purchase_tax_rate {
+		display: none;
+	}
+}
+
+.content-grid-download__entry-image {
+	position: relative;
+
+	a,
+	img {
+		display: block;
+	}
+
+	img {
+		min-width: 100%;
+	}
+
+	&:hover,
+	&.hover {
+		.content-grid-download__actions {
+			.item-price {
+				margin-top: 10px;
+				margin-bottom: 20px;
+			}
+		}
+
+		.content-grid-download__overlay {
+			opacity: 1;
+		}
+	}
+}
+
+.content-grid-download__overlay {
+	@extend .no-backface;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	z-index: 10;
+	background: transparent;
+	opacity: 0;
+	border: 1px solid transparent;
+	transition: all 0.3s;
+	display: flex;
+	align-items: center;
+}
+
+.content-grid-download__actions {
+	@extend .no-backface;
+	width: 100%;
+	transition: all 0.3s;
+
+	.button {
+		@extend .button--color-white;
+		margin: 2px 5px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.button,
+	.edd_download_purchase_form {
+		display: inline-block;
+		vertical-align: middle;
+		margin: 0 5px;
+	}
+
+	.item-price {
+		display: block;
+		width: 100%;
+		transition: all 0.25s;
+
+		span {
+			font-size: 13px;
+			font-weight: normal;
+			color: #fff;
+			padding-bottom: 10px;
+			border-bottom: 2px solid #fff;
+		}
+	}
+}
+
+.content-grid-download__entry-header {
+	padding: 15px 20px;
+	background: #fff;
+	border: 1px solid rgba(189, 195, 199, 0.38);
+	z-index: 10;
+	position: relative;
+	overflow: hidden;
+
+	.entry-title {
+		font-size: 16px;
+		font-weight: 400;
+		text-transform: none;
+		margin: 0;
+
+		&.truncated {
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+
+		a {
+			text-decoration: none;
+		}
+	}
+}
+
+.content-grid-download .entry-excerpt {
+	font-size: 90%;
+	line-height: 90%;
+	margin: 1em 0 0.5em;
+}
+
+.content-grid-download .entry-meta {
+	font-size: 13px;
+	margin-top: 0.5em;
+	clear: both;
+
+	&:empty {
+		display: none;
+	}
+}
+
+.content-grid-download .entry-meta a {
+	text-decoration: none;
+}
+
+.entry-meta .byline {
+	margin-top: 0.5em;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.byline img {
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 50%;
+	margin: -2px 0 0 4px;
+	width: 26px;
+	height: 26px;
+}
+
+.content-grid-download .entry-meta .star-rating {
+	float: right;
+}
+
+.edd_download_inner {
+	padding: 0;
+	margin: 0;
+}

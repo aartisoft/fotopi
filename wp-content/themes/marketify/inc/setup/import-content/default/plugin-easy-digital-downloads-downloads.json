@@ -1,0 +1,142 @@
+[
+	{
+		"id": "a-chemex-method",
+		"type": "object",
+		"data": {
+			"post_title": "A Chemex Method",
+			"post_type": "download",
+			"post_format": "video",
+			"featured_image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/marketify-xml-images/chemex-2.jpg",
+			"thumbnails": {
+				"download_grid-image_thumbnail_id": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/marketify-xml-images/chemex.jpg"
+			},
+			"price": "50.00",
+			"terms": {
+				"download_category": [ "bootstrap", "drupal", "ghost", "html", "joomla", "misc", "tumblr", "video" ]
+			},
+			"meta": {
+				"date_created": "9 Jul, 2013",
+				"license": "Creative Commons",
+				"file_types": ".mov",
+				"file_size": "84 MB",
+				"_edd_hide_purchase_link": true,
+				"edd_feature_download": true,
+				"video": "https://vimeo.com/17111307",
+				"edd_video": "https://vimeo.com/17111307"
+			},
+			"menus": [
+				{
+					"menu-item-parent-title": "Marketify Pages",
+					"menu-item-title": "Video Product Page",
+					"menu-item-position": 5,
+					"menu_name": "Primary"
+				}
+			]
+		}
+	},
+	{
+		"id": "beach-photo-pack",
+		"type": "object",
+		"data": {
+			"post_title": "Beach Photo Pack",
+			"post_type": "download",
+			"featured_image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/marketify-xml-images/beach-photos-2.jpg",
+			"thumbnails": {
+				"download_grid-image_thumbnail_id": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/marketify-xml-images/beach-photos.jpg"
+			},
+			"media": [
+				"http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/marketify-xml-images/beach-photos-3.jpg",
+				"http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/marketify-xml-images/beach-photos-4.jpg"
+			],
+			"price": "10.00",
+			"terms": {
+				"download_category": [ "bootstrap", "drupal", "ghost", "html", "joomla", "misc", "tumblr", "wordpress" ]
+			},
+			"meta": {
+				"date_created": "9 Jul, 2013",
+				"license": "Creative Commons",
+				"file_types": ".mov",
+				"file_size": "84 MB",
+				"_edd_hide_purchase_link": true,
+				"edd_feature_download": true,
+				"video": "https://vimeo.com/85272487",
+				"edd_video": "https://vimeo.com/85272487"
+			}
+		}
+	},
+	{
+		"id": "innovation",
+		"type": "object",
+		"data": {
+			"post_title": "Innovation",
+			"post_type": "download",
+			"post_format": "audio",
+			"thumbnails": {
+				"download_grid-image_thumbnail_id": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/marketify-xml-images/innovation.jpg"
+			},
+			"prices": {
+				"Wav Audio Files Version": "10.00",
+				"Flac Audio Files Version": "25.00"
+			},
+			"terms": {
+				"download_category": [ "audio", "drupal", "ghost", "html", "joomla", "misc", "tumblr", "wordpress" ]
+			},
+			"meta": {
+				"date_created": "9 Jul, 2013",
+				"license": "GPL",
+				"file_types": ".wav",
+				"file_size": "1.82 MB",
+				"_edd_hide_purchase_link": true,
+				"edd_feature_download": true,
+				"preview_files|ids": [
+					"http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/marketify-xml-images/audio-1.mp3"
+				]
+			},
+			"menus": [
+				{
+					"menu-item-parent-title": "Marketify Pages",
+					"menu-item-title": "Audio Product Page",
+					"menu-item-position": 6,
+					"menu_name": "Primary"
+				}
+			]
+		}
+	},
+	{
+		"id": "up-lifting-audio-pack",
+		"type": "object",
+		"data": {
+			"post_title": "Up Lifting Audio Pack",
+			"post_type": "download",
+			"post_format": "audio",
+			"thumbnails": {
+				"download_grid-image_thumbnail_id": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/marketify-xml-images/uplifting.jpg"
+			},
+			"prices": {
+				"Wav Audio Files Version": "9.00",
+				"Flac Audio Files Version": "9.00"
+			},
+			"terms": {
+				"download_category": [ "bootstrap", "drupal", "ghost", "html", "joomla", "misc", "tumblr", "wordpress" ]
+			},
+			"meta": {
+				"date_created": "9 Jul, 2013",
+				"license": "Creative Commons",
+				"file_types": ".mp3",
+				"file_size": "1.82 MB",
+				"_edd_hide_purchase_link": true,
+				"edd_feature_download": true,
+				"preview_files|ids": [
+					"http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/marketify-xml-images/audio-2.mp3"
+				]
+			}
+		},
+		"comments": {
+			"comment-astoundify": {
+				"comment_author": "Astoundify",
+				"comment_author_email": "demo@astoundify.com",
+				"comment_content": "I love what you have done with this audio pack!"
+			}
+		}
+	}
+]

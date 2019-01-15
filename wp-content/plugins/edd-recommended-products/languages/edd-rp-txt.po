@@ -1,0 +1,147 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Recommended Products\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-04-22 15:30-0500\n"
+"PO-Revision-Date: 2016-04-22 15:31-0500\n"
+"Last-Translator: Chris Klosowski <chris@filament-studios.com>\n"
+"Language-Team: Chris Klosowski <cklosowski@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n;_esc_html\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../includes/EDD_License_Handler.php:112
+#, php-format
+msgid "%1$s License Key"
+msgstr ""
+
+#: ../includes/EDD_License_Handler.php:218
+msgid "Deactivate License"
+msgstr ""
+
+#: ../includes/EDD_SL_Plugin_Updater.php:177
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+
+#: ../includes/EDD_SL_Plugin_Updater.php:184
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+
+#: ../includes/EDD_SL_Plugin_Updater.php:324
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: ../includes/EDD_SL_Plugin_Updater.php:324
+msgid "Error"
+msgstr ""
+
+#: ../includes/admin/class-edd-rp-logs-table.php:64
+msgid "ID"
+msgstr ""
+
+#: ../includes/admin/class-edd-rp-logs-table.php:65
+msgid "Source"
+msgstr ""
+
+#: ../includes/admin/class-edd-rp-logs-table.php:66
+msgid "Purchased"
+msgstr ""
+
+#: ../includes/admin/class-edd-rp-logs-table.php:67
+msgid "Payment"
+msgstr ""
+
+#: ../includes/admin/class-edd-rp-logs-table.php:68
+msgid "Amount"
+msgstr ""
+
+#: ../includes/admin/class-edd-rp-logs-table.php:69
+msgid "Date"
+msgstr ""
+
+#: ../includes/admin/class-edd-rp-logs-table.php:174
+msgid "All Purchsed Items"
+msgstr ""
+
+#: ../includes/settings.php:11 ../includes/settings.php:29
+#: ../includes/shortcodes.php:11
+msgid "Recommended Products"
+msgstr ""
+
+#: ../includes/settings.php:36
+msgid "Show on Downloads"
+msgstr ""
+
+#: ../includes/settings.php:37
+msgid "Display the recommended products on the download post type"
+msgstr ""
+
+#: ../includes/settings.php:43
+msgid "Show on Checkout"
+msgstr ""
+
+#: ../includes/settings.php:44
+msgid ""
+"Display the recommended products after the Checkout Cart, and before the "
+"Checkout Form"
+msgstr ""
+
+#: ../includes/settings.php:50
+msgid "Number of Recommendations"
+msgstr ""
+
+#: ../includes/settings.php:51
+msgid "How many recommendations should be shown to users"
+msgstr ""
+
+#: ../includes/settings.php:57
+msgid "Show Free Products"
+msgstr ""
+
+#: ../includes/settings.php:58
+msgid ""
+"Allows free products to be shown in the recommendations. (Requires Refresh "
+"of Recommendations after save)"
+msgstr ""
+
+#: ../includes/settings.php:84
+msgid "3 - Default"
+msgstr ""
+
+#: ../includes/settings.php:90
+msgid "Refresh Recommendations"
+msgstr ""
+
+#: ../recommended-products.php:72
+#, php-format
+msgid ""
+"Recommended Products for Easy Digital Downloads requires Easy Digital "
+"Downloads. Please <a href=\"%s\">install & activate</a> Easy Digital "
+"Downloads."
+msgstr ""
+
+#: ../templates/checkout_recommendations.php:16
+msgid "this item"
+msgstr ""
+
+#: ../templates/checkout_recommendations.php:17
+msgid "these items"
+msgstr ""
+
+#: ../templates/checkout_recommendations.php:21
+#: ../templates/single_recommendations.php:12
+#, php-format
+msgid "Users who purchased %s, also purchased:"
+msgstr ""

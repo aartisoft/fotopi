@@ -1,0 +1,85 @@
+[
+	{
+		"id": "home",
+		"type": "object",
+		"priority": 0,
+		"data": {
+			"post_type": "page",
+			"post_title": "Your Beautiful Handcrafted Marketplace",
+			"post_content": "<a class='button' href='/downloads'>Shop Now</a> <a class='button' href='/vendor-registration'>Start Selling</a>",
+			"featured_image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/marketify-xml-images/hero-home-page.jpg",
+			"comment_status": "closed",
+			"meta": {
+				"_wp_page_template": "page-templates/home.php"
+			}
+		}
+	},
+	{
+		"id": "blog",
+		"type": "object",
+		"data": {
+			"post_type": "page",
+			"post_title": "Blog",
+			"post_content": "",
+			"featured_image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/marketify-xml-images/blog-2.jpg",
+			"comment_status": "closed",
+			"menus": [
+				{
+					"menu-item-parent-title": "Marketify Pages",
+					"menu-item-position": 2,
+					"menu_name": "Primary"
+				}
+			]
+		}
+	},
+	{
+		"id": "page-meet-the-team",
+		"type": "object",
+		"data": {
+			"post_type": "page",
+			"post_title": "Meet the Team",
+			"post_content": "",
+			"featured_image": "",
+			"comment_status": "closed",
+			"menus": [
+				{
+					"menu-item-parent-title": "Marketify Pages",
+					"menu-item-position": 1,
+					"menu_name": "Primary"
+				},
+				{
+					"menu-item-position": 2,
+					"menu_name": "Resources"
+				}
+			],
+			"meta": {
+				"_wp_page_template": "page-templates/team.php"
+			}
+		}
+	},
+	{
+		"id": "page-pricing",
+		"type": "object",
+		"data": {
+			"post_type": "page",
+			"post_title": "Pricing",
+			"post_content": "",
+			"featured_image": "",
+			"comment_status": "closed",
+			"menus": [
+				{
+					"menu-item-parent-title": "Marketify Pages",
+					"menu-item-position": 9,
+					"menu_name": "Primary"
+				},
+				{
+					"menu-item-position": 1,
+					"menu_name": "Resources"
+				}
+			],
+			"meta": {
+				"_wp_page_template": "page-templates/pricing.php"
+			}
+		}
+	}
+]

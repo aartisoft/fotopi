@@ -1,0 +1,22 @@
+.fes-profile-form {
+    .fes-submit .button.edd-submit {
+        @extend .button--size-full;
+    }
+
+    .fes-avatar-image-upload .fes-avatar-image {
+        max-width: 200px;
+    }
+
+    .fes-remove-avatar-image {
+        display: block;
+        cursor: pointer;
+    }
+
+	.fes-el.password .fes-fields ~ .fes-label {
+		margin-top: 1em;
+
+		br {
+			display: none;
+		}
+	}
+}

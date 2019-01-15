@@ -1,0 +1,23 @@
+.section-title--minimal {
+    &:after {
+        display: none;
+    }
+}
+
+.section-title--minimal__inner {
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #fff;
+    border: 0 !important;
+    background-color: transparent !important;
+}
+
+.minimal {
+    .section-title {
+        @extend .section-title--minimal;
+    }
+
+    .section-title__inner {
+        @extend .section-title--minimal__inner;
+    }
+}

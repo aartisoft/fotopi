@@ -1,0 +1,72 @@
+[
+	{
+		"id": "vendor",
+		"type": "object",
+		"data": {
+			"post_type": "page",
+			"post_title": "Vendor",
+			"post_content": "[vendor]",
+			"featured_image": "",
+			"comment_status": "closed",
+			"meta": {
+				"_wp_page_template": "page-templates/vendor.php"
+			}
+		}
+	},
+	{
+		"id": "vendor-dashboard",
+		"type": "object",
+		"data": {
+			"post_type": "page",
+			"post_title": "Vendor Dashboard",
+			"post_content": "[fes_vendor_dashboard]",
+			"featured_image": "",
+			"comment_status": "closed",
+			"menus": [
+				{
+					"menu-item-parent-title": "Profile",
+					"menu-item-title": "Author Dashboard",
+					"menu-item-position": 1,
+					"menu-item-role": "in",
+					"menu_name": "Primary"
+				}
+			]
+		}
+	},
+	{
+		"id": "vendor-registration",
+		"type": "object",
+		"data": {
+			"post_type": "page",
+			"post_title": "Vendor Registration",
+			"post_content": "[fes_registration_form]",
+			"featured_image": "",
+			"comment_status": "closed"
+		},
+		"meta": {
+			"_wp_page_template": "page-templates/minimal.php"
+		},
+		"menus": [
+			{
+				"menu-item-parent-title": "Marketify Pages",
+				"menu-item-title": "Become an Author",
+				"menu-item-position": 3,
+				"menu_name": "Primary"
+			}
+		]
+	},
+	{
+		"id": "vendor-login",
+		"type": "object",
+		"data": {
+			"post_type": "page",
+			"post_title": "Vendor Login",
+			"post_content": "[fes_login_form]",
+			"featured_image": "",
+			"comment_status": "closed"
+		},
+		"meta": {
+			"_wp_page_template": "page-templates/minimal.php"
+		}
+	}
+]

@@ -1,0 +1,48 @@
+.entry-content .fes-submission-form {
+    .fes-submit .button.edd-submit {
+        @extend .button--size-full;
+    }
+
+    .multiple_pricing {
+        .button.upload_file_button {
+            width: 100%;
+        }
+        .fes-url-choose-row {
+            padding-right: 0;
+        }
+    }
+
+    td {
+        &:last-child {
+            padding-right: 0;
+        }
+    }
+
+    .wp-editor-container {
+        border: 1px solid #ccc;
+    }
+
+    .fes-el.taxonomy,
+    .fes-el.checkbox,
+    .fes-el.radio,
+    .fes-el.download_tag,
+    .fes-el.download_category {
+        .fes-fields label {
+            font-family: $source;
+            font-weight: normal;
+            text-transform: none;
+            margin-bottom: 3px;
+        }
+
+        .fes-fields input {
+            margin-right: 3px;
+        }
+    }
+
+    .fes-category-checklist,
+    .fes-checkbox-checklist {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+}

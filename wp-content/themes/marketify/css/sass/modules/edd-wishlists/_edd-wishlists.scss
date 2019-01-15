@@ -1,0 +1,33 @@
+
+@import "button";
+@import "section-title";
+@import "modal";
+@import "purchase-form";
+
+/**
+ * Be a bit overly specific since there are a lot of IDs
+ * that make it difficult to override otherwise.
+ */
+body {
+	.entry-content .edd-wish-list li {
+        span.edd-wl-item-image {
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 10px;
+        }
+	}
+
+    .download-header__info a.edd-wl-action.edd-wl-button,
+    .edd_download a.edd-wl-action.edd-wl-button {
+        display: none;
+    }
+
+    .wl-row {
+        .edd_price,
+        .edd_price_range_low,
+        .edd_price_range_high {
+            font-family: $source;
+            font-size: 15px;
+        }
+    }
+}

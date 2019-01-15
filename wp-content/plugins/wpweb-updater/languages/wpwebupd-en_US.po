@@ -1,0 +1,101 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPWeb Updater\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-21 12:54+0000\n"
+"PO-Revision-Date: 2018-03-21 12:54+0000\n"
+"Last-Translator: worldweb <phpdev1@worldwebtechnology.in>\n"
+"Language-Team: \n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: includes/admin/class-wpweb-upd-admin.php:56
+#, php-format
+msgid ""
+"%sYour WPWeb products are almost ready.%s To get started, %sactivate your "
+"product licenses%s."
+msgstr ""
+
+#: includes/admin/forms/wpweb-upd-helper.php:95
+msgid "Activate Products"
+msgstr ""
+
+#: includes/admin/class-wpweb-upd-admin.php:56
+msgid "Dismiss"
+msgstr ""
+
+#: includes/admin/forms/wpweb-upd-helper.php:35
+#: includes/admin/forms/wpweb-upd-helper.php:84
+msgid "Email"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "http://www.wpweb.co.in/"
+msgstr ""
+
+#: includes/admin/forms/wpweb-upd-helper.php:28
+#: includes/admin/forms/wpweb-upd-helper.php:90
+msgid "item"
+msgstr ""
+
+#: includes/admin/forms/wpweb-upd-helper.php:36
+#: includes/admin/forms/wpweb-upd-helper.php:85
+msgid "Item Purchase Code"
+msgstr ""
+
+#: includes/admin/forms/wpweb-upd-helper.php:69
+msgid "item purchase code here"
+msgstr ""
+
+#: includes/admin/forms/wpweb-upd-helper.php:22
+msgid "Licence key has been updated successfully."
+msgstr ""
+
+#: includes/admin/forms/wpweb-upd-helper.php:69
+msgid "Place"
+msgstr ""
+
+#: includes/admin/forms/wpweb-upd-helper.php:33
+#: includes/admin/forms/wpweb-upd-helper.php:82
+msgid "Product"
+msgstr ""
+
+#: includes/admin/class-wpweb-upd-admin.php:71
+msgid "The WPWeb Updater"
+msgstr ""
+
+#: includes/admin/forms/wpweb-upd-helper.php:76
+msgid "There is no product available for update."
+msgstr ""
+
+#: includes/admin/forms/wpweb-upd-helper.php:34
+#: includes/admin/forms/wpweb-upd-helper.php:83
+msgid "Version"
+msgstr ""
+
+#: includes/admin/forms/wpweb-upd-helper.php:19
+msgid "Welcome to WPWeb Updater"
+msgstr ""
+
+#. Author of the plugin
+msgid "WPWeb"
+msgstr ""
+
+#. Name of the plugin
+#: includes/admin/class-wpweb-upd-admin.php:71
+msgid "WPWeb Updater"
+msgstr ""
+
+#. Description of the plugin
+msgid "WPWeb Updater - The license and updater plugin for all wpweb products"
+msgstr ""
+
+#: includes/admin/class-wpweb-upd-admin.php:234
+#, php-format
+msgid "You have empty / wrong email in following products : %s ."
+msgstr ""

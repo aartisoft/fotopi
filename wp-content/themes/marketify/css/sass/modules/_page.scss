@@ -1,0 +1,16 @@
+#page {
+    overflow: hidden;
+}
+
+@include bp(md) {
+    #page {
+        overflow: auto;
+    }
+}
+
+// for checks
+.gallery-caption,
+.bypostauthor,
+.sticky {
+    width: auto;
+}

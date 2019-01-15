@@ -1,0 +1,16 @@
+@import "section-title";
+@import "button";
+@import "form";
+@import "input";
+@import "site-header";
+@import "site-title";
+@import "site-content";
+@import "checkout-cart";
+
+.minimal {
+    color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: auto;
+}

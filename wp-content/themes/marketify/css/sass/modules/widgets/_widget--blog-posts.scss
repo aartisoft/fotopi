@@ -1,0 +1,18 @@
+.widget--blog-posts {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.widget--blog-posts .post {
+	width: calc(100% - 30px);
+	margin: 0 15px 30px;
+
+	@include bp(pt) {
+		width: calc(50% - 30px);
+	}
+
+	@include bp(md) {
+		width: calc(33.33% - 30px);
+	}
+}

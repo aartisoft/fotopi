@@ -1,0 +1,38 @@
+[
+	{
+		"id": "change-your-life",
+		"type": "object",
+		"data": {
+			"post_title": "How to Change Your Life: A User’s Guide",
+			"featured_image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/marketify-xml-images/blog-1.jpg",
+			"post_content": "Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design; interface design; authoring, including standardized code and proprietary software; user experience design; and search engine optimization. Often many individuals will work in teams covering different aspects of the design process, although some designers will cover them all.",
+			"terms": {
+				"category": [ "code", "learn-to-code" ]
+			}
+		}
+	},
+	{
+		"id": "methods-for-designers",
+		"type": "object",
+		"data": {
+			"post_title": "The 38 Best Methods of Successful Designers",
+			"featured_image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/marketify-xml-images/blog-2.jpg",
+			"post_content": "Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design; interface design; authoring, including standardized code and proprietary software; user experience design; and search engine optimization. Often many individuals will work in teams covering different aspects of the design process, although some designers will cover them all.",
+			"terms": {
+				"category": [ "design", "make-a-website" ]
+			}
+		}
+	},
+	{
+		"id": "a-simple-change-in-mindset-changes-everything",
+		"type": "object",
+		"data": {
+			"post_title": "A Simple Change in Mindset Changes Everything",
+			"featured_image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/marketify-xml-images/blog-3.jpg",
+			"post_content": "Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design; interface design; authoring, including standardized code and proprietary software; user experience design; and search engine optimization. Often many individuals will work in teams covering different aspects of the design process, although some designers will cover them all.",
+			"terms": {
+				"category": [ "code", "make-a-website" ]
+			}
+		}
+	}
+]

@@ -1,0 +1,1681 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Digital Downloads - Social Login\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-17 10:07+0000\n"
+"PO-Revision-Date: 2017-07-17 10:07+0000\n"
+"Last-Translator: test dev5 <phpdev5@worldwebtechnology.in>\n"
+"Language-Team: \n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: edd-social-login.php:79
+msgid ""
+"Easy Digital Downloads needs to be activated to be able to use the Social "
+"Login."
+msgstr ""
+
+#: edd-social-login.php:137 includes/class-edd-slg-renderer.php:107
+#: includes/admin/class-edd-slg-admin.php:191
+#: includes/admin/forms/edd-slg-admin-popup.php:51
+msgid "Prefer to Login with Social Media"
+msgstr ""
+
+#: edd-social-login.php:693
+msgid "Settings"
+msgstr ""
+
+#: edd-social-login.php:694
+msgid "Docs"
+msgstr ""
+
+#: includes/edd-slg-misc-functions.php:27
+#: includes/templates/social-buttons/facebook.php:19
+msgid "Facebook"
+msgstr ""
+
+#: includes/edd-slg-misc-functions.php:28
+#: includes/templates/social-buttons/twitter.php:19
+msgid "Twitter"
+msgstr ""
+
+#: includes/edd-slg-misc-functions.php:29
+#: includes/templates/social-buttons/googleplus.php:19
+msgid "Google+"
+msgstr ""
+
+#: includes/edd-slg-misc-functions.php:30
+#: includes/templates/social-buttons/linkedin.php:19
+msgid "LinkedIn"
+msgstr ""
+
+#: includes/edd-slg-misc-functions.php:31
+#: includes/templates/social-buttons/yahoo.php:19
+msgid "Yahoo"
+msgstr ""
+
+#: includes/edd-slg-misc-functions.php:32
+#: includes/templates/social-buttons/foursquare.php:19
+msgid "Foursquare"
+msgstr ""
+
+#: includes/edd-slg-misc-functions.php:33
+#: includes/templates/social-buttons/windowslive.php:19
+msgid "Windows Live"
+msgstr ""
+
+#: includes/edd-slg-misc-functions.php:34
+msgid "VK"
+msgstr ""
+
+#: includes/edd-slg-misc-functions.php:35
+#: includes/templates/social-buttons/instagram.php:19
+msgid "Instagram"
+msgstr ""
+
+#: includes/edd-slg-misc-functions.php:36
+#: includes/templates/social-buttons/amazon.php:19
+msgid "Amazon"
+msgstr ""
+
+#: includes/edd-slg-misc-functions.php:37
+#: includes/templates/social-buttons/paypal.php:19
+msgid "Paypal"
+msgstr ""
+
+#: includes/edd-slg-misc-functions.php:397
+#, php-format
+msgid ""
+"Before you can start using Facebook for the social login, you need to create "
+"a Facebook Application. You can get a step by step tutorial on how to create "
+"Facebook Application on our %sDocumentation%s."
+msgstr ""
+
+#: includes/edd-slg-misc-functions.php:415 includes/class-edd-slg-model.php:418
+msgid "Reset Settings"
+msgstr ""
+
+#: includes/edd-slg-misc-functions.php:419
+msgid "Are you sure you want to reset social login setting?"
+msgstr ""
+
+#: includes/edd-slg-misc-functions.php:437
+#, php-format
+msgid ""
+"Before you can start using Google+ for the social login, you need to create "
+"a Google+ Application. You can get a step by step tutorial on how to create "
+"Google+ Application on our %sDocumentation%s."
+msgstr ""
+
+#: includes/edd-slg-misc-functions.php:452
+#, php-format
+msgid ""
+"Before you can start using LinkedIn for the social login, you need to create "
+"a LinkedIn Application. You can get a step by step tutorial on how to create "
+"LinkedIn Application on our %sDocumentation%s."
+msgstr ""
+
+#: includes/edd-slg-misc-functions.php:467
+#, php-format
+msgid ""
+"Before you can start using Twitter for the social login, you need to create "
+"a Twitter Application. You can get a step by step tutorial on how to create "
+"Twitter Application on our %sDocumentation%s."
+msgstr ""
+
+#: includes/edd-slg-misc-functions.php:482
+#, php-format
+msgid ""
+"Before you can start using Yahoo for the social login, you need to create a "
+"Yahoo Application. You can get a step by step tutorial on how to create "
+"Yahoo Application on our %sDocumentation%s."
+msgstr ""
+
+#: includes/edd-slg-misc-functions.php:496
+#, php-format
+msgid ""
+"Before you can start using Foursquare for the social login, you need to "
+"create a Foursquare Application. You can get a step by step tutorial on how "
+"to create Foursquare Application on our %sDocumentation%s."
+msgstr ""
+
+#: includes/edd-slg-misc-functions.php:511
+#, php-format
+msgid ""
+"Before you can start using Windows Live for the social login, you need to "
+"create a Windows Live Application. You can get a step by step tutorial on "
+"how to create Windows Live Application on our %sDocumentation%s."
+msgstr ""
+
+#: includes/edd-slg-misc-functions.php:526
+#, php-format
+msgid ""
+"Before you can start using VK for the social login, you need to create a VK "
+"Application. You can get a step by step tutorial on how to create VK "
+"Application on our %sDocumentation%s."
+msgstr ""
+
+#: includes/edd-slg-misc-functions.php:541
+#, php-format
+msgid ""
+"Before you can start using Instagram for the social login, you need to "
+"create a Instagram Application. You can get a step by step tutorial on how "
+"to create Instagram Application on our %sDocumentation%s."
+msgstr ""
+
+#: includes/edd-slg-misc-functions.php:556
+#, php-format
+msgid ""
+"Before you can start using Amazon for the social login, you need to create a "
+"Amazon Application. You can get a step by step tutorial on how to create "
+"Amazon Application on our %sDocumentation%s."
+msgstr ""
+
+#: includes/edd-slg-misc-functions.php:585
+#, php-format
+msgid ""
+"Before you can start using Paypal for the social login, you need to create a "
+"Paypal Application. You can get a step by step tutorial on how to create "
+"Paypal Application on our %sDocumentation%s."
+msgstr ""
+
+#: includes/edd-slg-misc-functions.php:788
+msgid "Your account is connected to the following social login providers."
+msgstr ""
+
+#: includes/edd-slg-misc-functions.php:789
+msgid "You have no social login profiles connected."
+msgstr ""
+
+#: includes/edd-slg-misc-functions.php:790
+msgid "Add More..."
+msgstr ""
+
+#: includes/edd-slg-misc-functions.php:791
+msgid "Connect one now"
+msgstr ""
+
+#: includes/edd-slg-misc-functions.php:792
+#, php-format
+msgid "%s account was successfully unlinked from your account."
+msgstr ""
+
+#: includes/edd-slg-misc-functions.php:793
+msgid "This account is already linked with another account."
+msgstr ""
+
+#: includes/edd-slg-misc-functions.php:794
+msgid "This account is already exist"
+msgstr ""
+
+#: includes/edd-slg-misc-functions.php:795
+#: includes/class-edd-slg-scripts.php:136
+msgid "Please enter Facebook API Key & Secret in settings page."
+msgstr ""
+
+#: includes/edd-slg-misc-functions.php:796
+#: includes/class-edd-slg-scripts.php:137
+msgid "Please enter Google+ Client ID & Secret in settings page."
+msgstr ""
+
+#: includes/edd-slg-misc-functions.php:797
+#: includes/class-edd-slg-scripts.php:138
+msgid "Please enter LinkedIn API Key & Secret in settings page."
+msgstr ""
+
+#: includes/edd-slg-misc-functions.php:798
+#: includes/class-edd-slg-scripts.php:139
+msgid "Please enter Twitter Consumer Key & Secret in settings page."
+msgstr ""
+
+#: includes/edd-slg-misc-functions.php:799
+#: includes/class-edd-slg-scripts.php:140
+msgid "Please enter Yahoo API Consumer Key, Secret & App Id in settings page."
+msgstr ""
+
+#: includes/edd-slg-misc-functions.php:800
+#: includes/class-edd-slg-scripts.php:141
+msgid "Please enter Foursquare API Client ID & Secret in settings page."
+msgstr ""
+
+#: includes/edd-slg-misc-functions.php:801
+#: includes/class-edd-slg-scripts.php:142
+msgid "Please enter Windows Live API Client ID & Secret in settings page."
+msgstr ""
+
+#: includes/edd-slg-misc-functions.php:802
+#: includes/class-edd-slg-scripts.php:143
+msgid "Please enter VK API Client ID & Secret in settings page."
+msgstr ""
+
+#: includes/edd-slg-misc-functions.php:803
+#: includes/class-edd-slg-scripts.php:144
+msgid "Please enter Instagram API Client ID & Secret in settings page."
+msgstr ""
+
+#: includes/edd-slg-misc-functions.php:804
+msgid "Please enter Amazon API Client ID & Secret in settings page."
+msgstr ""
+
+#: includes/edd-slg-misc-functions.php:805
+msgid "Please enter Paypal API Client ID & Secret in settings page."
+msgstr ""
+
+#: includes/edd-slg-misc-functions.php:830
+msgid "You can link your account to the following providers:"
+msgstr ""
+
+#: includes/edd-slg-misc-functions.php:901
+msgid "Success"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:386
+#: includes/admin/class-edd-slg-admin.php:35
+#: includes/admin/forms/edd-social-login-data.php:20
+#: includes/admin/forms/edd-slg-admin-popup.php:35
+msgid "Social Login"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:403
+msgid "Social login settings reset successfully."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "English"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Afrikaans"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Albanian"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Arabic"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Armenian"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Basque"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Belarusian"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Bengali"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Bosanski"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Bulgarian"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Catalan"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Chinese"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Czech"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Danish"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Dutch"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Esperanto"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406 includes/class-edd-slg-model.php:406
+msgid "Estonian"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Finnish"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Faroese"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Filipino"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "French"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Galician"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Georgian"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "German"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Greek"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Hebrew"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Hindi"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Hrvatski"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Hungarian"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Icelandic"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Indonesian"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Irish"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Italian"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Japanese"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Korean"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Kurdish"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Latin"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Latvian"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Leet Speak"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Lithuanian"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Macedonian"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Malay"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Malayalam"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Nederlands"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Nepali"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Norwegian"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Pashto"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Persian"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Polish"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Portugese"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Punjabi"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Romanian"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Russian"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Slovak"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Slovenian"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Spanish"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Srpski"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Swahili"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Swedish"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Tamil"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Telugu"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Thai"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Turkish"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Ukrainian"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Vietnamese"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Welsh"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:406
+msgid "Traditional Chinese Language"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:412
+msgid "Social Login Options"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:413
+msgid ""
+"<input type=\"button\" value=\"Reset Setting\" />Configure Social Login "
+"Settings"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:419
+msgid "This will reset all the setings of social login."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:427
+msgid "General Settings"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:428
+msgid "Configure Social Login General Settings"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:433
+#: includes/admin/forms/edd-slg-admin-popup.php:48
+msgid "Social Login Title:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:434
+msgid "Enter Social Login Title."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:440
+msgid "Display Social Login buttons on Login page:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:442
+msgid ""
+"Check this box to add social login buttons on easy digital download login "
+"page and default wordpress login page."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:446
+msgid "Display \"Link Your Account\" button on Thank You page:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:448
+msgid ""
+" Check this box to allow customers to link their social account on the Thank "
+"You page for faster login & checkout next time they purchase."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:453
+msgid "Enable Email Notification:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:454
+msgid ""
+"Check this box, if you want to notify admin and user when user is registered "
+"by social media."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:459
+#: includes/admin/forms/edd-slg-admin-popup.php:57
+msgid "Redirect URL:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:460
+#: includes/admin/forms/edd-slg-admin-popup.php:61
+msgid ""
+"Enter a redirect URL for users after they login with social media. The URL "
+"must start with"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:466
+msgid "Autoregistered Usernames:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:472
+msgid "Based on unique ID & random number (i.e. edd_slg_123456)"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:473
+msgid "Based on real name (i.e. john_smith)"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:474
+msgid ""
+"Based on email ID (i.e. john.smith@example.com to john_smith_example_com )"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:481
+msgid "Facebook Settings"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:482
+msgid "Configure Social Login Facebook Settings"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:487
+msgid "Facebook Application:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:493
+msgid "Enable Facebook:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:494
+msgid ""
+"Check this box, if you want to enable facebook social login registration."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:499
+msgid "Facebook App ID/API Key:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:500
+msgid "Enter Facebook API Key."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:506
+msgid "Facebook App Secret:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:507
+msgid "Enter Facebook App Secret."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:513
+msgid "Facebook API Locale:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:514
+msgid ""
+"Select the language for Facebook. With this option, you can explicitly tell "
+"which language you want to use for communicating with Facebook."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:520
+msgid "Custom Facebook Icon:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:521
+msgid "If you want to use your own Facebook Icon, upload one here."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:527
+msgid "Custom Facebook Link Icon:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:528
+msgid "If you want to use your own Facebook Link Icon, upload one here."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:534
+msgid "Enable Facebook Avatar:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:535
+msgid ""
+"Check this box, if you want to use Facebook profile pictures as avatars."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:541
+msgid "Google+ Settings"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:542
+msgid "Configure Social Login Google+ Settings"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:547
+msgid "Google+ Application:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:553
+msgid "Enable Google+:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:554
+msgid ""
+"Check this box, if you want to enable google+ social login registration."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:559
+msgid "Google+ Client ID:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:560
+msgid "Enter Google+ Client ID."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:566
+msgid "Google+ Client Secret:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:567
+msgid "Enter Google+ Client Secret."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:573
+msgid "Google+ Callback URL:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:580
+msgid "Custom Google+ Icon:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:581
+msgid "If you want to use your own Google+ Icon, upload one here."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:587
+msgid "Custom Google+ Link Icon:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:588
+msgid "If you want to use your own Google+ Link Icon, upload one here."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:594
+msgid "Enable Google Plus Avatar:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:595
+msgid ""
+"Check this box, if you want to use Google Plus profile pictures as avatars."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:602
+msgid "LinkedIn Settings"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:603
+msgid "Configure Social Login LinkedIn Settings"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:608
+msgid "LinkedIn Application:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:614
+msgid "Enable LinkedIn:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:615
+msgid ""
+"Check this box, if you want to enable LinkedIn social login registration."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:620
+msgid "LinkedIn App ID/API Key:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:621
+msgid "Enter LinkedIn App ID/API Key."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:627
+msgid "LinkedIn App Secret:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:628
+msgid "Enter LinkedIn App Secret."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:634
+msgid "Linkedin Redirect URI:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:641
+msgid "Custom LinkedIn Icon:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:642
+msgid "If you want to use your own LinkedIn Icon, upload one here."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:648
+msgid "Custom LinkedIn Link Icon:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:649
+msgid "If you want to use your own LinkedIn Link Icon, upload one here."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:655
+msgid "Enable LinkedIn Avatar:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:656
+msgid ""
+"Check this box, if you want to use LinkedIn profile pictures as avatars."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:663
+msgid "Twitter Settings"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:664
+msgid "Configure Social Login Twitter Settings"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:669
+msgid "Twitter Application:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:675
+msgid "Enable Twitter:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:676
+msgid ""
+"Check this box, if you want to enable Twitter social login registration."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:681
+msgid "Twitter API Key:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:682
+msgid "Enter Twitter API Key."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:688
+msgid "Twitter API Secret:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:689
+msgid "Enter Twitter API Secret."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:695
+msgid "Custom Twitter Icon:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:696
+msgid "If you want to use your own Twitter Icon, upload one here."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:702
+msgid "Custom Twitter Link Icon:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:703
+msgid "If you want to use your own Twitter Link Icon, upload one here."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:709
+msgid "Enable Twitter Avatar:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:710
+msgid "Check this box, if you want to use Twitter profile pictures as avatars."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:717
+msgid "Yahoo Settings"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:718
+msgid "Configure Social Login Yahoo Settings"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:723
+msgid "Yahoo Application:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:729
+msgid "Enable Yahoo:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:730
+msgid "Check this box, if you want to enable Yahoo social login registration."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:735
+msgid "Yahoo Consumer Key:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:736
+msgid "Enter Yahoo Consumer Key."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:742
+msgid "Yahoo Consumer Secret:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:743
+msgid "Enter Yahoo Consumer Secret."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:749
+msgid "Yahoo App Id:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:750
+msgid "Enter Yahoo App Id."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:756
+msgid "Yahoo Callback URL:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:763
+msgid "Custom Yahoo Icon:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:764
+msgid "If you want to use your own Yahoo Icon, upload one here."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:770
+msgid "Custom Yahoo Link Icon:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:771
+msgid "If you want to use your own Yahoo Link Icon, upload one here."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:777
+msgid "Enable Yahoo Avatar:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:778
+msgid "Check this box, if you want to use Yahoo profile pictures as avatars."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:785
+msgid "Foursquare Settings"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:786
+msgid "Configure Social Login Foursquare Settings"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:791
+msgid "Foursquare Application:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:797
+msgid "Enable Foursquare:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:798
+msgid ""
+"Check this box, if you want to enable Foursquare social login registration."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:803
+msgid "Foursquare Client ID:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:804
+msgid "Enter Foursquare Client ID."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:810
+msgid "Foursquare Client Secret:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:811
+msgid "Enter Foursquare Client Secret."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:817
+msgid "Custom Foursquare Icon:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:818
+msgid "If you want to use your own Foursquare Icon, upload one here."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:824
+msgid "Custom Foursquare Link Icon:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:825
+msgid "If you want to use your own Foursquare Link Icon, upload one here."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:831
+msgid "Enable Foursquare Avatar:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:832
+msgid ""
+"Check this box, if you want to use Foursquare profile pictures as avatars."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:839
+msgid "Windows Live Settings"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:840
+msgid "Configure Social Login Windows Live Settings"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:845
+msgid "Windows Live Application:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:851
+msgid "Enable Windows Live:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:852
+msgid ""
+"Check this box, if you want to enable Windows Live social login registration."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:857
+msgid "Windows Live Client ID:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:858
+msgid "Enter Windows Live Client ID."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:864
+msgid "Windows Live Client Secret:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:865
+msgid "Enter Windows Live Client Secret."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:871
+msgid "Windows Live Callback URL:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:878
+msgid "Custom Windows Live Icon:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:879
+msgid "If you want to use your own Windows Live Icon, upload one here."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:885
+msgid "Custom Windows Live Link Icon:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:886
+msgid "If you want to use your own Windows Live Link Icon, upload one here."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:894
+msgid "VK Settings"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:895
+msgid "Configure Social Login VK Settings"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:900
+msgid "VK Application:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:906
+msgid "Enable VK:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:907
+msgid "Check this box, if you want to enable vk social login registration."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:912
+msgid "VK Application ID:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:913
+msgid "Enter VK Application ID."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:919
+msgid "VK Secret Key:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:920
+msgid "Enter VK Secret Key."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:926
+msgid "Custom VK Icon:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:927
+msgid "If you want to use your own VK Icon, upload one here."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:933
+msgid "Custom VK Link Icon:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:934
+msgid "If you want to use your own VK Link Icon, upload one here."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:940
+msgid "Enable VK Avatar:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:941
+msgid "Check this box, if you want to use VK profile pictures as avatars."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:948
+msgid "Instagram Settings"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:949
+msgid "Configure Social Login Instagram Settings"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:954
+msgid "Instagram Application:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:960
+msgid "Enable Instagram:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:961
+msgid ""
+"Check this box, if you want to enable instagram social login registration."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:966
+msgid "Instagram Client ID:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:967
+msgid "Enter Instagram Client ID."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:973
+msgid "Instagram Client Secret:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:974
+msgid "Enter Instagram Client Secret."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:980
+msgid "Instagram Callback URL:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:987
+msgid "Custom Instagram Icon:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:988
+msgid "If you want to use your own Instagram Icon, upload one here."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:994
+msgid "Custom Instagram Link Icon:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:995
+msgid "If you want to use your own Instagram Link Icon, upload one here."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:1001
+msgid "Enable Instagram Avatar:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:1002
+msgid ""
+"Check this box, if you want to use Instagram profile pictures as avatars."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:1009
+msgid "Amazon Settings"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:1010
+msgid "Configure Social Login Amazon Settings"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:1015
+msgid "Amazon Application:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:1021
+msgid "Enable Amazon:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:1022
+msgid "Check this box, if you want to enable amazon social login registration."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:1027
+msgid "Amazon Client ID:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:1028
+msgid "Enter Amazon Client ID."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:1034
+msgid "Amazon Client Secret:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:1035
+msgid "Enter Amazon Client Secret."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:1041
+msgid "Amazon Callback URL:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:1048
+msgid "Custom Amazon Icon:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:1049
+msgid "If you want to use your own Amazon Icon, upload one here."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:1055
+msgid "Custom Amazon Link Icon:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:1056
+msgid "If you want to use your own Amazon Link Icon, upload one here."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:1065
+msgid "Paypal Settings"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:1066
+msgid "Configure Social Login Paypal Settings"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:1071
+msgid "Paypal Application:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:1077
+msgid "Enable Paypal:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:1078
+msgid "Check this box, if you want to enable paypal social login registration."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:1083
+msgid "Paypal Client ID:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:1084
+msgid "Enter Paypal Client ID."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:1090
+msgid "Paypal Client Secret:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:1091
+msgid "Enter Paypal Client Secret."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:1097
+msgid "Paypal Callback URL:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:1104
+msgid "Custom Paypal Icon:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:1105
+msgid "If you want to use your own Paypal Icon, upload one here."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:1111
+msgid "Custom Paypal Link Icon:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:1112
+msgid "If you want to use your own Paypal Link Icon, upload one here."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:1118
+msgid "Environment:"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:1119
+msgid "Select which environment to process logins under."
+msgstr ""
+
+#: includes/class-edd-slg-model.php:1121
+msgid "Live"
+msgstr ""
+
+#: includes/class-edd-slg-model.php:1121
+msgid "Sandbox"
+msgstr ""
+
+#: includes/class-edd-slg-public.php:290
+#, php-format
+msgid "Your %s account is now linked to your account."
+msgstr ""
+
+#: includes/class-edd-slg-public.php:482 includes/class-edd-slg-public.php:579
+msgid "Register"
+msgstr ""
+
+#: includes/class-edd-slg-public.php:491 includes/class-edd-slg-public.php:493
+#: includes/class-edd-slg-public.php:497
+msgid "ERROR"
+msgstr ""
+
+#: includes/class-edd-slg-public.php:491
+msgid "Enter your email address."
+msgstr ""
+
+#: includes/class-edd-slg-public.php:493
+msgid "The email address did not validate."
+msgstr ""
+
+#: includes/class-edd-slg-public.php:497
+msgid "Email already exists, If you have an account login first."
+msgstr ""
+
+#: includes/class-edd-slg-public.php:567
+msgid "Registration Form"
+msgstr ""
+
+#: includes/class-edd-slg-public.php:567
+msgid "Please enter your email address to complete registration."
+msgstr ""
+
+#: includes/class-edd-slg-public.php:572
+msgid "E-mail"
+msgstr ""
+
+#: includes/class-edd-slg-public.php:576
+msgid "Username and Password will be sent to your email."
+msgstr ""
+
+#: includes/class-edd-slg-scripts.php:147
+msgid "Please enter Amazon API Key & Secret in settings page."
+msgstr ""
+
+#: includes/class-edd-slg-scripts.php:148
+msgid "Please enter Paypal API Key & Secret in settings page."
+msgstr ""
+
+#: includes/admin/class-edd-slg-admin.php:35
+msgid "Easy Digital Download Social Login"
+msgstr ""
+
+#: includes/admin/class-edd-slg-admin.php:318
+#: includes/admin/class-edd-slg-admin.php:372
+msgid "Primary Social Profile"
+msgstr ""
+
+#: includes/admin/class-edd-slg-admin.php:340
+#: includes/admin/class-edd-slg-admin.php:357
+#: includes/admin/class-edd-slg-admin.php:391
+msgid "N/A"
+msgstr ""
+
+#: includes/admin/class-edd-slg-admin.php:369
+msgid "Social Profiles"
+msgstr ""
+
+#: includes/admin/class-edd-slg-admin.php:376
+msgid "Linked Social Profiles"
+msgstr ""
+
+#: includes/templates/social-buttons.php:26
+#: includes/templates/social-profile-list.php:22
+msgid "Social Loader"
+msgstr ""
+
+#: includes/templates/social-profile-list.php:37
+msgid "My Social Login Accounts"
+msgstr ""
+
+#: includes/templates/social-profile-list.php:54
+#: includes/templates/social-profile-list.php:70
+#: includes/templates/social-profile-list.php:100
+msgid "Provider"
+msgstr ""
+
+#: includes/templates/social-profile-list.php:55
+#: includes/templates/social-profile-list.php:74
+#: includes/templates/social-profile-list.php:101
+msgid "Account"
+msgstr ""
+
+#: includes/templates/social-profile-list.php:56
+#: includes/templates/social-profile-list.php:102
+msgid "Last Login"
+msgstr ""
+
+#: includes/templates/social-profile-list.php:57
+#: includes/templates/social-profile-list.php:90
+#: includes/templates/social-profile-list.php:103
+msgid "Unlink"
+msgstr ""
+
+#: includes/templates/social-profile-list.php:81
+#, php-format
+msgid "%s @ %s"
+msgstr ""
+
+#: includes/templates/social-profile-list.php:83
+msgid "Never"
+msgstr ""
+
+#: includes/templates/social-profile-list.php:93
+msgid "Primary"
+msgstr ""
+
+#: includes/widgets/class-edd-slg-login-buttons.php:45
+msgid "A social login widget."
+msgstr ""
+
+#. Name of the plugin
+#: includes/widgets/class-edd-slg-login-buttons.php:48
+msgid "Easy Digital Downloads - Social Login"
+msgstr ""
+
+#: includes/widgets/class-edd-slg-login-buttons.php:139
+msgid "Title:"
+msgstr ""
+
+#: includes/admin/forms/edd-social-login-data.php:24
+#: includes/admin/forms/edd-social-login-data.php:137
+msgid "Save Changes"
+msgstr ""
+
+#: includes/admin/forms/edd-social-login-data.php:31
+msgid "Changes Saved."
+msgstr ""
+
+#: includes/admin/forms/edd-social-login-data.php:37
+msgid "Drag to Change Order"
+msgstr ""
+
+#: includes/admin/forms/edd-social-login-data.php:43
+#: includes/admin/forms/edd-social-login-data.php:114
+msgid "Chage Order"
+msgstr ""
+
+#: includes/admin/forms/edd-social-login-data.php:48
+#: includes/admin/forms/edd-social-login-data.php:119
+msgid "Network"
+msgstr ""
+
+#: includes/admin/forms/edd-social-login-data.php:53
+#: includes/admin/forms/edd-social-login-data.php:124
+msgid "Register Count"
+msgstr ""
+
+#: includes/admin/forms/edd-social-login-data.php:190
+msgid "Social Networks Register Percentage "
+msgstr ""
+
+#: includes/admin/forms/edd-slg-admin-popup.php:22
+msgid "Add A Social Login Shortcode"
+msgstr ""
+
+#: includes/admin/forms/edd-slg-admin-popup.php:23
+msgid "Close"
+msgstr ""
+
+#: includes/admin/forms/edd-slg-admin-popup.php:31
+msgid "Select A Shortcode"
+msgstr ""
+
+#: includes/admin/forms/edd-slg-admin-popup.php:52
+msgid "Enter a social login title."
+msgstr ""
+
+#: includes/admin/forms/edd-slg-admin-popup.php:66
+msgid "Show Only on Page / Post:"
+msgstr ""
+
+#: includes/admin/forms/edd-slg-admin-popup.php:70
+msgid ""
+"Check this box if you want to show social login buttons only on inner page "
+"of posts and pages."
+msgstr ""
+
+#: includes/admin/forms/edd-slg-admin-popup.php:79
+msgid "Insert Shortcode"
+msgstr ""
+
+#: includes/templates/social-buttons/googleplus.php:18
+msgid "Connect with Google+"
+msgstr ""
+
+#: includes/templates/social-buttons/yahoo.php:18
+msgid "Connect with Yahoo"
+msgstr ""
+
+#: includes/templates/social-buttons/vk.php:18
+msgid "Connect with VK.com"
+msgstr ""
+
+#: includes/templates/social-buttons/vk.php:19
+msgid "vk"
+msgstr ""
+
+#: includes/templates/social-buttons/twitter.php:18
+msgid "Connect with Twitter"
+msgstr ""
+
+#: includes/templates/social-buttons/paypal.php:18
+msgid "Connect with Paypal"
+msgstr ""
+
+#: includes/templates/social-buttons/facebook.php:18
+msgid "Connect with Facebook"
+msgstr ""
+
+#: includes/templates/social-buttons/windowslive.php:18
+msgid "Connect with Windows Live"
+msgstr ""
+
+#: includes/templates/social-buttons/amazon.php:18
+msgid "Connect with Amazon"
+msgstr ""
+
+#: includes/templates/social-buttons/instagram.php:18
+msgid "Connect with Instagram"
+msgstr ""
+
+#: includes/templates/social-buttons/foursquare.php:18
+msgid "Connect with Foursquare"
+msgstr ""
+
+#: includes/templates/social-buttons/linkedin.php:18
+msgid "Connect with LinkedIn"
+msgstr ""
+
+#: includes/templates/social-link-buttons/twitter_link.php:18
+msgid "Link your account with Twitter"
+msgstr ""
+
+#: includes/templates/social-link-buttons/twitter_link.php:19
+msgid "Link your account with  Twitter"
+msgstr ""
+
+#: includes/templates/social-link-buttons/googleplus_link.php:18
+#: includes/templates/social-link-buttons/googleplus_link.php:19
+msgid "Link your account with Google+"
+msgstr ""
+
+#: includes/templates/social-link-buttons/vk_link.php:18
+msgid "Link your account with VK.com"
+msgstr ""
+
+#: includes/templates/social-link-buttons/vk_link.php:19
+msgid "Link your account with vk"
+msgstr ""
+
+#: includes/templates/social-link-buttons/foursquare_link.php:18
+msgid "Link your account with Foursquare"
+msgstr ""
+
+#: includes/templates/social-link-buttons/foursquare_link.php:19
+msgid "Link Your account with Foursquare"
+msgstr ""
+
+#: includes/templates/social-link-buttons/instagram_link.php:18
+#: includes/templates/social-link-buttons/instagram_link.php:19
+msgid "Link your account with Instagram"
+msgstr ""
+
+#: includes/templates/social-link-buttons/yahoo_link.php:18
+#: includes/templates/social-link-buttons/yahoo_link.php:19
+msgid "Link your account with Yahoo"
+msgstr ""
+
+#: includes/templates/social-link-buttons/linkedin_link.php:18
+#: includes/templates/social-link-buttons/linkedin_link.php:19
+msgid "Link your account with LinkedIn"
+msgstr ""
+
+#: includes/templates/social-link-buttons/windowslive_link.php:18
+#: includes/templates/social-link-buttons/windowslive_link.php:19
+msgid "Link your account with Live"
+msgstr ""
+
+#: includes/templates/social-link-buttons/paypal_link.php:18
+#: includes/templates/social-link-buttons/paypal_link.php:19
+msgid "Link your account with Paypal"
+msgstr ""
+
+#: includes/templates/social-link-buttons/facebook_link.php:18
+#: includes/templates/social-link-buttons/facebook_link.php:19
+msgid "Link your account with Facebook"
+msgstr ""
+
+#: includes/templates/social-link-buttons/amazon_link.php:18
+#: includes/templates/social-link-buttons/amazon_link.php:19
+msgid "Link your account with Amazon"
+msgstr ""
+
+#: includes/social/libraries/linkedin.php:107
+msgid "Access token retrieval failed"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Allow your customers to login and checkout with social networks such as "
+"Facebook, Twitter, Google, Yahoo, LinkedIn, Foursquare, Windows Live, VK.com,"
+" Instagram, Amazon and PayPal."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://easydigitaldownloads.com/extensions/social-login/"
+msgstr ""
+
+#. Author of the plugin
+msgid "WPWeb"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://wpweb.co.in"
+msgstr ""

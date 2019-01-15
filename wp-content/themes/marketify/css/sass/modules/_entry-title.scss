@@ -1,0 +1,12 @@
+.entry-title {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.entry-title--truncated {
+    height: 26px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	max-width: 80%;
+}

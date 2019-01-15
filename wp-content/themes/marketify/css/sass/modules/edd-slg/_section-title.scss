@@ -1,0 +1,11 @@
+.entry-content .edd-slg-social-container {
+    > span {
+        @extend .section-title;
+
+        legend {
+            @extend .section-title__inner;
+            width: auto;
+            margin: 0 auto;
+        }
+    }
+}

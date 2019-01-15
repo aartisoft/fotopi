@@ -1,0 +1,46 @@
+#edd-wl-modal {
+    .modal-dialog {
+        margin: 6em auto;
+    }
+
+    .modal-content {
+        border: 0;
+		box-shadow: none;
+		border-radius: 0;
+
+		label {
+			display: inline-block;
+		}
+    }
+
+    .modal-body {
+        padding: 0 40px 40px;
+    }
+
+    a.edd-wl-close {
+        color: #fff;
+        top: 10px;
+        right: 10px;
+        color: $accent;
+
+        @include bp(sm) {
+            color: #fff;
+            top: -28px;
+            right: -22px;
+        }
+    }
+
+	.modal-backdrop.in {
+		opacity: 0.70;
+	}
+
+    input[type="radio"] {
+        padding: 3px;
+        margin: -4px 10px 0 0;
+    }
+}
+
+// dont show on variable price popup
+.mfp-content a.edd-wl-action.edd-wl-button {
+    display: none;
+}
