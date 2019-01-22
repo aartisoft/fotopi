@@ -3,7 +3,7 @@
  * Plugin Name: WPWeb Updater
  * Plugin URI: http://www.wpweb.co.in/
  * Description: WPWeb Updater - The license and updater plugin for all wpweb products
- * Version: 1.0.8
+ * Version: 1.0.9
  * Author: WPWeb
  * Network: true
  * Author URI: http://www.wpweb.co.in/
@@ -21,7 +21,7 @@ if ( !defined( 'ABSPATH' ) ) exit;
  * @since 1.0.0
  */
 if( !defined( 'WPWEB_UPD_VERSION' ) ) {
-	define( 'WPWEB_UPD_VERSION', '1.0.8' ); // plugin version
+	define( 'WPWEB_UPD_VERSION', '1.0.9' ); // plugin version
 }
 if( !defined( 'WPWEB_UPD_DIR' ) ) {
 	define( 'WPWEB_UPD_DIR', dirname( __FILE__ ) ); // plugin dir

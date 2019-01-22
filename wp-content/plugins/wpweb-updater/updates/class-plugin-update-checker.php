@@ -1212,21 +1212,21 @@ class PluginUpdate_2_0 {
 	
 endif;
 
-if ( !class_exists('PucFactory') ):
+if ( !class_exists('WpWebPucFactory') ):
 
 /**
  * A factory that builds instances of other classes from this library.
  *
  * When multiple versions of the same class have been loaded (e.g. PluginUpdateChecker 1.2
  * and 1.3), this factory will always use the latest available version. Register class
- * versions by calling {@link PucFactory::addVersion()}.
+ * versions by calling {@link WpWebPucFactory::addVersion()}.
  *
  * At the moment it can only build instances of the PluginUpdateChecker class. Other classes
  * are intended mainly for internal use and refer directly to specific implementations. If you
- * want to instantiate one of them anyway, you can use {@link PucFactory::getLatestClassVersion()}
+ * want to instantiate one of them anyway, you can use {@link WpWebPucFactory::getLatestClassVersion()}
  * to get the class name and then create it with <code>new $class(...)</code>.
  */
-class PucFactory {
+class WpWebPucFactory {
 	protected static $classVersions = array();
 	protected static $sorted = false;
 
@@ -1302,10 +1302,10 @@ class PucFactory {
 endif;
 
 //Register classes defined in this file with the factory.
-PucFactory::addVersion('WpwebPluginUpdateChecker', 'PluginUpdateChecker_2_0', '2.0');
-PucFactory::addVersion('PluginUpdate', 'PluginUpdate_2_0', '2.0');
-PucFactory::addVersion('PluginInfo', 'PluginInfo_2_0', '2.0');
-//PucFactory::addVersion('PucGitHubChecker', 'PucGitHubChecker_2_0', '2.0');
+WpWebPucFactory::addVersion('WpwebPluginUpdateChecker', 'PluginUpdateChecker_2_0', '2.0');
+WpWebPucFactory::addVersion('PluginUpdate', 'PluginUpdate_2_0', '2.0');
+WpWebPucFactory::addVersion('PluginInfo', 'PluginInfo_2_0', '2.0');
+//WpWebPucFactory::addVersion('PucGitHubChecker', 'PucGitHubChecker_2_0', '2.0');
 
 /**
  * Create non-versioned variants of the update checker classes. This allows for backwards
